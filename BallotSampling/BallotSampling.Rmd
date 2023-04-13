@@ -1,0 +1,305 @@
+---
+title: "Ballot Sampling"
+author: "Erin Martin"
+date: '2023-04-13'
+output: 
+  html_document:
+    code_folding: "hide"
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r libraries, include = FALSE}
+library(tidyverse)
+library(DT)
+library(knitr)
+library(gridExtra)
+library(cowplot)
+```
+
+## Files
+
+The following files are included in the ElectionFiles folder.
+
+```{r ElectionFiles}
+files <- list.files("ElectionFiles/", pattern = ".(txt|csv|blt)", recursive = TRUE)
+election <- "ElectionFiles/"
+files <- str_c(election, files)
+
+kable(files)
+```
+
+All of the American election files have the following format:
+* The ballot column is the voter's ballot which gives their preferences 
+* The Count column is the number of voters who voted with the given preferences.
+* The number of candidates in the election is given in the next column.
+* The candidates are listed in the last column.  All of these files have candidates listed simply as A, B, C, D, etc.
+
+```{r}
+American1 <- read_csv(files[[1]])
+head(American1)
+tail(American1)
+```
+
+All of the Scottish election files have the following format:
+* The first line give the number of candidates and the number of seats being filled in the election
+* The next lines until the last few lines give the Count and the voter preferences in order where 1 is the first candidate, 2 is the second candidate, etc.  The list of candidates are given at the end of the file.  Thus the line 9 5 4 3 0 means 9 voters ranked candidate 5 first, candidate 4 second, and candidate 3 third.
+
+```{r}
+Scottish1 <- read_csv(files[[2]])
+head(Scottish1)
+tail(Scottish1, n=12)
+```
+
+## Fix Data
+
+We wrote a function so the Scottish data was in the same format as the American data.
+
+```{r}
+#########################
+# Fix_Scottish_data_function
+### input:  file name
+### output: clean data frame to match American data, candidates
+#########################
+
+Fix_Scottish_data_function <- function(file) {
+  my_data <- read_lines(file) %>%
+    str_subset(".+") # get rid of any empty lines
+  #Some of the data files have a line at the end with " ", so if it is there, we need to remove it.
+  if (my_data[[length(my_data)]] == " ") { 
+    my_data <- my_data[- length(my_data)]
+  }
+  
+  ## remove first and last lines
+  first_line <- my_data[[1]] %>%
+    str_subset(".+") %>%
+    str_split("\\s")
+  #first_line
+  
+  ## Read in the file and get the number of lines for the data and number of seats
+  Remove_Lines <- strtoi(first_line[[1]][[1]]) + 2
+  ###Num_seats <- strtoi(first_line[[1]][[2]])
+  Num_Cands <- Remove_Lines - 2
+  
+  ## remove first and last few lines in the file.
+  my_x <- my_data[-1]
+  
+  for (i in 1:Remove_Lines) {
+    my_x <- my_x[-length(my_x)]
+  }
+  
+  ## Remove "" 
+  my_x_noBlank <- str_subset(my_x, ".+") %>%
+    str_trim()
+  
+  
+  ## Make it into a tibble and separate into vote (int) and ballot columns
+  my_df <- as_tibble_col(my_x_noBlank) %>%
+    mutate(votes = strtoi(str_trim(str_extract(value, "\\d+\\s"))), # get vote column (integer)
+           ballot = str_remove(value, "\\d+\\s"), # get ballot column
+           ballot = str_sub(ballot, end = -3), # remove 0 and space at the end of ballot
+           newballot = str_replace_all(ballot, "26", LETTERS[26]),
+           newballot = str_replace_all(newballot, "25", LETTERS[25]),
+           newballot = str_replace_all(newballot, "24", LETTERS[24]),
+           newballot = str_replace_all(newballot, "23", LETTERS[23]),
+           newballot = str_replace_all(newballot, "22", LETTERS[22]),
+           newballot = str_replace_all(newballot, "21", LETTERS[21]),
+           newballot = str_replace_all(newballot, "20", LETTERS[20]),
+           newballot = str_replace_all(newballot, "19", LETTERS[19]),
+           newballot = str_replace_all(newballot, "18", LETTERS[18]),
+           newballot = str_replace_all(newballot, "17", LETTERS[17]),
+           newballot = str_replace_all(newballot, "16", LETTERS[16]),
+           newballot = str_replace_all(newballot, "15", LETTERS[15]),
+           newballot = str_replace_all(newballot, "14", LETTERS[14]),
+           newballot = str_replace_all(newballot, "13", LETTERS[13]),
+           newballot = str_replace_all(newballot, "12", LETTERS[12]),
+           newballot = str_replace_all(newballot, "11", LETTERS[11]),
+           newballot = str_replace_all(newballot, "10", LETTERS[10]),
+           newballot = str_replace_all(newballot, "9", LETTERS[9]),
+           newballot = str_replace_all(newballot, "8", LETTERS[8]),
+           newballot = str_replace_all(newballot, "7", LETTERS[7]),
+           newballot = str_replace_all(newballot, "6", LETTERS[6]),
+           newballot = str_replace_all(newballot, "5", LETTERS[5]),
+           newballot = str_replace_all(newballot, "4", LETTERS[4]),
+           newballot = str_replace_all(newballot, "3", LETTERS[3]),
+           newballot = str_replace_all(newballot, "2", LETTERS[2]),
+           newballot = str_replace_all(newballot, "1", LETTERS[1]),
+           newballot = str_remove_all(newballot, " ")) %>%
+    select(votes, newballot) %>%
+    transmute(ballot = newballot, Count = votes)
+  return(list(my_df, Num_Cands))
+}
+```
+
+Here is the same Scottish election as before but in our fixed format.
+
+```{r} 
+output <- Fix_Scottish_data_function(files[[2]])
+head(output[[1]])
+tail(output[[1]])
+output[[2]]
+```
+
+Since the formats for the different elections are very different, we will separate the files into American and Scottish.
+
+```{r}
+AmericanFiles <- files[c(1,5)]
+ScottishFiles <- files[2:4]
+```
+
+```{r}
+#########################
+# Scottish_Candidate_function
+### input:  fileNumber
+### output: Number of Candidates
+#########################
+
+Scottish_Candidate_function <- function(fileNumber) {
+  num_cands <- as.integer(Fix_data_function(files[[fileNumber]])[[2]])
+  return(num_cands)
+}
+
+#########################
+# IRV_function2
+### input:  election data (ballot, Count), NumCands
+### output: winner
+#########################
+
+IRV_function2 <- function(my_df, num_cands) {
+  Num_Voters <- sum(my_df$Count)
+  ###############
+  # First Round and
+  # Get rid of any candidates who didn't get any 1st place votes
+  ###############
+  R1 <- my_df %>%
+    mutate(first = str_sub(ballot, start = 1, end = 1)) %>%
+    group_by(first) %>%
+    summarise(totalVotes = sum(Count)) %>%
+    mutate(majority = totalVotes/sum(totalVotes)) %>%
+    arrange(totalVotes)
+  
+  MajorityVariable <- max(R1$majority)
+  
+  if (MajorityVariable <= .5) {
+    Candidates <- LETTERS[1:num_cands]
+    ElimNoVotes <- setdiff(Candidates, R1$first)
+    my_df_1 <- my_df
+    for (r in ElimNoVotes) {
+      my_df_1 <- my_df_1 %>%
+        mutate(ballot = str_remove_all(ballot, r))
+    }
+    while (MajorityVariable <= .5) {
+      Rounds <- my_df_1 %>%
+        mutate(first = str_sub(ballot, start = 1, end = 1)) %>%
+        filter(first != "") %>%
+        group_by(first) %>%
+        summarise(totalVotes = sum(Count)) %>%
+        mutate(majority = totalVotes/sum(totalVotes)) %>%
+        arrange(totalVotes)
+      
+      MajorityVariable <- max(Rounds$majority)
+      if (MajorityVariable > .5) {
+        WinTable <- Rounds %>% filter(majority > .5)
+        Winner <- WinTable[[1]][[1]]
+      }
+      Elim <- Rounds[[1]][[1]]
+      
+      # Get rid of losing candidate
+      my_df_1 <- my_df_1 %>%
+        mutate(ballot = str_remove_all(ballot, Elim))
+    }
+  } else {
+    WinTable <- R1 %>% filter(majority > .5)
+    Winner <- WinTable[[1]][[1]]
+  }
+  return(Winner)
+}
+
+#########################
+# IRV_Trunc_function2
+### input:  election data (ballot, Count), TL, num_cands
+### output: winner
+#########################
+
+IRV_Trunc_function2 <- function(TL, data, num_cands) {
+  ## truncate ballots
+  my_df <- data  %>%
+    mutate(ballot = str_sub(ballot, start = 1, end = TL))
+  Winner <- IRV_function2(my_df, num_cands)
+  return(Winner)
+}
+
+##################
+# sample_function
+# input: election data, sample_size, num_candsn, tcheck
+# output:  tibble(unique_winners_1, unique_winners_2, unique_winners_3, unique_winners_4,
+#   unique_winners_max, unique_winners_noT1_1, unique_winners_noT1_2,
+#   unique_winners_noT1_3, unique_winners_noT1_4, unique_winners_noT1_max)
+#################
+
+sample_function <- function(my_df, sample_size, num_candsn, tcheck) {
+  num_unique_winners <- vector("integer", 1000)
+  num_unique_winners_noT1 <- vector("integer", 1000)
+  for (j in 1:1000) 
+  {
+    sample_data <- sample(my_df[[1]], sample_size, replace = TRUE, prob = my_df[[2]])
+    sample_data_table <- tibble(sample_data) %>%
+      transmute(ballot = sample_data,
+                Count = 1)
+#    Winner = IRV_function2(my_df = sample_data_table, num_cands = num_candsn)
+    All_winners <- sapply(tcheck, IRV_Trunc_function2, sample_data_table, num_candsn)
+    All_winners_noT1 <- All_winners[-1]
+    num_unique_winners[[j]] <- length(unique(All_winners))
+    num_unique_winners_noT1[[j]] <- length(unique(All_winners_noT1))
+  }
+  unique_winners_1 <- length(which(1 == num_unique_winners))
+  unique_winners_2 <- length(which(2 == num_unique_winners))
+  unique_winners_3 <- length(which(3 == num_unique_winners))
+  unique_winners_4 <- length(which(4 == num_unique_winners))
+  unique_winners_max <- max(num_unique_winners)
+  unique_winners_noT1_1 <- length(which(1 == num_unique_winners_noT1))
+  unique_winners_noT1_2 <- length(which(2 == num_unique_winners_noT1))
+  unique_winners_noT1_3 <- length(which(3 == num_unique_winners_noT1))
+  unique_winners_noT1_4 <- length(which(4 == num_unique_winners_noT1))
+  unique_winners_noT1_max <- max(num_unique_winners_noT1)
+  outputAll <- tibble(unique_winners_1, unique_winners_2, unique_winners_3, unique_winners_4,
+           unique_winners_max, unique_winners_noT1_1, unique_winners_noT1_2,
+           unique_winners_noT1_3, unique_winners_noT1_4, unique_winners_noT1_max)
+  return(outputAll)
+}
+
+##################
+# full_sample_function
+# input: num_file
+# output:  tibble(filename, unique_winners_1, unique_winners_2, unique_winners_3, unique_winners_4,
+#   unique_winners_max, unique_winners_noT1_1, unique_winners_noT1_2,
+#   unique_winners_noT1_3, unique_winners_noT1_4, unique_winners_noT1_max))
+#################
+
+full_sample_function <- function(num_file)
+{
+  data <- files[[num_file]]
+  print(num_file)
+  fixed_data <- Fix_data_function(data)
+  my_df <- fixed_data[[1]]
+  num_voters <- sum(my_df$Count)
+  sample_size = min(1001, num_voters)
+  num_cands <- fixed_data[[2]]
+  truncs_to_check = 1:(num_cands-1)
+  samplesAllData <- sample_function(my_df, sample_size, num_cands, truncs_to_check) %>%
+    mutate(file = data) %>%
+    select(file, everything())
+  return(samplesAllData)
+}
+
+#######
+# Make table of samples
+######
+
+ToOneFifty <- map_dfr(121:150, full_sample_function)
+
+```
+
