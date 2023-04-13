@@ -8,23 +8,23 @@ output:
     keep_md: true
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
-```
 
-```{r libraries, include = FALSE}
-library(tidyverse)
-library(DT)
-library(knitr)
-library(gridExtra)
-library(cowplot)
-```
+
+
+
+We ran simulations to investigate the possible effects of ballot truncation in data like ours.  For this method, we generated 1000 new elections (pseudoprofiles) for each of our elections by
+
+1. randomly sampling $\min \{ 1001, \mbox{number of voters} \}$ ballots from each election with replacement, and
+2. calculating the number of different RCV winners in the pseudoprofile as we vary TL from $1$ to $n-1$.
+
+Then from the 1000 pseudoprofiles, we found the maximum number of different RCV winners as we vary the TL.
 
 ## Files
 
 The following files are included in the ElectionFiles folder.
 
-```{r ElectionFiles}
+
+```r
 files <- list.files("ElectionFiles/", pattern = ".(txt|csv|blt)", recursive = TRUE)
 election <- "ElectionFiles/"
 files <- str_c(election, files)
@@ -32,33 +32,108 @@ files <- str_c(election, files)
 kable(files)
 ```
 
+
+
+|x                                                                          |
+|:--------------------------------------------------------------------------|
+|ElectionFiles/2014 Berkeley City Council D8.csv                            |
+|ElectionFiles/Argyll Bute by-election Isle of Bute 2021.csv                |
+|ElectionFiles/Glasgow by-election 2021 Ward 23 Partick East-Kelvindale.csv |
+|ElectionFiles/n-ayrshire12-03.blt                                          |
+|ElectionFiles/Rep city council D50.csv                                     |
+
 All of the American election files have the following format:
+
 * The ballot column is the voter's ballot which gives their preferences 
 * The Count column is the number of voters who voted with the given preferences.
-* The number of candidates in the election is given in the next column.
+* The number of candidates in the election is given in the third column.
 * The candidates are listed in the last column.  All of these files have candidates listed simply as A, B, C, D, etc.
 
-```{r}
+
+```r
 American1 <- read_csv(files[[1]])
 head(American1)
+```
+
+```
+## # A tibble: 6 × 5
+##    ...1 ballot Count `Num Cands` `Cand List`
+##   <dbl> <chr>  <dbl>       <dbl> <chr>      
+## 1     0 ABC       70           4 ABCD       
+## 2     1 ABD       69          NA <NA>       
+## 3     2 AB        32          NA <NA>       
+## 4     3 ACB      129          NA <NA>       
+## 5     4 ACD      217          NA <NA>       
+## 6     5 AC       105          NA <NA>
+```
+
+```r
 tail(American1)
 ```
 
+```
+## # A tibble: 6 × 5
+##    ...1 ballot Count `Num Cands` `Cand List`
+##   <dbl> <chr>  <dbl>       <dbl> <chr>      
+## 1    56 B          2          NA <NA>       
+## 2    57 C          4          NA <NA>       
+## 3    58 D          3          NA <NA>       
+## 4    59 B          3          NA <NA>       
+## 5    60 C          1          NA <NA>       
+## 6    61 D          1          NA <NA>
+```
+
 All of the Scottish election files have the following format:
-* The first line give the number of candidates and the number of seats being filled in the election
+
+* The first line gives the number of candidates and the number of seats being filled in the election
 * The next lines until the last few lines give the Count and the voter preferences in order where 1 is the first candidate, 2 is the second candidate, etc.  The list of candidates are given at the end of the file.  Thus the line 9 5 4 3 0 means 9 voters ranked candidate 5 first, candidate 4 second, and candidate 3 third.
 
-```{r}
+
+```r
 Scottish1 <- read_csv(files[[2]])
 head(Scottish1)
+```
+
+```
+## # A tibble: 6 × 1
+##   `5 1`        
+##   <chr>        
+## 1 315 1 0      
+## 2 47 1 2 0     
+## 3 15 1 2 3 0   
+## 4 2 1 2 3 4 0  
+## 5 7 1 2 3 4 5 0
+## 6 1 1 2 3 5 4 0
+```
+
+```r
 tail(Scottish1, n=12)
+```
+
+```
+## # A tibble: 12 × 1
+##    `5 1`                
+##    <chr>                
+##  1 8 5 4 2 3 1 0        
+##  2 9 5 4 3 0            
+##  3 2 5 4 3 1 2 0        
+##  4 2 5 4 3 2 0          
+##  5 6 5 4 3 2 1 0        
+##  6 0                    
+##  7 Kim FINDLAY          
+##  8 Fraser GILLIES       
+##  9 Dawn MACDONALD       
+## 10 Liz MCCABE           
+## 11 Peter WALLACE        
+## 12 Ward 8 - Isle of Bute
 ```
 
 ## Fix Data
 
 We wrote a function so the Scottish data was in the same format as the American data.
 
-```{r}
+
+```r
 #########################
 # Fix_Scottish_data_function
 ### input:  file name
@@ -136,21 +211,58 @@ Fix_Scottish_data_function <- function(file) {
 
 Here is the same Scottish election as before but in our fixed format.
 
-```{r} 
+
+```r
 output <- Fix_Scottish_data_function(files[[2]])
 head(output[[1]])
+```
+
+```
+## # A tibble: 6 × 2
+##   ballot Count
+##   <chr>  <int>
+## 1 A        315
+## 2 AB        47
+## 3 ABC       15
+## 4 ABCD       2
+## 5 ABCDE      7
+## 6 ABCED      1
+```
+
+```r
 tail(output[[1]])
+```
+
+```
+## # A tibble: 6 × 2
+##   ballot Count
+##   <chr>  <int>
+## 1 EDBC       1
+## 2 EDBCA      8
+## 3 EDC        9
+## 4 EDCAB      2
+## 5 EDCB       2
+## 6 EDCBA      6
+```
+
+```r
 output[[2]]
+```
+
+```
+## [1] 5
 ```
 
 Since the formats for the different elections are very different, we will separate the files into American and Scottish.
 
-```{r}
+
+```r
 AmericanFiles <- files[c(1,5)]
 ScottishFiles <- files[2:4]
 ```
 
-```{r}
+
+```r
 #########################
 # Scottish_Candidate_function
 ### input:  fileNumber
@@ -158,7 +270,7 @@ ScottishFiles <- files[2:4]
 #########################
 
 Scottish_Candidate_function <- function(fileNumber) {
-  num_cands <- as.integer(Fix_data_function(files[[fileNumber]])[[2]])
+  num_cands <- as.integer(Fix_Scottish_data_function(files[[fileNumber]])[[2]])
   return(num_cands)
 }
 
@@ -272,18 +384,18 @@ sample_function <- function(my_df, sample_size, num_candsn, tcheck) {
 }
 
 ##################
-# full_sample_function
+# Scottish_full_sample_function
 # input: num_file
 # output:  tibble(filename, unique_winners_1, unique_winners_2, unique_winners_3, unique_winners_4,
 #   unique_winners_max, unique_winners_noT1_1, unique_winners_noT1_2,
 #   unique_winners_noT1_3, unique_winners_noT1_4, unique_winners_noT1_max))
 #################
 
-full_sample_function <- function(num_file)
+Scottish_full_sample_function <- function(num_file)
 {
-  data <- files[[num_file]]
+  data <- ScottishFiles[[num_file]]
   print(num_file)
-  fixed_data <- Fix_data_function(data)
+  fixed_data <- Fix_Scottish_data_function(data)
   my_df <- fixed_data[[1]]
   num_voters <- sum(my_df$Count)
   sample_size = min(1001, num_voters)
@@ -299,7 +411,6 @@ full_sample_function <- function(num_file)
 # Make table of samples
 ######
 
-ToOneFifty <- map_dfr(121:150, full_sample_function)
-
+#ScottishSamples <- map_dfr(1:3, Scottish_full_sample_function)
 ```
 
