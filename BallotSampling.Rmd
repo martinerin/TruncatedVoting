@@ -1,6 +1,5 @@
 ---
 title: "Ballot Sampling"
-author: "Erin Martin"
 date: '2023-04-13'
 output: 
   html_document:
