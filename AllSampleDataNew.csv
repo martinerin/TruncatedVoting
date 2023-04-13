@@ -1,0 +1,1184 @@
+allFiles,NumCands,AllWins,NumUniqueWin,unique_winners_max,unique_winners_noT1_max,unique_winners_1,unique_winners_2,unique_winners_3,unique_winners_4,unique_winners_noT1_1,unique_winners_noT1_2,unique_winners_noT1_3,unique_winners_noT1_4
+aberdeen2012/aberdeen12-01.blt,9,AEEEEEEE,2,2,2,165,835,0,0,840,160,0,0
+aberdeen2012/aberdeen12-02.blt,9,FFFFFFFF,1,2,2,628,372,0,0,719,281,0,0
+aberdeen2012/aberdeen12-03.blt,9,BBBBBBBB,1,3,2,857,135,8,0,945,55,0,0
+aberdeen2012/aberdeen12-04.blt,7,BBBBBB,1,2,2,976,24,0,0,992,8,0,0
+aberdeen2012/aberdeen12-05.blt,11,AAAAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2012/aberdeen12-06.blt,9,CCCCCCCC,1,2,1,976,24,0,0,1000,0,0,0
+aberdeen2012/aberdeen12-07.blt,7,CAAAAA,2,2,2,624,376,0,0,829,171,0,0
+aberdeen2012/aberdeen12-08.blt,11,FFFFFFFFFF,1,3,3,862,137,1,0,888,111,1,0
+aberdeen2012/aberdeen12-09.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2012/aberdeen12-10.blt,8,GGGGGGG,1,2,2,839,161,0,0,936,64,0,0
+aberdeen2012/aberdeen12-11.blt,6,FFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2012/aberdeen12-12.blt,12,AAAAAAAAAAA,1,2,2,998,2,0,0,998,2,0,0
+aberdeen2012/aberdeen12-13.blt,7,FBBBBB,2,2,2,407,593,0,0,856,144,0,0
+aberdeen2017/aberdeen17-01.blt,7,EDDDDD,2,2,2,161,839,0,0,790,210,0,0
+aberdeen2017/aberdeen17-02.blt,9,CAAAAAAA,2,2,2,132,868,0,0,918,82,0,0
+aberdeen2017/aberdeen17-03.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2017/aberdeen17-04.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2017/aberdeen17-05.blt,8,AAAAAAA,1,2,2,994,6,0,0,997,3,0,0
+aberdeen2017/aberdeen17-06.blt,9,DFFFFFFF,2,2,2,323,677,0,0,844,156,0,0
+aberdeen2017/aberdeen17-07.blt,8,FAAAAAA,2,3,2,120,879,1,0,960,40,0,0
+aberdeen2017/aberdeen17-08.blt,9,AAAAAAAA,1,2,2,794,206,0,0,940,60,0,0
+aberdeen2017/aberdeen17-09.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2017/aberdeen17-10.blt,6,FFFFF,1,2,2,810,190,0,0,913,87,0,0
+aberdeen2017/aberdeen17-11.blt,4,DDD,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2017/aberdeen17-12.blt,10,CBBBBBBBB,2,4,3,2,810,179,9,791,197,12,0
+aberdeen2017/aberdeen17-13.blt,8,EEEEEEE,1,2,1,994,6,0,0,1000,0,0,0
+aberdeen2022/Ward1.txt,8,AAAAAAA,1,2,1,874,126,0,0,1000,0,0,0
+aberdeen2022/Ward10.txt,7,CCCCCC,1,2,2,983,17,0,0,999,1,0,0
+aberdeen2022/Ward11.txt,5,EEEE,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2022/Ward12.txt,10,BBBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2022/Ward13.txt,8,FFFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2022/Ward2.txt,8,BBBBBBB,1,2,1,635,365,0,0,1000,0,0,0
+aberdeen2022/Ward3.txt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2022/Ward4.txt,9,BBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2022/Ward5.txt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2022/Ward6.txt,10,FFFFFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeen2022/Ward7.txt,6,BBBBB,1,3,2,670,284,46,0,780,220,0,0
+aberdeen2022/Ward8.txt,7,DDDDDD,1,2,2,808,192,0,0,990,10,0,0
+aberdeen2022/Ward9.txt,7,BBBBBB,1,3,3,703,291,6,0,722,277,1,0
+aberdeenshire12-ballots/aberdeenshire12-01.blt,5,AAAA,1,2,2,986,14,0,0,989,11,0,0
+aberdeenshire12-ballots/aberdeenshire12-02.blt,8,FFFFFFF,1,2,1,983,17,0,0,1000,0,0,0
+aberdeenshire12-ballots/aberdeenshire12-03.blt,10,IIIIIIIII,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire12-ballots/aberdeenshire12-04.blt,8,CCCCCCC,1,2,2,996,4,0,0,996,4,0,0
+aberdeenshire12-ballots/aberdeenshire12-05.blt,9,AAAAAAAA,1,3,3,609,364,27,0,830,165,5,0
+aberdeenshire12-ballots/aberdeenshire12-06.blt,6,EEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire12-ballots/aberdeenshire12-07.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire12-ballots/aberdeenshire12-08.blt,7,DDDDDD,1,2,2,920,80,0,0,920,80,0,0
+aberdeenshire12-ballots/aberdeenshire12-09.blt,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire12-ballots/aberdeenshire12-10.blt,5,BBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire12-ballots/aberdeenshire12-11.blt,8,FFFFFFF,1,3,2,743,242,15,0,907,93,0,0
+aberdeenshire12-ballots/aberdeenshire12-12.blt,6,DDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire12-ballots/aberdeenshire12-13.blt,5,CCBB,2,3,2,469,516,15,0,807,193,0,0
+aberdeenshire12-ballots/aberdeenshire12-14.blt,6,AEEEE,2,3,2,195,798,7,0,821,179,0,0
+aberdeenshire12-ballots/aberdeenshire12-15.blt,5,EEEE,1,3,2,975,24,1,0,980,20,0,0
+aberdeenshire12-ballots/aberdeenshire12-16.blt,5,CCCC,1,2,2,985,15,0,0,986,14,0,0
+aberdeenshire12-ballots/aberdeenshire12-17.blt,7,AAAAAA,1,2,2,942,58,0,0,995,5,0,0
+aberdeenshire12-ballots/aberdeenshire12-18.blt,10,AAAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire12-ballots/aberdeenshire12-19.blt,7,BCCBBB,2,3,3,484,483,33,0,661,336,3,0
+aberdeenshire17-ballots/aberdeenshire17-01.blt,4,CCC,1,2,2,640,360,0,0,825,175,0,0
+aberdeenshire17-ballots/aberdeenshire17-02.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-03.blt,10,DDDDDDDDD,1,3,3,623,355,22,0,626,353,21,0
+aberdeenshire17-ballots/aberdeenshire17-04.blt,5,AAAA,1,2,2,993,7,0,0,997,3,0,0
+aberdeenshire17-ballots/aberdeenshire17-05.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-06.blt,6,CCCCC,1,2,2,990,10,0,0,992,8,0,0
+aberdeenshire17-ballots/aberdeenshire17-07.blt,5,EEEE,1,2,2,997,3,0,0,997,3,0,0
+aberdeenshire17-ballots/aberdeenshire17-08.blt,7,BBBBBB,1,2,2,928,72,0,0,928,72,0,0
+aberdeenshire17-ballots/aberdeenshire17-09.blt,5,DDDD,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-10.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-11.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-12.blt,6,CCCCC,1,2,2,751,249,0,0,753,247,0,0
+aberdeenshire17-ballots/aberdeenshire17-13.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-14.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-15.blt,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-16.blt,4,DDD,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-17.blt,7,FFEEEE,2,2,2,140,860,0,0,415,585,0,0
+aberdeenshire17-ballots/aberdeenshire17-18.blt,7,AAAAAA,1,2,1,998,2,0,0,1000,0,0,0
+aberdeenshire17-ballots/aberdeenshire17-19.blt,8,BBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-10-west-garioch_06052022_172124.csv,8,BBBGGGG,2,2,2,592,408,0,0,721,279,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-11-inverurie-and-district_06052022_172124.csv,6,CCCCC,1,3,2,560,415,25,0,738,262,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-12-east-garioch_06052022_172124.csv,6,FFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-13-westhill-and-district_06052022_172124.csv,7,CCFFFF,2,3,2,174,821,5,0,397,603,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-14-huntly-strathbogie-and-howe-of-alford_06052022_172124.csv,7,ECCCCC,2,2,2,223,777,0,0,828,172,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-15-aboyne-upper-deeside-and-donside_06052022_172124.csv,6,BBBBB,1,3,2,550,415,35,0,878,122,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-16-banchory-and-mid-deeside_06052022_172124.csv,6,FFBBB,2,3,2,350,463,187,0,460,540,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-17-north-kincardine_06052022_172124.csv,9,AAAAAAAA,1,2,2,997,3,0,0,999,1,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-18-stonehaven-and-lower-deeside_06052022_172124.csv,8,DADDDDD,2,3,3,311,645,44,0,413,580,7,0
+aberdeenshire22/preferenceprofile_v0001_ward-19-mearns_06052022_172124.csv,11,IICIIIIIII,2,2,2,461,539,0,0,861,139,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-2-troup_06052022_172123.csv,5,CCCC,1,2,2,961,39,0,0,997,3,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-3-fraserburgh-and-district_06052022_172124.csv,7,AEEEEE,2,2,2,460,540,0,0,993,7,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-4-central-buchan_06052022_172124.csv,10,HHHHHHHHH,1,3,3,870,122,8,0,933,66,1,0
+aberdeenshire22/preferenceprofile_v0001_ward-5-peterhead-north-and-rattray_06052022_172118.csv,8,GGBBBBB,2,3,3,14,980,6,0,236,760,4,0
+aberdeenshire22/preferenceprofile_v0001_ward-6-peterhead-south-and-cruden_06052022_172115.csv,4,DDD,1,2,2,997,3,0,0,997,3,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-7-turriff-and-district_06052022_172118.csv,6,EEEEE,1,3,2,556,440,4,0,974,26,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-8-mid-formartine_06052022_172123.csv,6,DDDDD,1,3,2,546,399,55,0,833,167,0,0
+aberdeenshire22/preferenceprofile_v0001_ward-9-ellon-and-district_06052022_172124.csv,7,BEEEEE,2,4,3,311,567,121,1,618,378,4,0
+aberdeenshire22/ward1.csv,8,FFFFFFF,1,2,2,879,121,0,0,905,95,0,0
+angus12-ballots/angus12-01.blt,4,DBB,2,2,2,349,651,0,0,931,69,0,0
+angus12-ballots/angus12-02.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+angus12-ballots/angus12-03.blt,7,CCCCCC,1,3,3,604,372,24,0,664,329,7,0
+angus12-ballots/angus12-04.blt,6,ACCCC,2,2,2,215,785,0,0,999,1,0,0
+angus12-ballots/angus12-05.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+angus12-ballots/angus12-06.blt,8,CCCCCCC,1,3,2,770,220,10,0,976,24,0,0
+angus12-ballots/angus12-07.blt,6,DFFFF,2,3,3,220,762,18,0,751,248,1,0
+angus12-ballots/angus12-08.blt,6,EBEEE,2,3,3,315,679,6,0,495,500,5,0
+angus17-ballots/angus17-01.blt,6,EEEEE,1,2,1,940,60,0,0,1000,0,0,0
+angus17-ballots/angus17-02.blt,7,DDCCCC,2,3,3,103,891,6,0,177,820,3,0
+angus17-ballots/angus17-03.blt,8,CBBBBBB,2,3,3,14,981,5,0,977,22,1,0
+angus17-ballots/angus17-04.blt,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+angus17-ballots/angus17-05.blt,7,DBBBBB,2,3,3,0,857,143,0,847,152,1,0
+angus17-ballots/angus17-06.blt,5,CCCC,1,2,2,997,3,0,0,997,3,0,0
+angus17-ballots/angus17-07.blt,8,FAEEEEE,3,3,2,57,454,489,0,345,655,0,0
+angus17-ballots/angus17-08.blt,7,GAGGGG,2,2,2,299,701,0,0,609,391,0,0
+angus22/ward1.txt,7,AAAAAA,1,2,2,977,23,0,0,987,13,0,0
+angus22/ward2.txt,5,CCCC,1,2,2,769,231,0,0,841,159,0,0
+angus22/ward3.txt,8,BBBBGGG,2,3,2,429,428,143,0,472,528,0,0
+angus22/ward4.txt,8,BDDDDDD,2,3,2,242,727,31,0,941,59,0,0
+angus22/ward5.txt,7,FFBBBB,2,3,3,39,957,4,0,426,572,2,0
+angus22/ward6.txt,10,FBBBBBBBB,2,3,2,217,782,1,0,876,124,0,0
+angus22/ward7.txt,6,DDDDD,1,2,2,589,411,0,0,604,396,0,0
+angus22/ward8.txt,9,ECCCCCCC,2,3,2,358,637,5,0,995,5,0,0
+argyll-bute12-ballots/argyll-bute12-01.blt,7,EEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+argyll-bute12-ballots/argyll-bute12-02.blt,7,CCCCCC,1,4,3,661,331,6,2,949,49,2,0
+argyll-bute12-ballots/argyll-bute12-03.blt,6,DDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+argyll-bute12-ballots/argyll-bute12-04.blt,9,BBIIIIII,2,2,2,430,570,0,0,629,371,0,0
+argyll-bute12-ballots/argyll-bute12-05.blt,10,IIIIIIIII,1,2,2,912,88,0,0,993,7,0,0
+argyll-bute12-ballots/argyll-bute12-06.blt,9,AAAFFFFF,2,2,2,337,663,0,0,350,650,0,0
+argyll-bute12-ballots/argyll-bute12-08.blt,6,DDDDD,1,2,2,742,258,0,0,905,95,0,0
+argyll-bute12-ballots/argyll-bute12-09.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+argyll-bute12-ballots/argyll-bute12-10.blt,6,BBBBB,1,3,2,586,387,27,0,884,116,0,0
+argyll-bute12-ballots/argyll-bute12-11.blt,4,BBB,1,1,1,1000,0,0,0,1000,0,0,0
+argyll-bute12-ballots/argyll-bute120510-07.blt,6,FFFFF,1,2,1,976,24,0,0,1000,0,0,0
+argyll-bute17-ballots/argyll-bute17-02.blt,6,BBAAA,2,3,3,393,606,1,0,608,391,1,0
+argyll-bute17-ballots/argyll-bute17-03.blt,7,FFFFFF,1,2,1,684,316,0,0,1000,0,0,0
+argyll-bute17-ballots/argyll-bute17-04.blt,8,FFFFFFF,1,3,3,703,262,35,0,769,222,9,0
+argyll-bute17-ballots/argyll-bute17-05.blt,10,HHHHHHHHH,1,2,2,986,14,0,0,996,4,0,0
+argyll-bute17-ballots/argyll-bute17-06.blt,6,AEEEE,2,3,3,182,798,20,0,799,198,3,0
+argyll-bute17-ballots/argyll-bute17-07.blt,10,CCCCCCCCC,1,3,2,751,245,4,0,994,6,0,0
+argyll-bute17-ballots/argyll-bute17-08.blt,7,EEEEEE,1,3,2,616,337,47,0,817,183,0,0
+argyll-bute17-ballots/argyll-bute17-09.blt,7,FFFFFF,1,2,2,622,378,0,0,627,373,0,0
+argyll-bute17-ballots/argyll-bute17-10.blt,5,DDDD,1,1,1,1000,0,0,0,1000,0,0,0
+argyll-bute17-ballots/argyll-bute17-11.blt,8,DDDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+argyll22/ward1.csv,4,CCC,1,2,1,903,97,0,0,1000,0,0,0
+argyll22/ward10.csv,7,FFFDDD,2,2,2,369,631,0,0,369,631,0,0
+argyll22/ward11.csv,5,EEEE,1,2,1,941,59,0,0,1000,0,0,0
+argyll22/ward2.csv,6,DDDDC,2,3,3,447,551,2,0,465,534,1,0
+argyll22/ward3.csv,9,HHHHHHHH,1,2,1,977,23,0,0,1000,0,0,0
+argyll22/ward4.csv,11,HHHHHHHHHH,1,2,2,838,162,0,0,886,114,0,0
+argyll22/ward5.csv,8,GGGGGGG,1,2,2,885,115,0,0,885,115,0,0
+argyll22/ward6.csv,7,AAAAAA,1,2,2,992,8,0,0,993,7,0,0
+argyll22/ward7.csv,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+argyll22/ward8.csv,9,BDDDDDDD,2,2,2,231,769,0,0,987,13,0,0
+argyll22/ward9.csv,7,AAAAAA,1,3,3,776,220,4,0,900,98,2,0
+clackmannanshire12-ballots/clacks12-01.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+clackmannanshire12-ballots/clacks12-02.blt,8,BBBBBBB,1,3,2,745,246,9,0,964,36,0,0
+clackmannanshire12-ballots/clacks12-03.blt,6,DDDDD,1,2,2,993,7,0,0,996,4,0,0
+clackmannanshire12-ballots/clacks12-04.blt,5,DDDD,1,2,1,998,2,0,0,1000,0,0,0
+clackmannanshire12-ballots/clacks12-05.blt,4,ABB,2,2,2,254,746,0,0,987,13,0,0
+clackmannanshire17-ballots/clacks17-001.blt,8,CDDDDDD,2,4,3,183,520,295,2,612,385,3,0
+clackmannanshire17-ballots/clacks17-002.blt,8,BDDDDDD,2,4,3,0,728,269,3,645,341,14,0
+clackmannanshire17-ballots/clacks17-003.blt,6,CCCCC,1,2,2,966,34,0,0,970,30,0,0
+clackmannanshire17-ballots/clacks17-004.blt,7,EEEEEE,1,2,2,918,82,0,0,996,4,0,0
+clackmannanshire17-ballots/clacks17-005.blt,6,DDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+clackmannanshire22/ward1.txt,7,AAAAAA,1,3,2,647,334,19,0,966,34,0,0
+clackmannanshire22/ward2.txt,8,BBBBBBB,1,2,1,979,21,0,0,1000,0,0,0
+clackmannanshire22/ward3.txt,7,AAAAAA,1,2,2,987,13,0,0,987,13,0,0
+clackmannanshire22/ward4.txt,7,ABBBBB,2,3,2,240,759,1,0,933,67,0,0
+clackmannanshire22/ward5.txt,7,DBBBBB,2,2,2,524,476,0,0,902,98,0,0
+dumgal12-ballots/dumgal12-01.blt,4,DDD,1,1,1,1000,0,0,0,1000,0,0,0
+dumgal12-ballots/dumgal12-02.blt,4,AAA,1,1,1,1000,0,0,0,1000,0,0,0
+dumgal12-ballots/dumgal12-03.blt,6,AABBB,2,2,2,360,640,0,0,370,630,0,0
+dumgal12-ballots/dumgal12-04.blt,8,HHHHHHH,1,2,2,995,5,0,0,995,5,0,0
+dumgal12-ballots/dumgal12-05.blt,7,AAAAAA,1,3,2,540,454,6,0,683,317,0,0
+dumgal12-ballots/dumgal12-06.blt,6,CCCCC,1,3,2,578,413,9,0,962,38,0,0
+dumgal12-ballots/dumgal12-07.blt,5,DDCC,2,3,2,463,468,69,0,813,187,0,0
+dumgal12-ballots/dumgal12-08.blt,6,AAAAA,1,2,1,663,337,0,0,1000,0,0,0
+dumgal12-ballots/dumgal12-09.blt,5,BDDD,2,2,2,411,589,0,0,998,2,0,0
+dumgal12-ballots/dumgal12-10.blt,8,CCCCCCC,1,2,2,998,2,0,0,998,2,0,0
+dumgal12-ballots/dumgal12-11.blt,7,ACCCCC,2,4,3,196,773,30,1,918,80,2,0
+dumgal12-ballots/dumgal12-12.blt,7,BBEEEE,2,4,3,40,875,84,1,182,796,22,0
+dumgal12-ballots/dumgal12-13.blt,9,CCFFFFFF,2,3,3,322,665,13,0,383,604,13,0
+dumgal17-ballots/dumgal17-01.blt,8,FFFFFFF,1,2,1,941,59,0,0,1000,0,0,0
+dumgal17-ballots/dumgal17-02.blt,9,DDDDDDDD,1,2,2,981,19,0,0,981,19,0,0
+dumgal17-ballots/dumgal17-03.blt,9,BBBBBBBB,1,2,2,997,3,0,0,997,3,0,0
+dumgal17-ballots/dumgal17-04.blt,6,BBBAA,2,2,2,236,764,0,0,251,749,0,0
+dumgal17-ballots/dumgal17-05.blt,7,AAAAAA,1,2,2,967,33,0,0,967,33,0,0
+dumgal17-ballots/dumgal17-06.blt,7,AAAAAA,1,3,2,616,380,4,0,648,352,0,0
+dumgal17-ballots/dumgal17-07.blt,5,BAAA,2,2,1,55,945,0,0,1000,0,0,0
+dumgal17-ballots/dumgal17-08.blt,9,AAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+dumgal17-ballots/dumgal17-09.blt,10,EEEGGGGGG,2,3,3,147,850,3,0,311,688,1,0
+dumgal17-ballots/dumgal17-10.blt,7,BBBBBB,1,3,3,665,334,1,0,666,333,1,0
+dumgal17-ballots/dumgal17-11.blt,5,BBBB,1,3,2,840,157,3,0,924,76,0,0
+dumgal17-ballots/dumgal17-12.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+dumgal22/ward1.blt.docx,7,CCCCCC,1,2,2,580,420,0,0,596,404,0,0
+dumgal22/ward10.blt,6,BBBEE,2,3,2,153,512,335,0,280,720,0,0
+dumgal22/ward11.blt,7,FFDDDD,2,3,3,0,995,5,0,58,938,4,0
+dumgal22/ward12.blt,7,AAAAAA,1,2,2,905,95,0,0,906,94,0,0
+dumgal22/ward2.blt,5,CCCC,1,2,1,567,433,0,0,1000,0,0,0
+dumgal22/ward3.blt,7,DCCCCC,2,3,3,278,684,38,0,759,239,2,0
+dumgal22/ward4.blt,8,BBBBBBB,1,2,1,986,14,0,0,1000,0,0,0
+dumgal22/ward5.blt,5,BBBB,1,3,2,487,508,5,0,860,140,0,0
+dumgal22/ward6.blt,5,BBBB,1,2,2,997,3,0,0,997,3,0,0
+dumgal22/ward7.blt,5,ABBB,2,3,2,244,755,1,0,878,122,0,0
+dumgal22/ward8.blt,5,DDDD,1,2,2,520,480,0,0,871,129,0,0
+dumgal22/ward9.blt,7,AAAAAA,1,2,2,994,6,0,0,994,6,0,0
+dundee12-ballots/dundee12-01.blt,9,AAAAAAAA,1,3,2,880,119,1,0,992,8,0,0
+dundee12-ballots/dundee12-02.blt,9,DDDDDDDD,1,2,2,992,8,0,0,998,2,0,0
+dundee12-ballots/dundee12-03.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+dundee12-ballots/dundee12-04.blt,9,BBBBBBBB,1,2,2,999,1,0,0,999,1,0,0
+dundee12-ballots/dundee12-05.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+dundee12-ballots/dundee12-06.blt,8,FFFFFFF,1,2,1,986,14,0,0,1000,0,0,0
+dundee12-ballots/dundee12-07.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+dundee12-ballots/dundee12-08.blt,6,EDDDD,2,3,3,75,911,14,0,933,66,1,0
+dundee17-ballots/dundee17-01.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+dundee17-ballots/dundee17-02.blt,10,IIIIIIIII,1,1,1,1000,0,0,0,1000,0,0,0
+dundee17-ballots/dundee17-03.blt,9,DDDDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+dundee17-ballots/dundee17-04.blt,10,BBBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+dundee17-ballots/dundee17-05.blt,7,EEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+dundee17-ballots/dundee17-06.blt,8,EEEEEEE,1,2,1,993,7,0,0,1000,0,0,0
+dundee17-ballots/dundee17-07.blt,9,AAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+dundee17-ballots/dundee17-08.blt,9,GGGGGGGG,1,1,1,1000,0,0,0,1000,0,0,0
+dundee22/Ward1.blt,9,AAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+dundee22/Ward2.blt,9,GGGGGGGG,1,2,2,971,29,0,0,977,23,0,0
+dundee22/Ward3.blt,9,HHHHHHHH,1,1,1,1000,0,0,0,1000,0,0,0
+dundee22/Ward4.blt,9,CCCCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+dundee22/Ward5.blt,8,EGGGGGG,2,3,2,436,561,3,0,933,67,0,0
+dundee22/Ward6.blt,7,DDDDDD,1,2,2,934,66,0,0,990,10,0,0
+dundee22/Ward7.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+dundee22/Ward8.blt,9,CCCCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+e-ayrshire12-ballots/e-ayrshire12-01.csv,6,FDDDD,2,3,2,202,754,44,0,942,58,0,0
+e-ayrshire12-ballots/e-ayrshire12-02.blt,4,AAA,1,2,1,997,3,0,0,1000,0,0,0
+e-ayrshire12-ballots/e-ayrshire12-03.blt,6,CCCCC,1,3,2,926,73,1,0,995,5,0,0
+e-ayrshire12-ballots/e-ayrshire12-04.blt,5,BBBB,1,3,2,785,213,2,0,955,45,0,0
+e-ayrshire12-ballots/e-ayrshire12-05.blt,5,BBBB,1,2,2,991,9,0,0,997,3,0,0
+e-ayrshire12-ballots/e-ayrshire12-06.blt,5,CBBB,2,2,2,63,937,0,0,999,1,0,0
+e-ayrshire12-ballots/e-ayrshire12-07.blt,6,EEBBB,2,3,3,111,883,6,0,144,852,4,0
+e-ayrshire12-ballots/e-ayrshire12-08.blt,8,HHHHHHH,1,3,2,554,414,32,0,851,149,0,0
+e-ayrshire12-ballots/e-ayrshire12-09.blt,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+e-ayrshire17-ballots/e-ayrshire17-01.blt,8,EEEEEEE,1,2,2,998,2,0,0,998,2,0,0
+e-ayrshire17-ballots/e-ayrshire17-02.blt,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+e-ayrshire17-ballots/e-ayrshire17-03.blt,6,BEEEE,2,3,2,40,943,17,0,913,87,0,0
+e-ayrshire17-ballots/e-ayrshire17-04.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+e-ayrshire17-ballots/e-ayrshire17-05.blt,5,EEEE,1,2,1,909,91,0,0,1000,0,0,0
+e-ayrshire17-ballots/e-ayrshire17-06.blt,8,GGGGGGG,1,2,2,959,41,0,0,977,23,0,0
+e-ayrshire17-ballots/e-ayrshire17-07.blt,7,AAAAAA,1,4,3,447,380,172,1,659,339,2,0
+e-ayrshire17-ballots/e-ayrshire17-08.blt,8,CCCCCCC,1,2,1,998,2,0,0,1000,0,0,0
+e-ayrshire17-ballots/e-ayrshire17-09.blt,9,BBBBBBBB,1,2,1,909,91,0,0,1000,0,0,0
+e-ayrshire22 (pdfs)/Ward1.csv,6,EBBBB,2,4,3,44,893,61,2,822,175,3,0
+e-ayrshire22 (pdfs)/Ward2.csv,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+e-ayrshire22 (pdfs)/Ward3.csv,7,CCCCCC,1,3,2,841,158,1,0,921,79,0,0
+e-ayrshire22 (pdfs)/Ward4.csv,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+e-ayrshire22 (pdfs)/Ward5.csv,6,EEEEE,1,2,1,688,312,0,0,1000,0,0,0
+e-ayrshire22 (pdfs)/Ward6.csv,5,AAAA,1,2,2,855,145,0,0,857,143,0,0
+e-ayrshire22 (pdfs)/Ward7.csv,6,BBBAA,2,2,2,381,619,0,0,466,534,0,0
+e-ayrshire22 (pdfs)/Ward8.csv,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+e-ayrshire22 (pdfs)/Ward9.csv,6,BBBBB,1,2,2,974,26,0,0,985,15,0,0
+e-duns12-ballots/e-duns12-01.blt,4,CCC,1,1,1,1000,0,0,0,1000,0,0,0
+e-duns12-ballots/e-duns12-02.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+e-duns12-ballots/e-duns12-03.blt,6,DDDDD,1,2,1,732,268,0,0,1000,0,0,0
+e-duns12-ballots/e-duns12-04.blt,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+e-duns12-ballots/e-duns12-05.blt,5,EEEE,1,2,2,920,80,0,0,978,22,0,0
+e-duns12-ballots/e-duns12-06.blt,6,CCCCC,1,2,1,878,122,0,0,1000,0,0,0
+e-duns12-ballots/e-duns12-07.blt,4,BBB,1,2,2,962,38,0,0,999,1,0,0
+e-duns12-ballots/e-duns12-08.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+e-duns17-ballots/e-duns17-01.blt,6,EBBBB,2,2,2,501,499,0,0,967,33,0,0
+e-duns17-ballots/e-duns17-02.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+e-duns17-ballots/e-duns17-03.blt,6,ECCCC,2,2,2,3,997,0,0,595,405,0,0
+e-duns17-ballots/e-duns17-04.blt,7,DDDDBB,2,2,2,434,566,0,0,834,166,0,0
+e-duns17-ballots/e-duns17-05.blt,6,BDFFF,3,3,2,96,514,390,0,583,417,0,0
+e-duns17-ballots/e-duns17-06.blt,8,HCCCCCC,2,2,2,342,658,0,0,829,171,0,0
+e-duns17-ballots/e-duns17-07.blt,7,AAAAAA,1,4,3,507,403,89,1,751,246,3,0
+e-duns22-ballots/ward1.csv,6,BDDDD,2,3,2,68,924,8,0,462,538,0,0
+e-duns22-ballots/ward2.csv,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+e-duns22-ballots/ward3.csv,7,CFFFFF,2,2,2,280,720,0,0,995,5,0,0
+e-duns22-ballots/ward4.csv,8,AAAAAAA,1,2,2,738,262,0,0,739,261,0,0
+e-duns22-ballots/ward5.csv,6,DDEEE,2,2,2,173,827,0,0,303,697,0,0
+e-duns22-ballots/ward6.csv,6,CCAAA,2,3,3,316,682,2,0,346,652,2,0
+e-duns22-ballots/ward7.csv,5,CCAA,2,2,2,75,925,0,0,376,624,0,0
+e-lothian12-ballots/e-lothian12-01.blt,7,EEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+e-lothian12-ballots/e-lothian12-02.blt,5,ADDD,2,3,2,34,937,29,0,882,118,0,0
+e-lothian12-ballots/e-lothian12-03.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+e-lothian12-ballots/e-lothian12-04.blt,7,DDDDDD,1,2,1,971,29,0,0,1000,0,0,0
+e-lothian12-ballots/e-lothian12-05.blt,6,BBBBB,1,2,2,837,163,0,0,887,113,0,0
+e-lothian12-ballots/e-lothian12-06.blt,6,DDDDD,1,2,2,996,4,0,0,998,2,0,0
+e-lothian12-ballots/e-lothian12-07.blt,6,BDDDD,2,2,2,463,537,0,0,927,73,0,0
+e-lothian17-ballots/e-lothian17-01.blt,9,BBBBBBBB,1,3,2,839,133,28,0,906,94,0,0
+e-lothian17-ballots/e-lothian17-02.blt,8,DDDDDDD,1,2,1,583,417,0,0,1000,0,0,0
+e-lothian17-ballots/e-lothian17-03.blt,8,GAAAAAA,2,3,2,15,984,1,0,849,151,0,0
+e-lothian17-ballots/e-lothian17-04.blt,6,AAAAA,1,2,2,938,62,0,0,997,3,0,0
+e-lothian17-ballots/e-lothian17-05.blt,7,ECCCCC,2,3,3,5,987,8,0,676,319,5,0
+e-lothian17-ballots/e-lothian17-06.blt,6,CCCCC,1,3,3,507,490,3,0,714,284,2,0
+e-lothian22/Ward1.blt,9,DDDDDDDD,1,2,2,690,310,0,0,764,236,0,0
+e-lothian22/Ward2.blt,8,HHHHHHH,1,2,1,967,33,0,0,1000,0,0,0
+e-lothian22/Ward3.blt,9,AAAAAAAA,1,3,2,790,208,2,0,984,16,0,0
+e-lothian22/Ward4.blt,8,GEGGGGG,2,3,3,65,801,134,0,119,879,2,0
+e-lothian22/Ward5.blt,9,FAAAAAAA,2,3,2,285,713,2,0,997,3,0,0
+e-lothian22/Ward6.blt,7,FDDDDD,2,2,2,244,756,0,0,798,202,0,0
+e-renfs12-ballots/e-renfs12-01.blt,9,BBCCCCCC,2,3,3,260,725,15,0,634,361,5,0
+e-renfs12-ballots/e-renfs12-02.blt,8,BBBBBBB,1,2,2,938,62,0,0,940,60,0,0
+e-renfs12-ballots/e-renfs12-03.blt,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+e-renfs12-ballots/e-renfs12-04.blt,5,DEEE,2,2,2,401,599,0,0,972,28,0,0
+e-renfs12-ballots/e-renfs12-05.blt,7,GGGGGG,1,1,1,1000,0,0,0,1000,0,0,0
+e-renfs12-ballots/e-renfs12-06.blt,6,DDDDD,1,2,2,782,218,0,0,891,109,0,0
+e-renfs17-ballots/e-renfs17-1.blt,8,EEEEEEE,1,2,2,987,13,0,0,987,13,0,0
+e-renfs17-ballots/e-renfs17-2.blt,9,CCCCCCCC,1,3,2,700,291,9,0,811,189,0,0
+e-renfs17-ballots/e-renfs17-3.blt,9,FIIIIIII,2,3,2,246,744,10,0,961,39,0,0
+e-renfs17-ballots/e-renfs17-4.blt,11,GGGGGGGGGG,1,3,3,627,347,26,0,720,268,12,0
+e-renfs17-ballots/e-renfs17-5.blt,8,HHHHHHH,1,2,2,998,2,0,0,998,2,0,0
+e-renfs22 (pdfs)/ward1_copy.csv,8,EEEEEEE,1,2,2,766,234,0,0,972,28,0,0
+e-renfs22 (pdfs)/ward2_copy.csv,8,AAAAAAA,1,2,2,912,88,0,0,943,57,0,0
+e-renfs22 (pdfs)/ward3_copy.csv,7,BBBBBB,1,3,3,486,488,26,0,771,227,2,0
+e-renfs22 (pdfs)/ward4_copy.csv,10,CCCCCCCCC,1,3,2,879,120,1,0,895,105,0,0
+e-renfs22 (pdfs)/ward5_copy.csv,9,BCCCCCCC,2,2,2,59,941,0,0,993,7,0,0
+edinburgh12-ballots/edinburgh12-01.blt,7,GGGGGG,1,2,2,990,10,0,0,995,5,0,0
+edinburgh12-ballots/edinburgh12-02.blt,7,CDDDDD,2,2,2,612,388,0,0,750,250,0,0
+edinburgh12-ballots/edinburgh12-03.blt,8,FFFFFFF,1,3,2,925,74,1,0,946,54,0,0
+edinburgh12-ballots/edinburgh12-04.blt,9,BBBBBBBB,1,2,1,979,21,0,0,1000,0,0,0
+edinburgh12-ballots/edinburgh12-05.blt,7,DDDDDD,1,3,3,903,94,3,0,906,93,1,0
+edinburgh12-ballots/edinburgh12-06.blt,6,ABBBB,2,3,3,288,686,26,0,778,221,1,0
+edinburgh12-ballots/edinburgh12-07.blt,7,FFFFFF,1,2,2,933,67,0,0,965,35,0,0
+edinburgh12-ballots/edinburgh12-08.blt,7,FFFFFF,1,2,2,990,10,0,0,996,4,0,0
+edinburgh12-ballots/edinburgh12-09.blt,6,BBBBB,1,3,2,461,531,8,0,987,13,0,0
+edinburgh12-ballots/edinburgh12-10.blt,7,GFFFFF,2,3,3,5,993,2,0,710,289,1,0
+edinburgh12-ballots/edinburgh12-11.blt,6,EFFFF,2,3,3,169,733,98,0,554,437,9,0
+edinburgh12-ballots/edinburgh12-12.blt,11,CAAAAAAAAA,2,3,3,317,669,14,0,841,158,1,0
+edinburgh12-ballots/edinburgh12-13.blt,7,EEEEEE,1,2,2,997,3,0,0,997,3,0,0
+edinburgh12-ballots/edinburgh12-14.blt,8,GGGGGGG,1,2,2,664,336,0,0,800,200,0,0
+edinburgh12-ballots/edinburgh12-15.blt,8,BBBBBBB,1,2,2,514,486,0,0,999,1,0,0
+edinburgh12-ballots/edinburgh12-16.blt,8,AAAAAAA,1,3,2,741,246,13,0,925,75,0,0
+edinburgh12-ballots/edinburgh12-17.blt,8,BBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+edinburgh17-ballots/edinburgh17-01.blt,10,DDDDDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+edinburgh17-ballots/edinburgh17-02.blt,7,AAAAAA,1,2,1,999,1,0,0,1000,0,0,0
+edinburgh17-ballots/edinburgh17-03.blt,5,AAAA,1,2,1,998,2,0,0,1000,0,0,0
+edinburgh17-ballots/edinburgh17-04.blt,8,BAAAAAA,2,3,2,58,941,1,0,760,240,0,0
+edinburgh17-ballots/edinburgh17-05.blt,8,EEEFFFF,2,3,3,235,617,148,0,409,588,3,0
+edinburgh17-ballots/edinburgh17-06.blt,7,ABBBBB,2,2,2,141,859,0,0,934,66,0,0
+edinburgh17-ballots/edinburgh17-07.blt,9,CBBBBBBB,2,2,1,383,617,0,0,1000,0,0,0
+edinburgh17-ballots/edinburgh17-08.blt,6,EEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+edinburgh17-ballots/edinburgh17-09.blt,6,BAAAA,2,2,1,40,960,0,0,1000,0,0,0
+edinburgh17-ballots/edinburgh17-10.blt,6,ADDDD,2,3,2,87,910,3,0,986,14,0,0
+edinburgh17-ballots/edinburgh17-11.blt,6,CBBBB,2,3,3,11,842,147,0,625,374,1,0
+edinburgh17-ballots/edinburgh17-12.blt,10,GHHHHHHHH,2,3,3,195,772,33,0,686,307,7,0
+edinburgh17-ballots/edinburgh17-13.blt,5,CCCC,1,2,2,989,11,0,0,989,11,0,0
+edinburgh17-ballots/edinburgh17-14.blt,8,FAAAAAA,2,3,2,360,588,52,0,939,61,0,0
+edinburgh17-ballots/edinburgh17-15.blt,5,EAAA,2,3,2,4,927,69,0,900,100,0,0
+edinburgh17-ballots/edinburgh17-16.blt,7,AAAAAA,1,3,2,747,236,17,0,964,36,0,0
+edinburgh17-ballots/edinburgh17-17.blt,7,DDDDDD,1,3,2,866,120,14,0,911,89,0,0
+edinburgh22/ward1.blt,9,FFFFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+edinburgh22/ward10.blt,7,GEEEEE,2,3,2,434,551,15,0,875,125,0,0
+edinburgh22/ward11.blt,13,HGGGGGGGGGGG,2,3,3,178,790,32,0,880,119,1,0
+edinburgh22/ward12.blt,12,IIIIIIIIIII,1,2,2,862,138,0,0,889,111,0,0
+edinburgh22/ward13.blt,8,FFFFFFF,1,2,2,665,335,0,0,719,281,0,0
+edinburgh22/ward14.blt,6,DAAAA,2,3,2,387,593,20,0,941,59,0,0
+edinburgh22/ward15.blt,5,DADD,2,3,2,462,537,1,0,526,474,0,0
+edinburgh22/ward16.blt,10,AAAAAAAAA,1,2,2,967,33,0,0,994,6,0,0
+edinburgh22/ward17.blt,9,AAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+edinburgh22/ward2.blt,9,AAADDDDD,2,2,2,533,467,0,0,587,413,0,0
+edinburgh22/ward3.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+edinburgh22/ward4.blt,8,DDDDDDD,1,3,3,527,428,45,0,726,271,3,0
+edinburgh22/ward5.blt,10,IIIIIIIII,1,2,1,962,38,0,0,1000,0,0,0
+edinburgh22/ward6.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+edinburgh22/ward7.blt,8,GBBBBBB,2,3,3,23,967,10,0,969,30,1,0
+edinburgh22/ward8.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+edinburgh22/ward9.blt,7,AGGGGG,2,3,2,33,813,154,0,826,174,0,0
+eilean-siar12-ballots/eilean-siar12-01.blt,11,IIIIIIIIII,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar12-ballots/eilean-siar12-02.blt,6,DDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar12-ballots/eilean-siar12-03.blt,4,AAA,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar12-ballots/eilean-siar12-04.blt,7,CFFFFF,2,3,3,35,721,244,0,531,465,4,0
+eilean-siar12-ballots/eilean-siar12-05.blt,7,GGCCCC,2,3,3,428,505,67,0,656,336,8,0
+eilean-siar12-ballots/eilean-siar12-06.blt,7,GGGGGG,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar12-ballots/eilean-siar12-07.blt,10,FFFFFFFFF,1,2,2,645,355,0,0,707,293,0,0
+eilean-siar12-ballots/eilean-siar12-08.blt,5,AAEE,2,3,3,150,772,78,0,538,461,1,0
+eilean-siar12-ballots/eilean-siar12-09.blt,6,EEEEE,1,2,2,891,109,0,0,999,1,0,0
+eilean-siar17-ballots/eilean-siar17-01.blt,8,FFFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar17-ballots/eilean-siar17-02.blt,8,GGGGGGG,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar17-ballots/eilean-siar17-03.blt,9,AAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar17-ballots/eilean-siar17-04.blt,4,DDD,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar17-ballots/eilean-siar17-05.blt,6,BCCCC,2,2,2,459,541,0,0,830,170,0,0
+eilean-siar17-ballots/eilean-siar17-06.blt,8,HHHHHHH,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar17-ballots/eilean-siar17-07.blt,5,EECC,2,2,2,472,528,0,0,723,277,0,0
+eilean-siar17-ballots/eilean-siar17-08.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar17-ballots/eilean-siar17-09.blt,6,CCCCC,1,2,1,980,20,0,0,1000,0,0,0
+eilean-siar22/ward_03_preferenceprofile.txt,3,BB,1,2,1,839,161,0,0,1000,0,0,0
+eilean-siar22/ward_04_preferenceprofile.txt,3,BB,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar22/ward_05_preferenceprofile.txt,4,CCC,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar22/ward02_preferenceprofile.txt,8,FFFFFFF,1,2,1,989,11,0,0,1000,0,0,0
+eilean-siar22/ward07_preferenceprofile.txt,6,CCCCC,1,3,3,693,303,4,0,752,247,1,0
+eilean-siar22/ward08_preferenceprofile.txt,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+eilean-siar22/ward09_preferenceprofile.txt,10,JDDDDDDDD,2,3,3,102,882,16,0,883,113,4,0
+eilean-siar22/ward10_preferenceprofile.txt,7,GGGGGG,1,2,2,992,8,0,0,998,2,0,0
+falkirk12-ballots/falkirk12-01.blt,5,DDDD,1,1,1,1000,0,0,0,1000,0,0,0
+falkirk12-ballots/falkirk12-02.blt,8,BBBBBBB,1,2,2,849,151,0,0,929,71,0,0
+falkirk12-ballots/falkirk12-03.blt,8,FFFFFFF,1,2,1,998,2,0,0,1000,0,0,0
+falkirk12-ballots/falkirk12-04.blt,5,DDDD,1,3,2,739,260,1,0,985,15,0,0
+falkirk12-ballots/falkirk12-05.blt,6,BBBBB,1,2,2,918,82,0,0,960,40,0,0
+falkirk12-ballots/falkirk12-06.blt,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+falkirk12-ballots/falkirk12-07.blt,7,BBBBBB,1,2,2,861,139,0,0,971,29,0,0
+falkirk12-ballots/falkirk12-08.blt,4,CCC,1,2,2,634,366,0,0,875,125,0,0
+falkirk12-ballots/falkirk12-09.blt,5,BBBB,1,2,2,834,166,0,0,927,73,0,0
+falkirk17-ballots/falkirk17-01.blt,6,FFFFF,1,3,2,782,217,1,0,999,1,0,0
+falkirk17-ballots/falkirk17-02.blt,6,AAAAA,1,2,2,940,60,0,0,976,24,0,0
+falkirk17-ballots/falkirk17-03.blt,10,DDDDDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+falkirk17-ballots/falkirk17-04.blt,7,DBBBBB,2,3,2,401,598,1,0,998,2,0,0
+falkirk17-ballots/falkirk17-05.blt,6,BBBBB,1,2,2,985,15,0,0,985,15,0,0
+falkirk17-ballots/falkirk17-06.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+falkirk17-ballots/falkirk17-07.blt,4,AAA,1,2,2,709,291,0,0,904,96,0,0
+falkirk17-ballots/falkirk17-08.blt,8,FFFFFFF,1,2,2,880,120,0,0,924,76,0,0
+falkirk17-ballots/falkirk17-09.blt,7,DDDDDD,1,3,2,721,276,3,0,838,162,0,0
+falkirk22/ward1.csv,6,FFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+falkirk22/ward2.csv,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+falkirk22/ward3.csv,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+falkirk22/ward4.csv,7,BBBBBB,1,2,2,899,101,0,0,999,1,0,0
+falkirk22/ward5.csv,6,AAAAA,1,3,2,834,165,1,0,843,157,0,0
+falkirk22/ward6.csv,7,FFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+falkirk22/ward7.csv,6,AAAAA,1,3,2,742,257,1,0,995,5,0,0
+falkirk22/ward8.csv,7,CCCCCC,1,3,2,762,226,12,0,835,165,0,0
+falkirk22/ward9.csv,9,GGGGGGGG,1,2,2,930,70,0,0,932,68,0,0
+fife12-ballots/fife12-01.blt,8,BBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+fife12-ballots/fife12-02.blt,5,DCCC,2,3,2,15,953,32,0,968,32,0,0
+fife12-ballots/fife12-03.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+fife12-ballots/fife12-04.blt,7,FFFFFF,1,3,2,672,322,6,0,960,40,0,0
+fife12-ballots/fife12-05.blt,8,BAAAAAA,2,3,2,357,639,4,0,996,4,0,0
+fife12-ballots/fife12-06.blt,7,DDDDDD,1,3,3,792,206,2,0,828,171,1,0
+fife12-ballots/fife12-07.blt,6,FFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+fife12-ballots/fife12-08.blt,6,DDDDD,1,2,2,975,25,0,0,982,18,0,0
+fife12-ballots/fife12-09.blt,5,BBBB,1,2,2,890,110,0,0,909,91,0,0
+fife12-ballots/fife12-10.blt,9,BBBBBBBB,1,2,2,858,142,0,0,916,84,0,0
+fife12-ballots/fife12-11.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+fife12-ballots/fife12-12.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+fife12-ballots/fife12-13.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+fife12-ballots/fife12-14.blt,10,CCCCCCCCC,1,3,3,849,150,1,0,851,148,1,0
+fife12-ballots/fife12-15.blt,8,CCBBBBB,2,3,2,239,757,4,0,332,668,0,0
+fife12-ballots/fife12-16.blt,7,FFFBFF,2,3,2,522,477,1,0,911,89,0,0
+fife12-ballots/fife12-17.blt,7,BBBBBB,1,2,2,974,26,0,0,997,3,0,0
+fife12-ballots/fife12-18.blt,5,BAAA,2,3,2,354,622,24,0,954,46,0,0
+fife12-ballots/fife12-19.blt,9,EDDDDDDD,2,3,2,34,960,6,0,911,89,0,0
+fife12-ballots/fife12-20.blt,6,DDDDD,1,2,1,878,122,0,0,1000,0,0,0
+fife12-ballots/fife12-21.blt,5,EEEE,1,1,1,1000,0,0,0,1000,0,0,0
+fife12-ballots/fife12-22.blt,8,BDBBBBB,2,3,3,267,731,2,0,319,680,1,0
+fife12-ballots/fife12-23.blt,9,AAAAAAAA,1,2,2,846,154,0,0,971,29,0,0
+fife17-ballots/fife17-01.blt,8,BBBBBBB,1,2,2,996,4,0,0,996,4,0,0
+fife17-ballots/fife17-02.blt,7,BCGGGG,3,4,3,62,405,531,2,257,740,3,0
+fife17-ballots/fife17-03.blt,9,ACHHHHHH,3,3,3,112,593,295,0,489,487,24,0
+fife17-ballots/fife17-04.blt,7,FGGGGG,2,4,3,56,702,238,4,662,333,5,0
+fife17-ballots/fife17-05.blt,9,EGGGGGGG,2,3,2,449,548,3,0,993,7,0,0
+fife17-ballots/fife17-06.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+fife17-ballots/fife17-07.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+fife17-ballots/fife17-08.blt,7,AAAAAA,1,3,3,931,68,1,0,968,31,1,0
+fife17-ballots/fife17-09.blt,10,DAAAAAAAA,2,2,2,260,740,0,0,787,213,0,0
+fife17-ballots/fife17-10.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+fife17-ballots/fife17-11.blt,9,DAAAAAAA,2,3,3,60,860,80,0,618,375,7,0
+fife17-ballots/fife17-12.blt,9,ACCCCCCC,2,2,2,317,683,0,0,849,151,0,0
+fife17-ballots/fife17-13.blt,8,EEEEEEE,1,2,2,962,38,0,0,998,2,0,0
+fife17-ballots/fife17-14.blt,9,CCCCCCCC,1,2,1,915,85,0,0,1000,0,0,0
+fife17-ballots/fife17-15.blt,10,IIIIIIIII,1,1,1,1000,0,0,0,1000,0,0,0
+fife17-ballots/fife17-16.blt,7,EEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+fife17-ballots/fife17-17.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+fife17-ballots/fife17-18.blt,10,CCCCCCCCC,1,2,1,765,235,0,0,1000,0,0,0
+fife17-ballots/fife17-19.blt,7,FGGGGG,2,3,3,0,972,28,0,929,69,2,0
+fife17-ballots/fife17-20.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+fife17-ballots/fife17-21.blt,8,BBBBBBB,1,3,2,873,119,8,0,981,19,0,0
+fife17-ballots/fife17-22.blt,10,FFFFFFFFF,1,3,3,804,195,1,0,817,182,1,0
+fife22/PreferenceProfile_V0001_Ward-1-West-Fife-and-Coastal-Villages_06052022_145537.blt,10,BBBBBBBBB,1,2,2,595,405,0,0,605,395,0,0
+fife22/PreferenceProfile_V0001_Ward-10-Kirkcaldy-North_06052022_151928.blt,8,FFFFFFF,1,2,2,855,145,0,0,990,10,0,0
+fife22/PreferenceProfile_V0001_Ward-11-Kirkcaldy-Central_06052022_145551.blt,7,ABBDDD,3,3,3,359,547,94,0,784,214,2,0
+fife22/PreferenceProfile_V0001_Ward-12-Kirkcaldy-East_06052022_151925.blt,8,AAAAAAA,1,2,2,882,118,0,0,935,65,0,0
+fife22/PreferenceProfile_V0001_Ward-13-Glenrothes-West-and-Kinglassie_06052022_145551.blt,6,CCCCC,1,2,2,984,16,0,0,995,5,0,0
+fife22/PreferenceProfile_V0001_Ward-14-Glenrothes-North-Leslie-and-Markinch_06052022_151925.blt,8,AAAAAAA,1,2,2,999,1,0,0,999,1,0,0
+fife22/PreferenceProfile_V0001_Ward-15-Glenrothes-Central-and-Thornton_06052022_145551.blt,8,GGGGGGG,1,2,1,992,8,0,0,1000,0,0,0
+fife22/PreferenceProfile_V0001_Ward-16-Howe-Of-Fife-and-Tay-Coast_06052022_151928.blt,7,GFFFFF,2,3,2,2,990,8,0,992,8,0,0
+fife22/PreferenceProfile_V0001_Ward-17-Tay-Bridgehead_06052022_145551.blt,8,CGGGGGG,2,3,2,287,705,8,0,992,8,0,0
+fife22/PreferenceProfile_V0001_Ward-18-St.-Andrews_06052022_151928.blt,6,EEEEE,1,3,2,745,254,1,0,996,4,0,0
+fife22/PreferenceProfile_V0001_Ward-19-East-Neuk-and-Landward_06052022_145551.blt,8,AAAAAAA,1,2,1,997,3,0,0,1000,0,0,0
+fife22/PreferenceProfile_V0001_Ward-2-Dunfermline-North_06052022_151927.blt,8,GGGGGGG,1,2,2,617,383,0,0,721,279,0,0
+fife22/PreferenceProfile_V0001_Ward-20-Cupar_06052022_151928.blt,9,GGGGGGGG,1,2,1,999,1,0,0,1000,0,0,0
+fife22/PreferenceProfile_V0001_Ward-21-Leven-Kennoway-and-Largo_06052022_145552.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+fife22/PreferenceProfile_V0001_Ward-22-Buckhaven-Methil-and-Wemyss-Villages_06052022_151928.blt,8,DDDDDDD,1,2,2,975,25,0,0,981,19,0,0
+fife22/PreferenceProfile_V0001_Ward-3-Dunfermline-Central_06052022_145551.blt,9,ACAAAAAA,2,3,3,243,749,8,0,463,536,1,0
+fife22/PreferenceProfile_V0001_Ward-4-Dunfermline-South_06052022_151924.blt,10,CBBBEEEEE,3,4,3,145,731,123,1,395,579,26,0
+fife22/PreferenceProfile_V0001_Ward-5-Rosyth_06052022_145544.blt,9,IAAAAAAA,2,3,2,207,792,1,0,762,238,0,0
+fife22/PreferenceProfile_V0001_Ward-6-Inverkeithing-and-Dalgety-Bay_06052022_151927.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+fife22/PreferenceProfile_V0001_Ward-7-Cowdenbeath_06052022_145532.blt,9,CCCCCCCC,1,2,2,774,226,0,0,963,37,0,0
+fife22/PreferenceProfile_V0001_Ward-8-Lochgelly-Cardenden-and-Benarty_06052022_151928.blt,8,BBBBBBB,1,2,2,682,318,0,0,824,176,0,0
+fife22/PreferenceProfile_V0001_Ward-9-Burntisland-Kinghorn-and-Western-Kirkcaldy_06052022_145551.blt,9,AGGGGGGG,2,2,2,612,388,0,0,817,183,0,0
+glasgow12/glasgow12-01.blt,9,BBBBBBBB,1,3,2,951,48,1,0,976,24,0,0
+glasgow12/glasgow12-02.blt,11,CCCCCCCCCC,1,2,1,987,13,0,0,1000,0,0,0
+glasgow12/glasgow12-03.blt,11,BBBBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+glasgow12/glasgow12-04.blt,10,BBBBBBBBB,1,3,2,899,100,1,0,941,59,0,0
+glasgow12/glasgow12-05.blt,14,AAAAAAAAAAAAA,1,2,2,919,81,0,0,931,69,0,0
+glasgow12/glasgow12-06.blt,8,HCCCCCC,2,3,2,105,877,18,0,979,21,0,0
+glasgow12/glasgow12-07-recalc.blt,8,DDDDDDD,1,2,2,533,467,0,0,859,141,0,0
+glasgow12/glasgow12-08.blt,10,IIIIIIIII,1,2,2,997,3,0,0,997,3,0,0
+glasgow12/glasgow12-09.blt,13,IIIIIIIIIIII,1,1,1,1000,0,0,0,1000,0,0,0
+glasgow12/glasgow12-10.blt,11,CCCCCCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+glasgow12/glasgow12-11.blt,13,AAAAAAAAAAAA,1,2,2,953,47,0,0,964,36,0,0
+glasgow12/glasgow12-12.blt,13,DEDDDDDDDDDD,2,3,3,553,444,3,0,793,206,1,0
+glasgow12/glasgow12-13.blt,13,AIAAAAAAAAAA,2,2,2,581,419,0,0,668,332,0,0
+glasgow12/glasgow12-14.blt,11,BBBBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+glasgow12/glasgow12-15.blt,8,FFFFFFF,1,2,2,601,399,0,0,975,25,0,0
+glasgow12/glasgow12-16.blt,12,EEEEEEEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+glasgow12/glasgow12-17.blt,10,CCCCCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+glasgow12/glasgow12-18.blt,11,CCCCCCCCCC,1,2,1,985,15,0,0,1000,0,0,0
+glasgow12/glasgow12-19.blt,10,BBBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+glasgow12/glasgow12-20.blt,10,BBBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+glasgow12/glasgow12-21.blt,9,BBBBBBBB,1,2,2,923,77,0,0,953,47,0,0
+glasgow17-ballots/glasgow17-001.blt,12,GEGGGGGGGGG,2,4,3,200,755,44,1,249,748,3,0
+glasgow17-ballots/glasgow17-002.blt,7,CCCCCC,1,3,2,829,168,3,0,931,69,0,0
+glasgow17-ballots/glasgow17-003.blt,10,EEEEEEEEE,1,2,2,690,310,0,0,779,221,0,0
+glasgow17-ballots/glasgow17-004.blt,10,DBDDDDDDD,2,3,2,181,816,3,0,232,768,0,0
+glasgow17-ballots/glasgow17-005.blt,10,FDDDDDDDD,2,3,3,2,995,3,0,537,461,2,0
+glasgow17-ballots/glasgow17-006.blt,8,CCCCCCC,1,2,1,716,284,0,0,1000,0,0,0
+glasgow17-ballots/glasgow17-007.blt,9,AAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+glasgow17-ballots/glasgow17-008.blt,10,IIFFFFFFF,2,3,2,187,730,83,0,328,672,0,0
+glasgow17-ballots/glasgow17-009.blt,9,BBBBBBBB,1,2,2,997,3,0,0,997,3,0,0
+glasgow17-ballots/glasgow17-010.blt,9,AAAAAAAA,1,2,1,979,21,0,0,1000,0,0,0
+glasgow17-ballots/glasgow17-011.blt,8,GAAAGGG,2,3,2,191,807,2,0,547,453,0,0
+glasgow17-ballots/glasgow17-012.blt,7,BBBBBB,1,3,2,861,137,2,0,997,3,0,0
+glasgow17-ballots/glasgow17-013.blt,10,BBDDDDDDD,2,3,3,56,907,37,0,325,650,25,0
+glasgow17-ballots/glasgow17-014.blt,10,BBAAAAAAA,2,2,2,151,849,0,0,154,846,0,0
+glasgow17-ballots/glasgow17-015.blt,7,DDDDDD,1,3,2,866,132,2,0,940,60,0,0
+glasgow17-ballots/glasgow17-016.blt,11,BBBBBBBBBB,1,2,2,962,38,0,0,989,11,0,0
+glasgow17-ballots/glasgow17-017.blt,10,FFFFFFFFF,1,3,3,741,255,4,0,749,248,3,0
+glasgow17-ballots/glasgow17-018.blt,9,DDAAAAAA,2,2,2,165,835,0,0,165,835,0,0
+glasgow17-ballots/glasgow17-019.blt,12,IIIIIIIIIII,1,3,3,964,35,1,0,965,34,1,0
+glasgow17-ballots/glasgow17-020.blt,9,AAAAAAAA,1,2,2,999,1,0,0,999,1,0,0
+glasgow17-ballots/glasgow17-021.blt,8,BEEEBEE,2,3,3,339,659,2,0,817,182,1,0
+glasgow17-ballots/glasgow17-022.blt,7,AAAAAA,1,2,2,538,462,0,0,973,27,0,0
+glasgow17-ballots/glasgow17-023.blt,7,DDDDDD,1,3,2,494,483,23,0,943,57,0,0
+glasgow22/Ward1.blt,9,BBBBBBBB,1,2,2,867,133,0,0,932,68,0,0
+glasgow22/Ward10.blt,10,GBBBBBBBB,2,3,3,123,870,7,0,848,149,3,0
+glasgow22/Ward11.blt,6,FFFFF,1,2,1,997,3,0,0,1000,0,0,0
+glasgow22/Ward12.blt,6,CCCCC,1,2,2,633,367,0,0,751,249,0,0
+glasgow22/Ward13.blt,8,AAAAAAA,1,2,2,550,450,0,0,648,352,0,0
+glasgow22/Ward14.blt,10,AAAAAAAAA,1,2,2,929,71,0,0,940,60,0,0
+glasgow22/Ward15.blt,8,FGGGGGG,2,3,2,95,891,14,0,882,118,0,0
+glasgow22/Ward16.blt,10,ABAAAAAAA,2,2,2,233,767,0,0,306,694,0,0
+glasgow22/Ward17.blt,8,DDDDDDD,1,2,2,912,88,0,0,941,59,0,0
+glasgow22/Ward18.blt,11,EEEEEEEEEE,1,3,3,831,167,2,0,852,146,2,0
+glasgow22/Ward19.blt,8,BDDDDDD,2,2,2,365,635,0,0,991,9,0,0
+glasgow22/Ward2.blt,10,CCAAAAAAA,2,2,2,404,596,0,0,636,364,0,0
+glasgow22/Ward20.blt,7,EEEEEE,1,2,2,965,35,0,0,970,30,0,0
+glasgow22/Ward21.blt,8,AAAAAAA,1,2,2,948,52,0,0,976,24,0,0
+glasgow22/Ward22.blt,7,GBBBBB,2,3,3,28,966,6,0,938,60,2,0
+glasgow22/Ward23.blt,9,CCCCCCCC,1,2,2,948,52,0,0,948,52,0,0
+glasgow22/Ward3.blt,11,AAAAAAAAAA,1,2,2,666,334,0,0,988,12,0,0
+glasgow22/Ward4.blt,9,FDDDDDDD,2,2,2,354,646,0,0,792,208,0,0
+glasgow22/Ward5.blt,11,AABBBBBBBB,2,3,2,208,791,1,0,459,541,0,0
+glasgow22/Ward6.blt,10,FBBFFFFFF,2,3,2,308,685,7,0,688,312,0,0
+glasgow22/Ward7.blt,9,BBBBBBBB,1,2,2,602,398,0,0,654,346,0,0
+glasgow22/Ward8.blt,10,AAAAAAAAA,1,3,2,570,376,54,0,889,111,0,0
+glasgow22/Ward9.blt,9,BDBBBBBB,2,3,3,274,719,7,0,303,693,4,0
+highland12-ballots/highland12-01.blt,9,AAFFFFFF,2,3,3,231,756,13,0,509,485,6,0
+highland12-ballots/highland12-02.blt,7,CCCCCC,1,2,1,961,39,0,0,1000,0,0,0
+highland12-ballots/highland12-03.blt,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+highland12-ballots/highland12-04.blt,8,EEEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+highland12-ballots/highland12-05.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+highland12-ballots/highland12-06.blt,7,AAAAAA,1,2,2,997,3,0,0,998,2,0,0
+highland12-ballots/highland12-07.blt,8,HHHHHHH,1,2,2,640,360,0,0,804,196,0,0
+highland12-ballots/highland12-08.blt,8,CCCCCCC,1,2,1,999,1,0,0,1000,0,0,0
+highland12-ballots/highland12-09.blt,10,JJJJJJJJJ,1,2,2,988,12,0,0,996,4,0,0
+highland12-ballots/highland12-10.blt,10,BBBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+highland12-ballots/highland12-11.csv,7,CCCCCC,1,2,1,922,78,0,0,1000,0,0,0
+highland12-ballots/highland12-12.blt,8,BBBBBBB,1,2,1,999,1,0,0,1000,0,0,0
+highland12-ballots/highland12-13.blt,8,CCCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+highland12-ballots/highland12-14.blt,8,DDHHHHH,2,2,2,596,404,0,0,670,330,0,0
+highland12-ballots/highland12-15.blt,7,AAAAAA,1,2,2,676,324,0,0,892,108,0,0
+highland12-ballots/highland12-16.blt,7,FAABBB,3,3,3,81,694,225,0,522,469,9,0
+highland12-ballots/highland12-17.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+highland12-ballots/highland12-18.blt,9,AAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+highland12-ballots/highland12-19.blt,8,FFFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+highland12-ballots/highland12-20.blt,8,FFDDDDD,2,3,2,117,876,7,0,521,479,0,0
+highland12-ballots/highland12-21.blt,7,AAAAAA,1,3,3,919,80,1,0,923,76,1,0
+highland12-ballots/highland12-22.blt,8,ADDAAAA,2,3,3,210,668,122,0,477,516,7,0
+highland17-ballots/highland17-01.blt,8,HDDDDDD,2,4,3,56,684,259,1,707,291,2,0
+highland17-ballots/highland17-02.blt,9,GGGGGGGG,1,1,1,1000,0,0,0,1000,0,0,0
+highland17-ballots/highland17-03.blt,9,EEEEEEEE,1,2,2,793,207,0,0,940,60,0,0
+highland17-ballots/highland17-04.blt,7,DDDDDD,1,3,2,788,210,2,0,970,30,0,0
+highland17-ballots/highland17-05.blt,8,GCBBBBB,3,4,3,35,347,598,20,230,729,41,0
+highland17-ballots/highland17-06.blt,9,IIIIIIII,1,2,2,973,27,0,0,973,27,0,0
+highland17-ballots/highland17-07.blt,6,BDDDD,2,3,2,51,877,72,0,926,74,0,0
+highland17-ballots/highland17-08.blt,7,DDFFFF,2,3,3,7,905,88,0,445,541,14,0
+highland17-ballots/highland17-09.blt,7,CCAAAA,2,2,2,49,951,0,0,342,658,0,0
+highland17-ballots/highland17-10.blt,12,BBBBBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+highland17-ballots/highland17-11.blt,7,BBBBBB,1,2,1,949,51,0,0,1000,0,0,0
+highland17-ballots/highland17-12.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+highland17-ballots/highland17-13.blt,7,DDDDDD,1,2,2,998,2,0,0,998,2,0,0
+highland17-ballots/highland17-14.blt,8,EEEEEEE,1,2,2,998,2,0,0,998,2,0,0
+highland17-ballots/highland17-15.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+highland17-ballots/highland17-16.blt,7,CCCCCC,1,2,2,998,2,0,0,998,2,0,0
+highland17-ballots/highland17-17.blt,8,ABAAAAA,2,3,3,356,503,141,0,420,571,9,0
+highland17-ballots/highland17-18.blt,10,EEEEEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+highland17-ballots/highland17-19.blt,8,EEEEEEE,1,3,3,555,443,2,0,559,440,1,0
+highland17-ballots/highland17-20.blt,8,AFFFFFF,2,3,2,267,729,4,0,950,50,0,0
+highland17-ballots/highland17-21.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+highland22/PreferenceProfile_V0001_Aird_and_Loch_Ness_06052022_161539.blt,7,FDDDDD,2,2,2,59,941,0,0,589,411,0,0
+highland22/PreferenceProfile_V0001_Badenoch_and_Strathspey_06052022_161540.blt,8,FFFFFFF,1,2,2,998,2,0,0,999,1,0,0
+highland22/PreferenceProfile_V0001_Black_Isle_06052022_161539.blt,8,CCCCDDD,2,3,3,190,775,35,0,218,749,33,0
+highland22/PreferenceProfile_V0001_Cromarty_Firth_06052022_161538.blt,9,BFFFFFFF,2,3,2,387,611,2,0,791,209,0,0
+highland22/PreferenceProfile_V0001_Culloden_and_Ardersier_06052022_161539.blt,7,BBBBBB,1,2,2,999,1,0,0,999,1,0,0
+highland22/PreferenceProfile_V0001_Dingwall_and_Seaforth_06052022_161539.blt,7,DDDDDD,1,2,2,975,25,0,0,975,25,0,0
+highland22/PreferenceProfile_V0001_East_Sutherland_and_Edderton_06052022_161530.blt,5,CCCC,1,2,1,999,1,0,0,1000,0,0,0
+highland22/PreferenceProfile_V0001_Eilean_a__Che___06052022_161539.blt,9,BBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+highland22/PreferenceProfile_V0001_Fort_William_and_Ardnamurchan_06052022_161540.blt,5,CCCC,1,2,1,943,57,0,0,1000,0,0,0
+highland22/PreferenceProfile_V0001_Inverness_Central_06052022_161539.blt,10,FBBBBBBBB,2,3,2,355,619,26,0,948,52,0,0
+highland22/PreferenceProfile_V0001_Inverness_Millburn_06052022_161539.blt,4,AAB,2,2,2,450,550,0,0,513,487,0,0
+highland22/PreferenceProfile_V0001_Inverness_Ness_side_06052022_161539.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+highland22/PreferenceProfile_V0001_Inverness_South_06052022_161540.blt,7,DDDDDD,1,2,2,570,430,0,0,598,402,0,0
+highland22/PreferenceProfile_V0001_Inverness_West_06052022_161539.blt,9,EEEEEEEE,1,2,2,897,103,0,0,999,1,0,0
+highland22/PreferenceProfile_V0001_Nairn_and_Cawdor_06052022_161539.blt,8,FBBBBBB,2,2,1,44,956,0,0,1000,0,0,0
+highland22/PreferenceProfile_V0001_North_West_and_Central_Sutherland_06052022_161534.blt,7,CCCCCC,1,2,2,506,494,0,0,672,328,0,0
+highland22/PreferenceProfile_V0001_Tain_and_Easter_Ross_06052022_161537.blt,5,ADDD,2,3,2,8,990,2,0,753,247,0,0
+highland22/PreferenceProfile_V0001_Thurso_and_Northwest_Caithness_06052022_161528.blt,6,CCCCC,1,2,2,908,92,0,0,920,80,0,0
+highland22/PreferenceProfile_V0001_Wester_Ross_Strathpeffer_and_Lochalsh_06052022_161539.blt,5,BBBB,1,2,2,907,93,0,0,908,92,0,0
+highland22/PreferenceProfile_V0001_Wick_and_East_Caithness_06052022_161532.blt,6,FFFFF,1,2,1,981,19,0,0,1000,0,0,0
+inverclyde12-ballots/inverclyde12-01.blt,5,BBBB,1,2,1,843,157,0,0,1000,0,0,0
+inverclyde12-ballots/inverclyde12-02.blt,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+inverclyde12-ballots/inverclyde12-03.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+inverclyde12-ballots/inverclyde12-04.blt,6,EEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+inverclyde12-ballots/inverclyde12-05.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+inverclyde12-ballots/inverclyde12-06.blt,7,CCCCCC,1,3,2,506,453,41,0,877,123,0,0
+inverclyde17-ballots/inverclyde17-01.blt,5,EEEE,1,1,1,1000,0,0,0,1000,0,0,0
+inverclyde17-ballots/inverclyde17-02.blt,6,EEEEE,1,2,2,596,404,0,0,796,204,0,0
+inverclyde17-ballots/inverclyde17-03.blt,6,DCCCC,2,2,2,495,505,0,0,962,38,0,0
+inverclyde17-ballots/inverclyde17-04.blt,7,AAAAAA,1,2,2,991,9,0,0,996,4,0,0
+inverclyde17-ballots/inverclyde17-05.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+inverclyde17-ballots/inverclyde17-06.blt,7,DDDDDD,1,2,2,765,235,0,0,777,223,0,0
+inverclyde17-ballots/inverclyde17-07.blt,8,BBBBBBB,1,2,2,630,370,0,0,921,79,0,0
+inverclyde22/PreferenceProfile_Ward-2.blt,6,EEEEE,1,3,2,693,303,4,0,852,148,0,0
+inverclyde22/PreferenceProfile_Ward-3.blt,6,AEEEE,2,3,2,126,871,3,0,736,264,0,0
+inverclyde22/PreferenceProfile_Ward-4.blt,9,AAAAAAAA,1,2,2,899,101,0,0,944,56,0,0
+inverclyde22/PreferenceProfile_Ward-5.blt,7,DDDDDD,1,3,2,913,86,1,0,993,7,0,0
+inverclyde22/PreferenceProfile_Ward-6.blt,6,BBBBB,1,2,2,631,369,0,0,915,85,0,0
+inverclyde22/PreferenceProfile_Ward-7.blt,5,AAAA,1,2,2,872,128,0,0,973,27,0,0
+midlothian12-ballots/midlothian12-01_cleaned.csv,6,DDDDD,1,2,1,712,288,0,0,1000,0,0,0
+midlothian12-ballots/midlothian12-02_cleaned.csv,7,EEEEEE,1,2,2,994,6,0,0,999,1,0,0
+midlothian12-ballots/midlothian12-03_cleaned.csv,7,AAAAAA,1,2,1,998,2,0,0,1000,0,0,0
+midlothian12-ballots/midlothian12-04_cleaned.csv,9,BBBBBBBB,1,3,3,779,208,13,0,886,111,3,0
+midlothian12-ballots/midlothian12-05_cleaned.csv,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+midlothian12-ballots/midlothian12-06_cleaned.csv,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+midlothian17-ballots/midlothian17-01.blt,6,CDEEE,3,3,2,233,617,150,0,651,349,0,0
+midlothian17-ballots/midlothian17-02.blt,7,FFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+midlothian17-ballots/midlothian17-03.blt,7,BCCCCC,2,3,2,50,910,40,0,955,45,0,0
+midlothian17-ballots/midlothian17-04.blt,8,HFFFFFF,2,3,2,253,733,14,0,802,198,0,0
+midlothian17-ballots/midlothian17-05.blt,6,FFDDD,2,3,3,285,710,5,0,664,334,2,0
+midlothian17-ballots/midlothian17-06.blt,7,CCCCCC,1,2,2,911,89,0,0,964,36,0,0
+midlothian22/ward_1_penicuik_preference_profile_open_from_within_ms_word_or_similar.blt,7,DDDDDD,1,2,1,999,1,0,0,1000,0,0,0
+midlothian22/ward_2_bonnyrigg_preference_profile_open_from_within_ms_word_or_similar.blt,4,CCC,1,2,1,968,32,0,0,1000,0,0,0
+midlothian22/ward_3_dalkeith_preference_profile_open_from_within_ms_word_or_similar.blt,7,DDDDDD,1,2,2,946,54,0,0,999,1,0,0
+midlothian22/ward_4_midlothian_west_preference_profile_open_from_within_ms_word_or_similar.blt,7,CCCCCC,1,3,3,622,373,5,0,763,236,1,0
+midlothian22/ward_5_midlothian_east_preference_profile_open_from_within_ms_word_or_similar.blt,6,EEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+midlothian22/ward_6_midlothian_south_dalkeith_preference_profile_open_from_within_ms_word_or_similar.blt,8,BBBBBBB,1,3,2,544,452,4,0,757,243,0,0
+moray12-ballots/moray12-01.blt,6,EFFFF,2,3,2,422,575,3,0,977,23,0,0
+moray12-ballots/moray12-02.blt,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+moray12-ballots/moray12-03.blt,5,CCCC,1,2,2,981,19,0,0,985,15,0,0
+moray12-ballots/moray12-04.blt,5,EEEE,1,2,2,978,22,0,0,988,12,0,0
+moray12-ballots/moray12-05.blt,7,DDCCCC,2,3,3,172,775,53,0,183,816,1,0
+moray12-ballots/moray12-06.blt,5,CEEE,2,3,3,88,901,11,0,876,123,1,0
+moray12-ballots/moray12-07.blt,4,BBB,1,1,1,1000,0,0,0,1000,0,0,0
+moray12-ballots/moray12-08.blt,10,AAAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+moray17-ballots/moray17-01.blt,4,DDD,1,2,2,984,16,0,0,988,12,0,0
+moray17-ballots/moray17-02.blt,5,CBCC,2,2,2,508,492,0,0,568,432,0,0
+moray17-ballots/moray17-03.blt,4,BBC,2,2,2,415,585,0,0,800,200,0,0
+moray17-ballots/moray17-04.blt,8,EEEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+moray17-ballots/moray17-05.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+moray17-ballots/moray17-06.blt,6,BBBBB,1,2,2,997,3,0,0,998,2,0,0
+moray17-ballots/moray17-07.blt,4,DDD,1,2,2,958,42,0,0,980,20,0,0
+moray17-ballots/moray17-08.blt,7,CCCCCC,1,2,2,990,10,0,0,990,10,0,0
+moray22/file141884.txt,5,CCCC,1,2,2,859,141,0,0,928,72,0,0
+moray22/file141894.txt,5,CCCC,1,2,2,783,217,0,0,892,108,0,0
+moray22/file141896.txt,5,CCCC,1,2,2,587,413,0,0,880,120,0,0
+moray22/file141902.txt,6,CAAAA,2,2,1,136,864,0,0,1000,0,0,0
+moray22/file141913.txt,6,CFFFF,2,2,2,69,931,0,0,882,118,0,0
+moray22/file141915.txt,6,ECCCC,2,2,2,176,824,0,0,704,296,0,0
+moray22/file141922.txt,6,BBBBB,1,2,2,656,344,0,0,893,107,0,0
+n-ayrshire12-ballots/n-ayrshire12-01.blt,9,BBCCCCCC,2,2,2,433,567,0,0,845,155,0,0
+n-ayrshire12-ballots/n-ayrshire12-02.blt,10,JJJJJJJJJ,1,3,3,914,84,2,0,941,58,1,0
+n-ayrshire12-ballots/n-ayrshire12-03.blt,11,BBBBBBBBAB,2,2,2,493,507,0,0,511,489,0,0
+n-ayrshire12-ballots/n-ayrshire12-04.blt,8,EEEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+n-ayrshire12-ballots/n-ayrshire12-05.blt,10,DDBBBBBBB,2,3,3,480,518,2,0,818,181,1,0
+n-ayrshire12-ballots/n-ayrshire12-06.blt,7,AAAAAA,1,2,1,998,2,0,0,1000,0,0,0
+n-ayrshire12-ballots/n-ayrshire12-07.blt,8,BBBBBBB,1,2,2,995,5,0,0,999,1,0,0
+n-ayrshire12-ballots/n-ayrshire12-08.blt,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+n-ayrshire17-ballots/n-ayrshire17-01.blt,7,AAAAAA,1,2,1,992,8,0,0,1000,0,0,0
+n-ayrshire17-ballots/n-ayrshire17-02.blt,6,AAAAA,1,2,2,933,67,0,0,938,62,0,0
+n-ayrshire17-ballots/n-ayrshire17-03.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+n-ayrshire17-ballots/n-ayrshire17-04.blt,8,CCHHHHH,2,3,3,224,769,7,0,298,700,2,0
+n-ayrshire17-ballots/n-ayrshire17-05.blt,7,BCCCCC,2,3,3,92,857,51,0,861,136,3,0
+n-ayrshire17-ballots/n-ayrshire17-06.blt,8,BCAAAAA,3,3,3,107,737,156,0,584,399,17,0
+n-ayrshire17-ballots/n-ayrshire17-07.blt,7,BBEEEE,2,3,2,340,645,15,0,380,620,0,0
+n-ayrshire17-ballots/n-ayrshire17-08.blt,6,CCCCC,1,2,2,984,16,0,0,988,12,0,0
+n-ayrshire17-ballots/n-ayrshire17-09.blt,7,EEEEEE,1,2,2,959,41,0,0,964,36,0,0
+n-ayrshire17-ballots/n-ayrshire17-10.blt,7,EEEEEE,1,3,2,493,373,134,0,734,266,0,0
+n-ayrshire22 (pdfs)/Preference-Profile-Ardrossan_copy.csv,7,BBBBBB,1,2,2,803,197,0,0,810,190,0,0
+n-ayrshire22 (pdfs)/Preference-Profile-Arran_copy.csv,6,AAAAA,1,2,2,891,109,0,0,910,90,0,0
+n-ayrshire22 (pdfs)/Preference-Profile-Garnock-Valley_copy.csv,11,GCGGGGGGGG,2,3,3,196,777,27,0,284,715,1,0
+n-ayrshire22 (pdfs)/Preference-Profile-Irvine-East_copy.csv,7,AAAAAA,1,2,2,995,5,0,0,996,4,0,0
+n-ayrshire22 (pdfs)/Preference-Profile-Irvine-South_copy.csv,7,EEEEEE,1,3,2,700,299,1,0,709,291,0,0
+n-ayrshire22 (pdfs)/Preference-Profile-Irvine-West_copy.csv,10,FFFFFFFFF,1,2,2,941,59,0,0,941,59,0,0
+n-ayrshire22 (pdfs)/Preference-Profile-Kilwinning_copy.csv,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+n-ayrshire22 (pdfs)/Preference-Profile-North-Coast_copy.csv,12,AAAAAAAAAAA,1,3,3,409,515,76,0,648,347,5,0
+n-ayrshire22 (pdfs)/Preference-Profile-Saltcoats-and-Stevenston_copy.csv,8,CGGGGGG,2,2,2,317,683,0,0,883,117,0,0
+n-lanarks12-ballots/n-lanarks12-01.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks12-ballots/n-lanarks12-02.csv,8,FCCBBBB,3,4,3,4,378,613,5,373,622,5,0
+n-lanarks12-ballots/n-lanarks12-03.blt,8,AAAAAAA,1,2,2,575,425,0,0,589,411,0,0
+n-lanarks12-ballots/n-lanarks12-04.blt,6,ACCCC,2,3,2,354,645,1,0,999,1,0,0
+n-lanarks12-ballots/n-lanarks12-05.blt,7,AAAAAA,1,2,2,819,181,0,0,848,152,0,0
+n-lanarks12-ballots/n-lanarks12-06.blt,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks12-ballots/n-lanarks12-07.blt,7,EEDDDD,2,3,2,379,616,5,0,565,435,0,0
+n-lanarks12-ballots/n-lanarks12-08.blt,6,BBBBB,1,2,2,992,8,0,0,995,5,0,0
+n-lanarks12-ballots/n-lanarks12-09.blt,4,BBB,1,2,2,986,14,0,0,995,5,0,0
+n-lanarks12-ballots/n-lanarks12-10.blt,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks12-ballots/n-lanarks12-11.blt,8,CCCCCCC,1,2,2,875,125,0,0,877,123,0,0
+n-lanarks12-ballots/n-lanarks12-12.blt,6,CEEEE,2,3,2,556,431,13,0,921,79,0,0
+n-lanarks12-ballots/n-lanarks12-13.blt,4,AAA,1,2,2,965,35,0,0,988,12,0,0
+n-lanarks12-ballots/n-lanarks12-14.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks12-ballots/n-lanarks12-15.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks12-ballots/n-lanarks12-16.blt,5,EBBB,2,2,1,152,848,0,0,1000,0,0,0
+n-lanarks12-ballots/n-lanarks12-17.blt,7,EEEEEE,1,2,2,890,110,0,0,899,101,0,0
+n-lanarks12-ballots/n-lanarks12-18.csv,9,AAAAAAAA,1,2,2,725,275,0,0,945,55,0,0
+n-lanarks12-ballots/n-lanarks12-19.blt,6,DDDDD,1,2,2,985,15,0,0,985,15,0,0
+n-lanarks12-ballots/n-lanarks12-20.blt,6,DDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks17-ballots/n-lanarks17-001.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks17-ballots/n-lanarks17-002.blt,10,EEEEEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks17-ballots/n-lanarks17-003.blt,9,CCCCCCCC,1,2,2,807,193,0,0,994,6,0,0
+n-lanarks17-ballots/n-lanarks17-004.blt,8,EEEEEEE,1,2,2,611,389,0,0,997,3,0,0
+n-lanarks17-ballots/n-lanarks17-005.blt,6,AFFFF,2,3,2,3,992,5,0,755,245,0,0
+n-lanarks17-ballots/n-lanarks17-006.blt,7,BBBBBB,1,2,2,504,496,0,0,999,1,0,0
+n-lanarks17-ballots/n-lanarks17-007.blt,8,CCEEEEE,2,2,2,495,505,0,0,752,248,0,0
+n-lanarks17-ballots/n-lanarks17-008.blt,8,BFFFFFF,2,3,3,67,930,3,0,959,40,1,0
+n-lanarks17-ballots/n-lanarks17-009.blt,8,CCCCCCC,1,2,2,995,5,0,0,996,4,0,0
+n-lanarks17-ballots/n-lanarks17-010.blt,5,AAAA,1,2,2,800,200,0,0,864,136,0,0
+n-lanarks17-ballots/n-lanarks17-011.blt,8,CCCCCCC,1,2,2,995,5,0,0,995,5,0,0
+n-lanarks17-ballots/n-lanarks17-012.blt,8,BBBBBBB,1,3,2,699,290,11,0,988,12,0,0
+n-lanarks17-ballots/n-lanarks17-013.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks17-ballots/n-lanarks17-014.blt,5,BBBB,1,2,1,833,167,0,0,1000,0,0,0
+n-lanarks17-ballots/n-lanarks17-015.blt,7,DDDDDD,1,2,2,924,76,0,0,945,55,0,0
+n-lanarks17-ballots/n-lanarks17-016.blt,5,DDDD,1,2,2,791,209,0,0,997,3,0,0
+n-lanarks17-ballots/n-lanarks17-017.blt,7,BGGCCC,3,3,2,305,478,217,0,676,324,0,0
+n-lanarks17-ballots/n-lanarks17-018.blt,6,CCBBB,2,3,3,143,787,70,0,375,616,9,0
+n-lanarks17-ballots/n-lanarks17-019.blt,12,GGGGGGGGGGG,1,2,1,994,6,0,0,1000,0,0,0
+n-lanarks17-ballots/n-lanarks17-020.blt,9,CCCCCCCC,1,2,2,995,5,0,0,995,5,0,0
+n-lanarks17-ballots/n-lanarks17-021.blt,7,CCCCCC,1,2,2,947,53,0,0,947,53,0,0
+n-lanarks22/Preference Profile Ward 1 Kilsyth.csv,7,CAAAAA,2,3,2,433,522,45,0,924,76,0,0
+n-lanarks22/Preference Profile Ward 10 Coatbridge West.csv,6,CCCCC,1,2,2,853,147,0,0,996,4,0,0
+n-lanarks22/Preference Profile Ward 11 Coatbridge South.csv,7,BBBBBB,1,2,2,973,27,0,0,987,13,0,0
+n-lanarks22/Preference Profile Ward 12 Airdrie South.csv,5,AAAA,1,2,2,853,147,0,0,853,147,0,0
+n-lanarks22/Preference Profile Ward 13 Fortissat.csv,7,EEEEEE,1,2,2,781,219,0,0,999,1,0,0
+n-lanarks22/Preference Profile WArd 14 Thorniewood.csv,5,EDDD,2,2,2,12,988,0,0,695,305,0,0
+n-lanarks22/Preference Profile WArd 15 Bellshill.csv,7,ECCCCC,2,2,2,247,753,0,0,796,204,0,0
+n-lanarks22/Preference Profile Ward 16 Mossend and Holytown.csv,6,EEEEE,1,2,2,808,192,0,0,906,94,0,0
+n-lanarks22/Preference Profile Ward 17 Motherwell West.csv,6,AAAAA,1,2,2,816,184,0,0,829,171,0,0
+n-lanarks22/Preference Profile Ward 18 Motherwell North.csv,6,BBBBB,1,2,2,947,53,0,0,969,31,0,0
+n-lanarks22/Preference Profile Ward 19 Motherwell South East and Ravenscraig.csv,8,BBBBBBB,1,2,2,998,2,0,0,998,2,0,0
+n-lanarks22/Preference Profile Ward 2 Cumbernauld North.csv,8,FFFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks22/Preference Profile Ward 20 Murdostoun.csv,7,CCCCCC,1,2,2,983,17,0,0,983,17,0,0
+n-lanarks22/Preference Profile Ward 21 Wishaw.csv,5,BBBB,1,2,2,512,488,0,0,709,291,0,0
+n-lanarks22/Preference Profile Ward 3 Cumbernauld South.csv,9,HHAAAAAA,2,3,3,7,978,15,0,215,776,9,0
+n-lanarks22/Preference Profile WArd 4 Cumbernauld East.csv,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+"n-lanarks22/Preference Profile Ward 5 Stepps, Chryston and Muirhead.csv",7,AAADDD,2,2,2,480,520,0,0,602,398,0,0
+"n-lanarks22/Preference Profile Ward 6 Gartcosh, Glenboig and Moodiesburn.csv",6,CCCCC,1,2,2,994,6,0,0,996,4,0,0
+n-lanarks22/Preference Profile WArd 7 Coatbridge North.csv,9,BBBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+n-lanarks22/Preference Profile Ward 8 Airdrie North.csv,8,BBBBBBB,1,2,2,683,317,0,0,717,283,0,0
+n-lanarks22/Preference Profile WArd 9 Airdrie Central.csv,6,CCAAA,2,3,3,178,806,16,0,607,390,3,0
+orkney12-ballots/orkney12-01.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+orkney12-ballots/orkney12-02.blt,11,GGGGGGGGGG,1,1,1,1000,0,0,0,1000,0,0,0
+orkney12-ballots/orkney12-03.blt,7,FFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+orkney12-ballots/orkney12-04.blt,9,DDDDDDDD,1,2,1,999,1,0,0,1000,0,0,0
+orkney12-ballots/orkney12-05.blt,7,EEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+orkney12-ballots/orkney12-06.blt,4,BBB,1,1,1,1000,0,0,0,1000,0,0,0
+orkney17-ballots/orkney17-01.blt,8,DDDDDDD,1,2,2,843,157,0,0,862,138,0,0
+orkney17-ballots/orkney17-02.blt,7,EEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+orkney17-ballots/orkney17-04.blt,7,CAAAAA,2,2,2,461,539,0,0,748,252,0,0
+orkney17-ballots/orkney17-05.blt,5,BBBB,1,1,1,1000,0,0,0,1000,0,0,0
+orkney17-ballots/orkney17-06.blt,8,EEEEEEE,1,2,2,597,403,0,0,738,262,0,0
+orkney22/ward1.blt,5,DBBB,2,3,2,95,861,44,0,837,163,0,0
+orkney22/ward2.blt,8,EEEEEEE,1,3,3,629,350,21,0,710,279,11,0
+orkney22/ward3.blt,6,EEEEE,1,2,2,928,72,0,0,960,40,0,0
+orkney22/ward4.blt,6,DDDDD,1,2,2,964,36,0,0,999,1,0,0
+orkney22/ward5.blt,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+orkney22/ward6.blt,5,EEEE,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross12-ballots/perth-kinross12-01.blt,5,DEEE,2,3,2,1,931,68,0,931,69,0,0
+perth-kinross12-ballots/perth-kinross12-02.blt,7,DCCCCC,2,3,2,108,815,77,0,914,86,0,0
+perth-kinross12-ballots/perth-kinross12-03.blt,5,AAAA,1,2,1,561,439,0,0,1000,0,0,0
+perth-kinross12-ballots/perth-kinross12-04.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross12-ballots/perth-kinross12-05.blt,5,ECCC,2,3,2,142,854,4,0,996,4,0,0
+perth-kinross12-ballots/perth-kinross12-06.blt,6,FBBBB,2,2,2,163,837,0,0,907,93,0,0
+perth-kinross12-ballots/perth-kinross12-07.blt,5,CCCC,1,2,2,687,313,0,0,810,190,0,0
+perth-kinross12-ballots/perth-kinross12-08.blt,9,EIIIIIII,2,3,3,157,771,72,0,769,224,7,0
+perth-kinross12-ballots/perth-kinross12-09.blt,6,EAAAA,2,2,2,58,942,0,0,943,57,0,0
+perth-kinross12-ballots/perth-kinross12-10.blt,8,HHHHHHH,1,2,2,984,16,0,0,998,2,0,0
+perth-kinross12-ballots/perth-kinross12-11.blt,7,CCCCCC,1,2,2,996,4,0,0,996,4,0,0
+perth-kinross12-ballots/perth-kinross12-12.blt,8,BBBBBBB,1,2,2,648,352,0,0,974,26,0,0
+perth-kinross17-ballots/perth-kinross17-01.blt,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross17-ballots/perth-kinross17-02.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross17-ballots/perth-kinross17-03.blt,6,FFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross17-ballots/perth-kinross17-04.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross17-ballots/perth-kinross17-05.blt,7,CCCCCC,1,2,2,987,13,0,0,996,4,0,0
+perth-kinross17-ballots/perth-kinross17-06.blt,8,FFFAAAA,2,2,2,221,779,0,0,221,779,0,0
+perth-kinross17-ballots/perth-kinross17-07.blt,8,EEEEEEE,1,2,2,977,23,0,0,987,13,0,0
+perth-kinross17-ballots/perth-kinross17-08.blt,8,EEEEEFF,2,2,2,391,609,0,0,391,609,0,0
+perth-kinross17-ballots/perth-kinross17-09.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross17-ballots/perth-kinross17-10.blt,8,HHHHHHH,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross17-ballots/perth-kinross17-11.blt,8,CCCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross17-ballots/perth-kinross17-12.blt,8,AAAAAAA,1,2,2,937,63,0,0,958,42,0,0
+perth-kinross22 (pdfs)/Ward1.csv,8,AAAAAAA,1,3,3,731,232,37,0,844,153,3,0
+perth-kinross22 (pdfs)/Ward10.csv,7,AAAAAA,1,2,2,994,6,0,0,994,6,0,0
+perth-kinross22 (pdfs)/Ward11.csv,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+perth-kinross22 (pdfs)/Ward12.csv,9,CCCCCCCC,1,2,2,989,11,0,0,989,11,0,0
+perth-kinross22 (pdfs)/Ward2.csv,7,FFFFFF,1,2,2,970,30,0,0,975,25,0,0
+perth-kinross22 (pdfs)/Ward3.csv,9,IIIIIIII,1,2,2,717,283,0,0,908,92,0,0
+perth-kinross22 (pdfs)/Ward4.csv,8,AHHHHHH,2,4,3,94,820,85,1,710,281,9,0
+perth-kinross22 (pdfs)/Ward5.csv,5,DDDD,1,2,1,987,13,0,0,1000,0,0,0
+perth-kinross22 (pdfs)/Ward6.csv,6,EAAAA,2,3,2,352,619,29,0,815,185,0,0
+perth-kinross22 (pdfs)/Ward7.csv,6,AAAAA,1,2,2,998,2,0,0,998,2,0,0
+perth-kinross22 (pdfs)/Ward8.csv,8,HFFFFFF,2,3,3,31,947,22,0,733,266,1,0
+perth-kinross22 (pdfs)/Ward9.csv,6,BCCCC,2,2,2,11,989,0,0,999,1,0,0
+renfs12-ballots/renfs12-01.blt,7,FFFFFF,1,2,2,882,118,0,0,946,54,0,0
+renfs12-ballots/renfs12-02.blt,7,FCCCCC,2,2,2,405,595,0,0,960,40,0,0
+renfs12-ballots/renfs12-03.blt,7,FFFFFF,1,2,2,904,96,0,0,960,40,0,0
+renfs12-ballots/renfs12-04.blt,8,CCCCCCC,1,2,2,994,6,0,0,999,1,0,0
+renfs12-ballots/renfs12-05.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+renfs12-ballots/renfs12-06.blt,7,AEEEEE,2,3,2,220,767,13,0,985,15,0,0
+renfs12-ballots/renfs12-07.blt,8,GGGGGGG,1,2,2,698,302,0,0,821,179,0,0
+renfs12-ballots/renfs12-08.blt,8,BBBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+renfs12-ballots/renfs12-09.blt,7,BBBBBB,1,2,2,979,21,0,0,994,6,0,0
+renfs12-ballots/renfs12-10.blt,6,DAAAA,2,3,3,459,528,13,0,839,160,1,0
+renfs12-ballots/renfs12-11.blt,7,BBBBBB,1,2,2,971,29,0,0,985,15,0,0
+renfs17-ballots/renfs17-01.blt,8,FFFAAAA,2,3,2,398,596,6,0,483,517,0,0
+renfs17-ballots/renfs17-02.blt,7,EEEEEE,1,2,2,992,8,0,0,992,8,0,0
+renfs17-ballots/renfs17-03.blt,9,FAAAAAAA,2,4,3,20,803,174,3,821,176,3,0
+renfs17-ballots/renfs17-04.blt,10,EEEEEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+renfs17-ballots/renfs17-05.blt,7,EEEEEE,1,2,2,958,42,0,0,969,31,0,0
+renfs17-ballots/renfs17-06.blt,9,DDDDDDDD,1,2,2,621,379,0,0,997,3,0,0
+renfs17-ballots/renfs17-07.blt,7,GBBBBB,2,3,2,381,617,2,0,822,178,0,0
+renfs17-ballots/renfs17-08.blt,7,CCCCCC,1,2,2,659,341,0,0,831,169,0,0
+renfs17-ballots/renfs17-09.blt,10,BBBBBBBBB,1,3,2,651,317,32,0,752,248,0,0
+renfs17-ballots/renfs17-10.blt,7,EAAAAA,2,3,3,25,775,200,0,716,282,2,0
+renfs17-ballots/renfs17-11.blt,5,DDDD,1,1,1,1000,0,0,0,1000,0,0,0
+renfs17-ballots/renfs17-12.blt,9,IIIIIIII,1,3,2,669,245,86,0,822,178,0,0
+renfs22/Preference_profile_for_Ward_10_Houston_Crosslee_and_Linwood_copy.csv,5,AAAA,1,2,1,967,33,0,0,1000,0,0,0
+renfs22/Preference_profile_for_Ward_11_Bishopton_Bridge_of_Weir_and_Langbank_copy.csv,5,AAAA,1,2,2,880,120,0,0,925,75,0,0
+renfs22/Preference_profile_for_Ward_12_Erskine_and_Inchinnan_copy.csv,6,EEEEE,1,2,2,904,96,0,0,912,88,0,0
+renfs22/Preference_profile_for_Ward_2_Renfrew_South_and_Gallowhill_copy.csv,5,CCCC,1,2,1,922,78,0,0,1000,0,0,0
+renfs22/Preference_profile_for_Ward_4_Paisley_Northwest_copy.csv,11,DDDDDDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+renfs22/Preference_profile_for_Ward_5_Paisley_East_and_Central_copy.csv,7,EEEEEE,1,2,2,970,30,0,0,985,15,0,0
+renfs22/Preference_profile_for_Ward_6_Paisley_Southeast_copy.csv,9,DDDDDDDD,1,3,2,779,210,11,0,970,30,0,0
+renfs22/Preference_profile_for_Ward_7_Paisley_Southwest_copy.csv,7,EAAAAA,2,3,2,203,771,26,0,954,46,0,0
+renfs22/Preference_profile_for_Ward_8_Johnstone_South_and_Elderslie_copy.csv,6,ABBBB,2,3,3,13,931,56,0,924,75,1,0
+renfs22/Preference_profile_for_Ward_9_Johnstone_North_Kilbarchan_Howwood_and_Lochwinnoch_copy.csv,8,AGAAAAA,2,3,3,325,533,142,0,391,580,29,0
+s-ayrshire12-ballots/s-ayrshire12-01.blt,6,BBBBB,1,3,2,660,339,1,0,999,1,0,0
+s-ayrshire12-ballots/s-ayrshire12-02.blt,6,DBBBB,2,3,2,157,788,55,0,906,94,0,0
+s-ayrshire12-ballots/s-ayrshire12-03.blt,5,BBBB,1,2,2,892,108,0,0,995,5,0,0
+s-ayrshire12-ballots/s-ayrshire12-04.blt,7,CCCCCC,1,3,2,554,377,69,0,841,159,0,0
+s-ayrshire12-ballots/s-ayrshire12-05.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+s-ayrshire12-ballots/s-ayrshire12-06.blt,4,BBB,1,2,2,905,95,0,0,945,55,0,0
+s-ayrshire12-ballots/s-ayrshire12-07.blt,5,AAAA,1,3,2,866,132,2,0,995,5,0,0
+s-ayrshire12-ballots/s-ayrshire12-08.blt,4,AAA,1,1,1,1000,0,0,0,1000,0,0,0
+s-ayrshire17-ballots/s-ayrshire17-01.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+s-ayrshire17-ballots/s-ayrshire17-02.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+s-ayrshire17-ballots/s-ayrshire17-03.blt,6,DAAAA,2,3,2,506,493,1,0,998,2,0,0
+s-ayrshire17-ballots/s-ayrshire17-04.blt,5,CCCC,1,2,2,997,3,0,0,997,3,0,0
+s-ayrshire17-ballots/s-ayrshire17-05.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+s-ayrshire17-ballots/s-ayrshire17-06.blt,4,DDD,1,2,2,999,1,0,0,999,1,0,0
+s-ayrshire17-ballots/s-ayrshire17-07.blt,5,AAAA,1,2,2,972,28,0,0,973,27,0,0
+s-ayrshire17-ballots/s-ayrshire17-08.blt,6,AAAAA,1,2,1,996,4,0,0,1000,0,0,0
+s-ayrshire22/PreferenceProfile_V0001_Ward-1---Troon_06052022_142627.csv,8,EEEEEEE,1,3,3,621,349,30,0,629,368,3,0
+s-ayrshire22/PreferenceProfile_V0001_Ward-2---Prestwick_06052022_142624.csv,8,BBBBCCC,2,2,2,421,579,0,0,422,578,0,0
+s-ayrshire22/PreferenceProfile_V0001_Ward-4---Ayr-East_06052022_142626.csv,9,CCCCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+s-ayrshire22/PreferenceProfile_V0001_Ward-5---Ayr-West_06052022_142628.csv,9,BBBBBBBB,1,2,2,740,260,0,0,741,259,0,0
+s-ayrshire22/PreferenceProfile_V0001_Ward-6---Kyle_06052022_142627.csv,6,CCCCC,1,2,2,678,322,0,0,795,205,0,0
+s-ayrshire22/PreferenceProfile_V0001_Ward-7---Maybole-North-Carrick-and-Coylton_06052022_142628.csv,6,CCCCC,1,2,2,571,429,0,0,782,218,0,0
+s-ayrshire22/PreferenceProfile_V0001_Ward-8---Girvan-and-South-Carrick_06052022_142628.csv,7,AAAAAA,1,2,1,999,1,0,0,1000,0,0,0
+s-ayrshire22/PreferenceProfile_V0009_Ward-3---Ayr-North_10052022_111313.csv,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks12-ballots/s-lanarks12-01.blt,9,DDDDDDDD,1,2,2,998,2,0,0,999,1,0,0
+s-lanarks12-ballots/s-lanarks12-02.blt,6,BBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks12-ballots/s-lanarks12-03.blt,6,BBBBB,1,2,2,859,141,0,0,957,43,0,0
+s-lanarks12-ballots/s-lanarks12-04.blt,6,BBBBB,1,2,2,829,171,0,0,949,51,0,0
+s-lanarks12-ballots/s-lanarks12-05.blt,11,CCCCCCCCCC,1,2,2,986,14,0,0,988,12,0,0
+s-lanarks12-ballots/s-lanarks12-06.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks12-ballots/s-lanarks12-07.blt,6,ABBBB,2,2,2,388,612,0,0,962,38,0,0
+s-lanarks12-ballots/s-lanarks12-08.blt,8,DDDDDDD,1,2,2,821,179,0,0,925,75,0,0
+s-lanarks12-ballots/s-lanarks12-09.blt,6,EFFFF,2,3,2,305,646,49,0,943,57,0,0
+s-lanarks12-ballots/s-lanarks12-10.blt,6,BBBBB,1,3,2,704,292,4,0,908,92,0,0
+s-lanarks12-ballots/s-lanarks12-11.blt,6,EEEEE,1,2,1,663,337,0,0,1000,0,0,0
+s-lanarks12-ballots/s-lanarks12-12.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks12-ballots/s-lanarks12-13.blt,6,BBBBB,1,2,1,999,1,0,0,1000,0,0,0
+s-lanarks12-ballots/s-lanarks12-14.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks12-ballots/s-lanarks12-15.blt,10,BBBBBBBBB,1,2,1,992,8,0,0,1000,0,0,0
+s-lanarks12-ballots/s-lanarks12-16.blt,4,CCC,1,2,2,523,477,0,0,879,121,0,0
+s-lanarks12-ballots/s-lanarks12-17.blt,7,FFFFFF,1,2,2,847,153,0,0,951,49,0,0
+s-lanarks12-ballots/s-lanarks12-18.blt,7,AAAAAA,1,2,2,608,392,0,0,981,19,0,0
+s-lanarks12-ballots/s-lanarks12-19.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks12-ballots/s-lanarks12-20.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks17-ballots/s-lanarks17-01.blt,8,AAAAAAA,1,3,3,241,722,37,0,660,337,3,0
+s-lanarks17-ballots/s-lanarks17-02.blt,7,CFFFFF,2,3,3,359,620,21,0,863,135,2,0
+s-lanarks17-ballots/s-lanarks17-03.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks17-ballots/s-lanarks17-04.blt,9,FCCCCCCC,2,4,3,46,922,31,1,968,31,1,0
+s-lanarks17-ballots/s-lanarks17-05.blt,8,AAAAAAA,1,2,2,948,52,0,0,950,50,0,0
+s-lanarks17-ballots/s-lanarks17-06.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks17-ballots/s-lanarks17-07.blt,7,AAAAAA,1,2,2,969,31,0,0,991,9,0,0
+s-lanarks17-ballots/s-lanarks17-08.blt,8,CCCCCCC,1,3,2,842,151,7,0,936,64,0,0
+s-lanarks17-ballots/s-lanarks17-09.blt,7,AAAAAA,1,2,2,980,20,0,0,986,14,0,0
+s-lanarks17-ballots/s-lanarks17-10.blt,8,DDDDDDD,1,2,2,684,316,0,0,980,20,0,0
+s-lanarks17-ballots/s-lanarks17-11.blt,6,EAAAA,2,2,2,467,533,0,0,999,1,0,0
+s-lanarks17-ballots/s-lanarks17-12.blt,7,BBBBBB,1,2,2,637,363,0,0,644,356,0,0
+s-lanarks17-ballots/s-lanarks17-13.blt,8,HAHHHHH,2,3,3,243,713,44,0,421,578,1,0
+s-lanarks17-ballots/s-lanarks17-14.blt,8,AAAAAAA,1,2,2,575,425,0,0,670,330,0,0
+s-lanarks17-ballots/s-lanarks17-15.blt,8,FFFFFFF,1,2,2,953,47,0,0,971,29,0,0
+s-lanarks17-ballots/s-lanarks17-16.blt,6,CCCCC,1,2,2,715,285,0,0,715,285,0,0
+s-lanarks17-ballots/s-lanarks17-17.blt,8,FCGGGGG,3,3,2,158,593,249,0,645,355,0,0
+s-lanarks17-ballots/s-lanarks17-18.blt,7,AAABBB,2,3,2,408,533,59,0,496,504,0,0
+s-lanarks17-ballots/s-lanarks17-19.blt,7,FFCCCC,2,2,2,333,667,0,0,469,531,0,0
+s-lanarks17-ballots/s-lanarks17-20.blt,9,HCCCCCCC,2,3,2,4,951,45,0,897,103,0,0
+s-lanarks22/ward_1_clydesdale_west_preference_profile.txt,7,DDDDDD,1,2,1,426,574,0,0,1000,0,0,0
+s-lanarks22/ward_10_east_kilbride_east_preference_profile.txt,7,AAAAAA,1,2,2,821,179,0,0,946,54,0,0
+s-lanarks22/ward_11_rutherglen_south_preference_profile.txt,7,DAAAAA,2,3,2,156,843,1,0,985,15,0,0
+s-lanarks22/ward_12_rutherglen_central_and_north_preference_profile.txt,7,EEEEEE,1,2,2,642,358,0,0,717,283,0,0
+s-lanarks22/ward_13_cambuslang_west_preference_profile.txt,6,FFFFF,1,2,2,831,169,0,0,853,147,0,0
+s-lanarks22/ward_14_cambuslang_east_preference_profile.txt,8,BBBBBBB,1,3,2,720,277,3,0,919,81,0,0
+s-lanarks22/ward_15_blantyre_preference_profile.txt,7,AEEEEE,2,2,2,265,735,0,0,852,148,0,0
+s-lanarks22/ward_16_bothwell_and_uddingston_preference_profile.txt,6,CCCCC,1,2,2,886,114,0,0,998,2,0,0
+s-lanarks22/ward_17_hamilton_north_and_east_preference_profile.txt,6,DDDDD,1,2,2,802,198,0,0,881,119,0,0
+s-lanarks22/ward_18_hamilton_west_and_earnock_preference_profile.txt,7,AAAAAA,1,2,2,811,189,0,0,815,185,0,0
+s-lanarks22/ward_19_hamilton_south_preference_profile.txt,5,DBBB,2,3,2,85,912,3,0,973,27,0,0
+s-lanarks22/ward_2_clydesdale_north_preference_profile.txt,5,DDDD,1,2,2,548,452,0,0,998,2,0,0
+s-lanarks22/ward_20_larkhall_preference_profile.txt,9,BBBBBBBB,1,3,2,630,369,1,0,999,1,0,0
+s-lanarks22/ward_3_clydesdale_east_preference_profile.txt,8,EAAAAAA,2,2,2,201,799,0,0,944,56,0,0
+s-lanarks22/ward_4_clydesdale_south_preference_profile.txt,8,CCCCCCC,1,2,2,769,231,0,0,774,226,0,0
+s-lanarks22/ward_5_avondale_and_stonehouse_preference_profile.txt,7,CCCCCC,1,3,2,830,164,6,0,987,13,0,0
+s-lanarks22/ward_6_east_kilbride_south_preference_profile.txt,9,AAAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+s-lanarks22/ward_7_east_kilbride_central_south_preference_profile.txt,9,AAAAAAAA,1,2,2,935,65,0,0,987,13,0,0
+s-lanarks22/ward_8_east_kilbride_central_north_preference_profile.txt,7,DDDDDD,1,2,2,710,290,0,0,755,245,0,0
+s-lanarks22/ward_9_east_kilbride_west_preference_profile.txt,8,DDDDDDD,1,2,2,988,12,0,0,992,8,0,0
+sc-borders12-ballots/sc-borders12-01.blt,6,BBBBB,1,2,2,645,355,0,0,999,1,0,0
+sc-borders12-ballots/sc-borders12-02.blt,6,AAAAA,1,2,2,796,204,0,0,889,111,0,0
+sc-borders12-ballots/sc-borders12-03.blt,7,AAAAAA,1,2,2,633,367,0,0,700,300,0,0
+sc-borders12-ballots/sc-borders12-04.blt,6,ACCCC,2,3,3,87,866,47,0,641,357,2,0
+sc-borders12-ballots/sc-borders12-05.blt,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders12-ballots/sc-borders12-06.blt,5,DDDD,1,2,2,993,7,0,0,994,6,0,0
+sc-borders12-ballots/sc-borders12-07.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders12-ballots/sc-borders12-08.blt,8,HHHHHHH,1,2,2,774,226,0,0,948,52,0,0
+sc-borders12-ballots/sc-borders12-09.blt,7,BBBBBB,1,3,3,727,262,11,0,784,214,2,0
+sc-borders12-ballots/sc-borders12-10.blt,7,FFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders12-ballots/sc-borders12-11.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders17/sc-borders17-01.blt,8,AHHHHHH,2,3,2,113,784,103,0,891,109,0,0
+sc-borders17/sc-borders17-02.blt,5,BBBB,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders17/sc-borders17-03.blt,8,DDDDDDD,1,2,2,882,118,0,0,909,91,0,0
+sc-borders17/sc-borders17-04.blt,9,BBBBBBBB,1,2,1,980,20,0,0,1000,0,0,0
+sc-borders17/sc-borders17-05.blt,7,FFFFFF,1,2,2,952,48,0,0,958,42,0,0
+sc-borders17/sc-borders17-06.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders17/sc-borders17-07.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders17/sc-borders17-08.blt,8,HHHHHHH,1,2,2,916,84,0,0,969,31,0,0
+sc-borders17/sc-borders17-09.blt,7,EBBBBB,2,2,2,426,574,0,0,806,194,0,0
+sc-borders17/sc-borders17-10.blt,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders17/sc-borders17-11.blt,4,AAA,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders22/Ward_1___Tweeddale_West___Preferene.csv,6,FFBBB,2,3,2,73,926,1,0,312,688,0,0
+sc-borders22/Ward_10___Preference.csv,6,DDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders22/Ward_11___Preference.csv,7,EEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders22/Ward_2___Tweeddale_East___Preference.csv,7,CCGGGG,2,2,2,368,632,0,0,385,615,0,0
+sc-borders22/Ward_3___Preferences.csv,9,GGGGGGGG,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders22/Ward_4___Preference.csv,6,AAAAA,1,2,1,999,1,0,0,1000,0,0,0
+sc-borders22/Ward_5___Preference.csv,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders22/Ward_6__Preference.csv,7,BBBBBB,1,2,1,900,100,0,0,1000,0,0,0
+sc-borders22/Ward_7___Preference.csv,8,CCCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+sc-borders22/Ward_8___Preference.csv,7,EGGEEE,2,3,3,235,760,5,0,454,544,2,0
+sc-borders22/Ward_9___Preference.csv,7,CCCCCC,1,2,1,999,1,0,0,1000,0,0,0
+scottish by-elections/Aberdeen City Torry-Ferryhill Ward by election 2019.csv,7,FFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/Aberdeenshire 2020 by-election Ellon and District.csv,5,EEEE,1,2,2,810,190,0,0,916,84,0,0
+scottish by-elections/Aberdeenshire 2021 by-election East Garioch.csv,5,BBBB,1,2,2,998,2,0,0,998,2,0,0
+scottish by-elections/aberdeenshire by-election 2016 Banff and District.csv,3,CC,1,2,1,998,2,0,0,1000,0,0,0
+scottish by-elections/aberdeenshire by-election 2016 inverurie and district.csv,4,CCC,1,2,1,938,62,0,0,1000,0,0,0
+scottish by-elections/aberdeenshire by-election 2017 inverurie.csv,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/Argyll Bute by-election 2021 Lomond North.csv,4,AAA,1,2,2,970,30,0,0,970,30,0,0
+scottish by-elections/Argyll Bute by-election Isle of Bute 2021.csv,5,AAAD,2,3,2,479,520,1,0,508,492,0,0
+scottish by-elections/clackmannanshire 2019 by-election ward 3 central.csv,6,DDDDD,1,2,2,983,17,0,0,985,15,0,0
+scottish by-elections/East Lothian 2019 by-election Ward 5 haddington.csv,5,DDDD,1,2,2,963,37,0,0,978,22,0,0
+scottish by-elections/East Lothian 2022 by-election ward 2.blt,6,FFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/edinburgh 2019 by-election Leith Walk.csv,11,HHHHHHHHHH,1,2,2,891,109,0,0,896,104,0,0
+scottish by-elections/edinburgh by-election 2015 Leith Walk.csv,10,HHHHHHHHH,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/Falkirk 2018 by-election bonnybridge.csv,5,AAAA,1,2,1,989,11,0,0,1000,0,0,0
+scottish by-elections/Falkirk 2021 by-election South.csv,4,DDD,1,2,2,727,273,0,0,918,82,0,0
+scottish by-elections/Glasgow by-election 2021 Ward 23 Partick East-Kelvindale.csv,6,CCDDD,2,2,2,321,679,0,0,544,456,0,0
+scottish by-elections/Highland 2021 by-election Aird Ward 3.csv,6,BBBBB,1,3,3,527,472,1,0,998,1,1,0
+scottish by-elections/Highland 2021 by-election Fort William.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/highland 2021 by-election Inverness West.csv,7,FAAAAA,2,2,2,279,721,0,0,912,88,0,0
+scottish by-elections/Highland 2021 by-election Wick.csv,5,EEEE,1,3,2,698,294,8,0,936,64,0,0
+scottish by-elections/Perth Kinross 2015 by-election Ward 12.csv,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/Perth Kinross 2016 by-election ward 9.csv,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/Perth Kinross 2017 by-election Ward 10.csv,6,ECCCC,2,3,2,324,641,35,0,901,99,0,0
+scottish by-elections/Perth Kinross 2018 by-election Ward 4.csv,7,BBBBBB,1,2,2,998,2,0,0,999,1,0,0
+scottish by-elections/Perth Kinross by-election 2020 South.csv,6,FAAAA,2,3,2,327,666,7,0,971,29,0,0
+scottish by-elections/Scottish Borders 2021 by-elction Ward 5.csv,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/South Lanarkshire 2019 by-election East Kilbride.csv,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/West Lothian 2021 by-election Ward_4.csv,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+scottish by-elections/West Lothian 2021 by-election Ward_5.csv,6,FFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+shetland12-ballots/shetland12-01.blt,5,CCCC,1,2,2,986,14,0,0,986,14,0,0
+shetland12-ballots/shetland12-02.blt,7,EEEEEE,1,2,2,986,14,0,0,991,9,0,0
+shetland12-ballots/shetland12-03.blt,7,FFFFFF,1,2,2,999,1,0,0,999,1,0,0
+shetland12-ballots/shetland12-04.blt,6,DDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+shetland12-ballots/shetland12-05.blt,4,AAA,1,1,1,1000,0,0,0,1000,0,0,0
+shetland12-ballots/shetland12-06.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+shetland12-ballots/shetland12-07.blt,7,GGGGGG,1,1,1,1000,0,0,0,1000,0,0,0
+shetland17/shetland17-01.blt,5,DEEE,2,3,2,95,789,116,0,782,218,0,0
+shetland17/shetland17-02.blt,4,DDD,1,1,1,1000,0,0,0,1000,0,0,0
+shetland17/shetland17-03.blt,6,EEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+shetland17/shetland17-04.blt,5,DDDD,1,2,2,991,9,0,0,994,6,0,0
+shetland17/shetland17-06.blt,4,AAA,1,1,1,1000,0,0,0,1000,0,0,0
+shetland17/shetland17-07.blt,5,BEEE,2,2,2,267,733,0,0,624,376,0,0
+shetland22/ward-3-shetland-west-preference-profile.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+shetland22/ward-4-shetland-central-preference-profile.blt,6,BBBBB,1,2,2,997,3,0,0,999,1,0,0
+shetland22/ward-5-lerwick-north-and-bressay-preference-profile.blt,5,BBBB,1,2,2,635,365,0,0,955,45,0,0
+shetland22/ward-6-lerwick-south-preference-profile.blt,7,DDDDDD,1,2,2,908,92,0,0,985,15,0,0
+shetland22/ward-7-shetland-south-preference-profile.blt,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+stirling12-ballots/stirling12-01.blt,6,BCCCC,2,3,2,2,979,19,0,978,22,0,0
+stirling12-ballots/stirling12-02.blt,8,AGGGGGG,2,3,2,38,823,139,0,848,152,0,0
+stirling12-ballots/stirling12-03.blt,6,CCCCC,1,3,2,952,47,1,0,987,13,0,0
+stirling12-ballots/stirling12-04.blt,8,GGGCCCC,2,3,3,549,431,20,0,792,201,7,0
+stirling12-ballots/stirling12-05.blt,4,CCC,1,2,2,927,73,0,0,934,66,0,0
+stirling12-ballots/stirling12-06.blt,6,FECCC,3,3,3,17,856,127,0,817,180,3,0
+stirling12-ballots/stirling12-07.blt,7,CAAAAA,2,2,2,498,502,0,0,911,89,0,0
+stirling17-ballots/stirling17-01.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+stirling17-ballots/stirling17-02.blt,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+stirling17-ballots/stirling17-03.blt,7,EEEEEE,1,2,2,844,156,0,0,905,95,0,0
+stirling17-ballots/stirling17-04.blt,8,EDDDDDD,2,2,1,48,952,0,0,1000,0,0,0
+stirling17-ballots/stirling17-05.blt,6,AAAAA,1,2,2,996,4,0,0,996,4,0,0
+stirling17-ballots/stirling17-06.blt,7,EEEEEE,1,3,2,872,119,9,0,946,54,0,0
+stirling17-ballots/stirling17-07.blt,7,EEEEEE,1,2,2,670,330,0,0,972,28,0,0
+stirling22/preferenceprofile_v0001_ward-1-trossachs-and-teith_06052022_124254.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+stirling22/preferenceprofile_v0001_ward-2-forth-and-endrick_06052022_124253.blt,8,BBEBEEE,2,3,3,459,519,22,0,816,180,4,0
+stirling22/preferenceprofile_v0001_ward-3-dunblane-and-bridge-of-allan_06052022_124253.blt,10,CCCDDDDDD,2,3,3,341,647,12,0,506,483,11,0
+stirling22/preferenceprofile_v0001_ward-4-stirling-north_06052022_124253.blt,7,CCCCCC,1,2,1,891,109,0,0,1000,0,0,0
+stirling22/preferenceprofile_v0001_ward-5-stirling-west_06052022_124253.blt,7,AAABBB,2,3,2,565,430,5,0,758,242,0,0
+stirling22/preferenceprofile_v0001_ward-6-stirling-east_06052022_124253.blt,8,EEEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+stirling22/preferenceprofile_v0001_ward-7-bannockburn_06052022_124254.blt,8,DDDDDDD,1,3,3,893,100,7,0,922,76,2,0
+w-duns12-ballots/w-duns12-01.blt,7,EEEEEE,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns12-ballots/w-duns12-02.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns12-ballots/w-duns12-03.blt,9,DDDDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns12-ballots/w-duns12-04.blt,7,FFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns12-ballots/w-duns12-05.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns12-ballots/w-duns12-06.blt,8,AAAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns17-ballots/w-duns17-01.blt,7,AAFFFF,2,3,2,377,611,12,0,676,324,0,0
+w-duns17-ballots/w-duns17-02.blt,8,BBBBBBB,1,3,2,627,318,55,0,853,147,0,0
+w-duns17-ballots/w-duns17-03.blt,7,CCCCCC,1,2,2,820,180,0,0,827,173,0,0
+w-duns17-ballots/w-duns17-04.blt,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns17-ballots/w-duns17-05.blt,7,CCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns17-ballots/w-duns17-06.blt,9,CCCCCCCC,1,2,2,941,59,0,0,974,26,0,0
+w-duns22/preferenceprofile_v0001_ward-1-lomond_06052022_120102.csv,5,BBDD,2,3,2,76,923,1,0,596,404,0,0
+w-duns22/preferenceprofile_v0001_ward-2-leven_06052022_120059.csv,8,CCGGGGG,2,3,3,412,583,5,0,651,347,2,0
+w-duns22/preferenceprofile_v0001_ward-3-dumbarton_06052022_120059.csv,9,ACCCCCCC,2,2,2,268,732,0,0,989,11,0,0
+w-duns22/preferenceprofile_v0001_ward-4-kilpatrick_06052022_120059.csv,5,BBBB,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns22/preferenceprofile_v0001_ward-5-clydebank-central_06052022_120100.csv,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+w-duns22/preferenceprofile_v0001_ward-6-clydebank-waterfront_06052022_120103.csv,7,CCCCCC,1,2,2,761,239,0,0,761,239,0,0
+w-lothian12-ballots/w-lothian12-01.blt,6,DBBBB,2,2,2,76,924,0,0,968,32,0,0
+w-lothian12-ballots/w-lothian12-02.blt,6,BBBBB,1,3,3,564,403,33,0,787,211,2,0
+w-lothian12-ballots/w-lothian12-03.blt,8,BBBBBBB,1,3,2,935,64,1,0,972,28,0,0
+w-lothian12-ballots/w-lothian12-04.blt,7,BBBBBB,1,1,1,1000,0,0,0,1000,0,0,0
+w-lothian12-ballots/w-lothian12-05.blt,7,EEEEEE,1,2,2,994,6,0,0,994,6,0,0
+w-lothian12-ballots/w-lothian12-06.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+w-lothian12-ballots/w-lothian12-07.blt,8,GGGGGGG,1,2,2,974,26,0,0,998,2,0,0
+w-lothian12-ballots/w-lothian12-08.blt,9,HHIIIIII,2,3,3,354,626,20,0,385,611,4,0
+w-lothian12-ballots/w-lothian12-09.blt,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+w-lothian17-ballots/w-lothian17-01.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+w-lothian17-ballots/w-lothian17-02.blt,9,AAAAAAAA,1,2,2,484,516,0,0,999,1,0,0
+w-lothian17-ballots/w-lothian17-03.blt,8,ACCCCCC,2,3,2,0,962,38,0,943,57,0,0
+w-lothian17-ballots/w-lothian17-04.blt,8,AAAAAAA,1,2,2,989,11,0,0,990,10,0,0
+w-lothian17-ballots/w-lothian17-05.blt,8,EEEEEEE,1,3,3,724,257,19,0,913,86,1,0
+w-lothian17-ballots/w-lothian17-06.blt,7,DDDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+w-lothian17-ballots/w-lothian17-07.blt,7,FFFFFF,1,2,2,960,40,0,0,998,2,0,0
+w-lothian17-ballots/w-lothian17-08.blt,9,CCCCCCCC,1,3,2,732,267,1,0,999,1,0,0
+w-lothian17-ballots/w-lothian17-09.blt,6,AAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+w-lothian22/PreferenceProfile_V0001_Ward-1---Linlithgow_06052022_160231.csv,6,DEEEE,2,3,2,6,976,18,0,850,150,0,0
+w-lothian22/PreferenceProfile_V0001_Ward-2---Broxburn-Uphall-and-Winchburgh_06052022_160218.csv,9,AAAAAAAA,1,2,2,981,19,0,0,982,18,0,0
+w-lothian22/PreferenceProfile_V0001_Ward-3---Livingston-North_06052022_160234.csv,8,CCCCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+w-lothian22/PreferenceProfile_V0001_Ward-4---Livingston-South_06052022_160228.csv,10,GGGGGGGGG,1,2,2,692,308,0,0,747,253,0,0
+w-lothian22/PreferenceProfile_V0001_Ward-5---East-Livingston-and-East-Calder_06052022_160233.csv,10,FFFFFFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+w-lothian22/PreferenceProfile_V0001_Ward-6---Fauldhouse-and-the-Breich-Valley_06052022_160234.csv,8,BGGGGGG,2,3,3,88,877,35,0,763,236,1,0
+w-lothian22/PreferenceProfile_V0001_Ward-7---Whitburn-and-Blackburn_06052022_160234.csv,7,AEEEEE,2,3,2,49,946,5,0,559,441,0,0
+w-lothian22/PreferenceProfile_V0001_Ward-8---Bathgate_06052022_160235.csv,8,BBBBBBB,1,2,2,992,8,0,0,994,6,0,0
+w-lothian22/PreferenceProfile_V0001_Ward-9---Armadale-and-Blackridge_06052022_160235.csv,7,AAAAAA,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2006 Burlington mayor.csv,5,AAAA,1,2,2,997,3,0,0,997,3,0,0
+American elections/2008_Pierce_City_Council_D2.csv,3,CC,1,2,1,999,1,0,0,1000,0,0,0
+American elections/2008_Pierce_County_Executive.csv,4,ACC,2,2,2,319,681,0,0,832,168,0,0
+American elections/2009 Aspen CO city council.csv,9,HHHHHHHH,1,3,3,487,454,59,0,878,121,1,0
+American elections/2009 Aspen Mayor.csv,4,BBB,1,2,2,986,14,0,0,996,4,0,0
+American elections/2009 Burlington mayor.csv,5,ADDD,2,3,2,221,778,1,0,705,295,0,0
+American elections/2009_Pierce_County_Auditor.csv,3,BB,1,2,1,998,2,0,0,1000,0,0,0
+American elections/2009-Minneapolis-Council-Ward-4.csv,4,DDD,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2010 Berkeley City Council D7.csv,4,CCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2010 SF BoS D8.csv,4,CCC,1,2,1,995,5,0,0,1000,0,0,0
+American elections/2011_SF_Sheriff.csv,4,DDD,1,2,2,977,23,0,0,994,6,0,0
+American elections/2012 Oakland City Council D5.csv,4,AAA,1,2,2,994,6,0,0,998,2,0,0
+American elections/2012 Oakland School Director D3.csv,3,CC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2012 San Leandro City Council D2.csv,3,CC,1,2,1,672,328,0,0,1000,0,0,0
+American elections/2012 San Leandro City Council D4.csv,4,CCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2013-Minneapolis-Council-Ward-5.csv,4,CCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2014 Berkeley City Council D8.csv,4,DDD,1,3,2,614,383,3,0,927,73,0,0
+American elections/2014 San Leandro City Council D1.csv,4,AAA,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2014 San Leandro Mayor.csv,3,BB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2015 Telluride CO Mayor.csv,3,CB,2,2,1,430,570,0,0,1000,0,0,0
+American elections/2016 Berkeley City Council D2.csv,3,CA,2,2,1,241,759,0,0,1000,0,0,0
+American elections/2016 Oakland School Director D5.csv,4,CAA,2,2,2,540,460,0,0,947,53,0,0
+American elections/2017-Minneapolis-Council-Ward-5.csv,4,AAA,1,2,1,998,2,0,0,1000,0,0,0
+American elections/2017-Minneapolis-Park-Board-District-1.csv,3,BB,1,2,1,999,1,0,0,1000,0,0,0
+American elections/2017-Minneapolis-Park-District-3.csv,3,AA,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2017-Minneapolis-Park-District-6.csv,4,DDD,1,2,2,806,194,0,0,959,41,0,0
+American elections/2017-Minneapolis-Ward-1.csv,3,AA,1,2,1,944,56,0,0,1000,0,0,0
+American elections/2017-Minneapolis-Ward-11.csv,3,CC,1,2,1,591,409,0,0,1000,0,0,0
+American elections/2017-Minneapolis-Ward-3.csv,4,ADD,2,2,2,29,971,0,0,991,9,0,0
+American elections/2017-Minneapolis-Ward-4.csv,4,DAA,2,2,2,380,620,0,0,936,64,0,0
+American elections/2017-Minneapolis-Ward-9.csv,4,CCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2018 Santa Fe Councilor D4.csv,3,CC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2018 Santa Fe Mayor.csv,5,BBBB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2018 SF BoS D2.csv,4,CCC,1,2,2,886,114,0,0,976,24,0,0
+American elections/2018_Maine_Dem_CD2_primary.csv,4,CCC,1,2,2,993,7,0,0,998,2,0,0
+American elections/2018_Maine_Dem_gov_primary.csv,7,CCCCCC,1,2,2,977,23,0,0,990,10,0,0
+American elections/2018_Maine_House_rep_CD2.csv,4,BCC,2,2,2,759,241,0,0,894,106,0,0
+American elections/2019 Payson Utah City Council seat 1.csv,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2019 SF D5.csv,4,BBB,1,2,2,890,110,0,0,946,54,0,0
+American elections/2019 SF DA.csv,4,DDD,1,2,2,703,297,0,0,886,114,0,0
+"American elections/2019 St Louis Park, City Council at-large A.csv",3,BB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2019 Vineyard Utah City Council seat 1.csv,7,EEEEEE,1,2,2,994,6,0,0,999,1,0,0
+American elections/2020 SF BoS D1.csv,7,GGGGGG,1,2,2,652,348,0,0,870,130,0,0
+American elections/2020 SF BoS D11.csv,3,CC,1,2,1,989,11,0,0,1000,0,0,0
+American elections/2020 SF BoS D7.csv,7,ECCCCC,2,3,3,191,788,21,0,865,130,5,0
+American elections/2020_Maine_D11_Dem_Primary.csv,3,CC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2020_Maine_D41_Dem_Primary.csv,3,BB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2020_Maine_D47_Dem_Primary.csv,3,AA,1,2,1,920,80,0,0,1000,0,0,0
+American elections/2020_Maine_D49_Dem_Primary.csv,3,CC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2020_Maine_D90_Dem_Primary.csv,3,BB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2020_ME_CongressRep_D2_R.csv,3,CC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2021 St. Louis Park Ward 3.csv,3,AA,1,2,1,977,23,0,0,1000,0,0,0
+American elections/2021-Minneapolis-Park-2.csv,3,AA,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/2021-Minneapolis-Park-6.csv,4,DAA,2,2,2,339,661,0,0,986,14,0,0
+American elections/2021-Minneapolis-Ward-1.csv,4,DDD,1,2,2,972,28,0,0,993,7,0,0
+American elections/2021-Minneapolis-Ward-3.csv,4,BBB,1,2,1,981,19,0,0,1000,0,0,0
+American elections/2022 SF DAstreamlined.csv,4,BBB,1,2,2,987,13,0,0,993,7,0,0
+American elections/APA 1998.csv,5,BBBB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 1999.csv,5,AAAA,1,3,2,659,336,5,0,883,117,0,0
+American elections/APA 2000.csv,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2001.csv,5,CCCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2002.csv,5,CCCC,1,2,2,910,90,0,0,940,60,0,0
+American elections/APA 2003.csv,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2004.csv,5,AAAA,1,2,2,999,1,0,0,999,1,0,0
+American elections/APA 2005.csv,5,DEEE,2,2,2,443,557,0,0,884,116,0,0
+American elections/APA 2006.csv,5,BBBB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2007.csv,5,EEEE,1,2,2,787,213,0,0,897,103,0,0
+American elections/APA 2008.csv,5,EEEE,1,2,2,888,112,0,0,962,38,0,0
+American elections/APA 2009.csv,5,CCCC,1,2,2,733,267,0,0,746,254,0,0
+American elections/APA 2017 BOD race1.csv,3,BB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2017 BOD race2.csv,3,BB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2017 President.csv,5,EEEE,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2018 BOD race2.csv,3,BB,1,2,1,822,178,0,0,1000,0,0,0
+American elections/APA 2018 President.csv,5,DDDD,1,2,2,998,2,0,0,998,2,0,0
+American elections/APA 2019 BOD race2.csv,3,BB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2019 President.csv,5,EEEE,1,2,1,999,1,0,0,1000,0,0,0
+American elections/APA 2020 BOD race2.csv,3,AB,2,2,1,487,513,0,0,1000,0,0,0
+American elections/APA 2020 President.csv,5,EEEE,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2021 BOD race1.csv,3,CC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/APA 2021 President.csv,5,BBBB,1,2,2,969,31,0,0,979,21,0,0
+American elections/Berkeley_11032020_MemberCityCouncilDist2BerkeleyRCVstreamlined.csv,4,BBB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Dem Borough President Bronx.csv,5,AAAA,1,2,2,985,15,0,0,992,8,0,0
+American elections/Dem Borough President Queens.csv,3,BB,1,2,1,891,109,0,0,1000,0,0,0
+American elections/Dem Borough President Richmond.csv,5,AAAA,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Dem city council D12.csv,3,AA,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Dem city council D14.csv,6,DDDDD,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Dem city council D19.csv,6,AAAAA,1,2,2,995,5,0,0,996,4,0,0
+American elections/Dem city council D22.csv,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Dem city council D3.csv,6,FFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Dem city council D32.csv,6,EEEEE,1,2,2,693,307,0,0,911,89,0,0
+American elections/Dem city council D36.csv,5,DDDD,1,2,2,993,7,0,0,993,7,0,0
+American elections/Dem city council D37.csv,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Dem city council D38.csv,6,CCCCC,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Dem city council D42.csv,4,AAA,1,2,2,992,8,0,0,995,5,0,0
+American elections/Dem city council D47.csv,4,AAA,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Dem city council D48.csv,5,EEEE,1,2,2,977,23,0,0,999,1,0,0
+American elections/LasCruces_11052019_MAYORCITYOFLASCRUCESstreamlined.csv,10,HHHHHHHHH,1,2,2,999,1,0,0,999,1,0,0
+American elections/Oakland_11032020_MemberCityCouncilDist3OaklandRCVstreamlined.csv,6,FFFFF,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Oakland_11032020_MemberCityCouncilDist7OaklandRCVstreamlined.csv,5,DDDD,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Oakland_11032020_SchoolDirectorDist3OaklandRCVstreamlined.csv,5,BBBB,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Oakland_11032020_SchoolDirectorDist5OaklandRCVstreamlined.csv,4,DDD,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Oakland_11032020_SchoolDirectorDist7OaklandRCVstreamlined.csv,5,DDDD,1,2,2,962,38,0,0,979,21,0,0
+American elections/Portland_06142022_Schoolboarddistrict5streamlined.csv,5,EEEE,1,1,1,1000,0,0,0,1000,0,0,0
+American elections/Rep Borough President Richmond.csv,4,CCC,1,2,2,864,136,0,0,975,25,0,0
+American elections/Rep city council D50.csv,5,AACC,2,2,2,619,381,0,0,814,186,0,0

@@ -27,7 +27,7 @@ We ran simulations to investigate the possible effects of ballot truncation in d
 
 Then from the 1000 pseudoprofiles, we found the maximum number of different RCV winners as we vary the TL.
 
-## Files
+### Files
 
 The following files are included in the ElectionFiles folder.
 
@@ -41,12 +41,13 @@ kable(files)
 
 All of the American election files have the following format:
 
-* The ballot column is the voter's ballot which gives their preferences 
+* The ballot column is the voter's ballot which gives their preferences. 
 * The Count column is the number of voters who voted with the given preferences.
-* The number of candidates in the election is given in the third column.
-* The candidates are listed in the last column.  All of these files have candidates listed simply as A, B, C, D, etc.
+* The number of candidates in the election is given in the first row of the Num Cands column.
+* The candidates are listed in the first row of the Cand List column.  All of these files have candidates listed simply as A, B, C, D, etc.
 
 ```{r}
+files[[1]]
 American1 <- read_csv(files[[1]])
 head(American1)
 tail(American1)
@@ -55,18 +56,26 @@ tail(American1)
 All of the Scottish election files have the following format:
 
 * The first line gives the number of candidates and the number of seats being filled in the election
-* The next lines until the last few lines give the Count and the voter preferences in order where 1 is the first candidate, 2 is the second candidate, etc.  The list of candidates are given at the end of the file.  Thus the line 9 5 4 3 0 means 9 voters ranked candidate 5 first, candidate 4 second, and candidate 3 third.
+* The next lines until the last few lines give the Count and the voter preferences in order where 1 is the first candidate, 2 is the second candidate, etc.  Thus the line 9 5 4 3 0 means 9 voters ranked candidate 5 first, candidate 4 second, and candidate 3 third.  Each of the lines end in a 0.
+* The last few lines list the names of the candidates and the election.
 
 ```{r}
-Scottish1 <- read_csv(files[[2]])
+files[[2]]
+Scottish1 <- read_csv(files[[2]], col_names = FALSE)
 head(Scottish1)
 tail(Scottish1, n=12)
 ```
 
-## Fix Data
+### Functions
 
-We wrote a function so the Scottish data was in the same format as the American data.
+* Fix_Scottish_data_function: 
+  + Input:  file name
+  + Output:  Scottish data in the same format as the American data, Candidates
 
+* Fix_American_data_function:
+  + Input:  file name
+  + Output:  American data, Candidates
+  
 ```{r}
 #########################
 # Fix_Scottish_data_function
@@ -82,12 +91,10 @@ Fix_Scottish_data_function <- function(file) {
     my_data <- my_data[- length(my_data)]
   }
   
-  ## remove first and last lines
   first_line <- my_data[[1]] %>%
     str_subset(".+") %>%
     str_split("\\s")
-  #first_line
-  
+
   ## Read in the file and get the number of lines for the data and number of seats
   Remove_Lines <- strtoi(first_line[[1]][[1]]) + 2
   ###Num_seats <- strtoi(first_line[[1]][[2]])
@@ -141,23 +148,46 @@ Fix_Scottish_data_function <- function(file) {
     transmute(ballot = newballot, Count = votes)
   return(list(my_df, Num_Cands))
 }
+
+#########################
+# Fix_American_data_function
+### input:  file name
+### output: clean data frame to match American data, candidates
+#########################
+
+Fix_American_data_function <- function(file) {
+  my_data <- read_csv(file, col_select = c(ballot, Count, 'Num Cands'))
+  Num_Cands <- my_data[[3]][[1]]
+  my_df <- my_data %>%
+    select(ballot, Count)
+  return(list(my_df, Num_Cands))
+}
 ```
+
+#### Example:
 
 Here is the same Scottish election as before but in our fixed format.
 
 ```{r} 
+files[[2]]
 output <- Fix_Scottish_data_function(files[[2]])
 head(output[[1]])
 tail(output[[1]])
+```
+
+And the number of candidates for this election is:
+```{r}
 output[[2]]
 ```
 
-Since the formats for the different elections are very different, we will separate the files into American and Scottish.
 
-```{r}
-AmericanFiles <- files[c(1,5)]
-ScottishFiles <- files[2:4]
-```
+* Scottish_Candidate_function
+  + Input:  fileNumber
+  + Output:  Number of candidates
+  
+* American_Candidate_function
+  + Input:  fileNumber
+  + Output:  Number of candidates
 
 ```{r}
 #########################
@@ -167,10 +197,56 @@ ScottishFiles <- files[2:4]
 #########################
 
 Scottish_Candidate_function <- function(fileNumber) {
-  num_cands <- as.integer(Fix_Scottish_data_function(files[[fileNumber]])[[2]])
+  num_cands <- as.integer(Fix_Scottish_data_function(ScottishFiles[[fileNumber]])[[2]])
   return(num_cands)
 }
 
+#########################
+# American_Candidate_function
+### input:  fileNumber
+### output: Number of Candidates
+#########################
+
+American_Candidate_function <- function(fileNum) {
+  data <- AmericanFiles[[fileNum]]
+  my_data <- read_csv(data, col_select = c(ballot, Count, 'Num Cands'))
+  Num_Cands <- as.integer(my_data[[3]][[1]])
+  return(Num_Cands)
+}
+```
+
+This function allows us to get all of the candidates for all of the election files.
+
+#### Example:
+
+We will divide our election files into Scottish files and American files.
+
+```{r}
+AmericanFiles <- files[c(1,5)]
+ScottishFiles <- files[2:4]
+```
+
+Then we can create a tibble of the file names and the number of candidates.
+
+```{r}
+NumCands <- map_int(1:3, Scottish_Candidate_function)
+ScottishElections <- tibble(ScottishFiles, NumCands) %>%
+  transmute(File = ScottishFiles, NumCands = NumCands)
+
+NumCandsAmerican <- map_int(1:2, American_Candidate_function)
+AmericanElections <- tibble(AmericanFiles, NumCandsAmerican) %>%
+  transmute(File = AmericanFiles, NumCands = NumCandsAmerican)
+Elections <- bind_rows(ScottishElections, AmericanElections)
+Elections
+
+```
+
+
+* IRV_function2
+  + Input:  election data frame with two columns (ballot, Count), NumCands
+  + Output:  election winner
+  
+```{r}
 #########################
 # IRV_function2
 ### input:  election data (ballot, Count), NumCands
@@ -226,7 +302,23 @@ IRV_function2 <- function(my_df, num_cands) {
   }
   return(Winner)
 }
+```
 
+#### Example:
+
+We can use our IRV function to get the winner of the Scottish file we fixed.
+
+```{r}
+files[[2]]
+IRV_function2(output[[1]], output[[2]])
+```
+
+* IRV_Trunc_function2
+  + Input:  election data frame (ballot, Count), Truncation level TL, number of candidates
+  + Output:  winner
+
+
+```{r}
 #########################
 # IRV_Trunc_function2
 ### input:  election data (ballot, Count), TL, num_cands
@@ -240,7 +332,25 @@ IRV_Trunc_function2 <- function(TL, data, num_cands) {
   Winner <- IRV_function2(my_df, num_cands)
   return(Winner)
 }
+```
 
+#### Example:
+
+We can find the winner of our Scottish election with different truncation levels.
+
+Here is TL = 3
+```{r}
+files[[2]]
+IRV_Trunc_function2(3, output[[1]], output[[2]])
+```
+
+* sample_function
+  + Input:  election data, sample size, number of candidates, truncation levels
+  + Output:  data frame (unique_1, unique_2, unique_3, unique_4, unique_Max, uniqueNoT1_1, uniqueNoT1_2, uniqueNoT1_3, uniqueNoT1_4, uniqueNoT1_Max)
+  
+  This function gives the distribution of the number of unique winners for the 1000 ballot samples (pseudoprofiles).
+
+```{r}
 ##################
 # sample_function
 # input: election data, sample_size, num_candsn, tcheck
@@ -258,7 +368,6 @@ sample_function <- function(my_df, sample_size, num_candsn, tcheck) {
     sample_data_table <- tibble(sample_data) %>%
       transmute(ballot = sample_data,
                 Count = 1)
-#    Winner = IRV_function2(my_df = sample_data_table, num_cands = num_candsn)
     All_winners <- sapply(tcheck, IRV_Trunc_function2, sample_data_table, num_candsn)
     All_winners_noT1 <- All_winners[-1]
     num_unique_winners[[j]] <- length(unique(All_winners))
@@ -279,7 +388,17 @@ sample_function <- function(my_df, sample_size, num_candsn, tcheck) {
            unique_winners_noT1_3, unique_winners_noT1_4, unique_winners_noT1_max)
   return(outputAll)
 }
+```
 
+* Scottish_full_sample_function
+  + Input:  fileNumber
+  + Output:  data frame (file name, unique_1, unique_2, unique_3, unique_4, unique_Max, uniqueNoT1_1, uniqueNoT1_2, uniqueNoT1_3, uniqueNoT1_4, uniqueNoT1_Max)
+
+* American_full_sample_function
+  + Input:  fileNumber
+  + Output:  data frame (file name, unique_1, unique_2, unique_3, unique_4, unique_Max, uniqueNoT1_1, uniqueNoT1_2, uniqueNoT1_3, uniqueNoT1_4, uniqueNoT1_Max)
+  
+```{r}
 ##################
 # Scottish_full_sample_function
 # input: num_file
@@ -297,18 +416,189 @@ Scottish_full_sample_function <- function(num_file)
   num_voters <- sum(my_df$Count)
   sample_size = min(1001, num_voters)
   num_cands <- fixed_data[[2]]
-  truncs_to_check = 1:(num_cands-1)
+  truncs_to_check = 1:(num_cands - 1)
   samplesAllData <- sample_function(my_df, sample_size, num_cands, truncs_to_check) %>%
     mutate(file = data) %>%
     select(file, everything())
   return(samplesAllData)
 }
 
+##################
+# American_full_sample_function
+# input: num_file
+# output:  tibble(filename, unique_winners_1, unique_winners_2, unique_winners_3, unique_winners_4,
+#   unique_winners_max, unique_winners_noT1_1, unique_winners_noT1_2,
+#   unique_winners_noT1_3, unique_winners_noT1_4, unique_winners_noT1_max))
+#################
+
+American_full_sample_function <- function(num_file)
+{
+  data <- AmericanFiles[[num_file]]
+  print(num_file)
+  fixed_data <- Fix_American_data_function(data)
+  my_df <- fixed_data[[1]]
+  num_voters <- sum(my_df$Count)
+  sample_size = min(1001, num_voters)
+  num_cands <- fixed_data[[2]]
+  truncs_to_check = 1:(num_cands - 1)
+  samplesAllData <- sample_function(my_df, sample_size, num_cands, truncs_to_check) %>%
+    mutate(file = data) %>%
+    select(file, everything())
+  return(samplesAllData)
+}
+```
+
+#### Example:
+
+We will not run the code to create the ballot sampling since that takes a significant amount of time, but the code chunk has the code we would run.
+
+
+```{r eval = FALSE}
 #######
 # Make table of samples
 ######
 
-#ScottishSamples <- map_dfr(1:3, Scottish_full_sample_function)
+ScottishSamples <- map_dfr(1:3, Scottish_full_sample_function)
+AmericanSamples <- map_dfr(1:2, American_full_sample_function)
+Samples <- bind_rows(ScottishSamples, AmericanSamples)
+ElectionsWSamples <- left_join(Elections, Samples)
+ElectionsWSamples
+```
+
+## Results
+
+Here are the results from all of the elections.
+
+```{r}
+Samples <- read_csv("AllSampleDataNew.csv") %>%
+  mutate(NumCands = factor(NumCands),
+         unique_winners_max = factor(unique_winners_max)) %>%
+  arrange(NumCands)
+datatable(Samples)
+
+candidatetable <- Samples %>% count(NumCands)
 
 ```
 
+```{r}
+MoreDetailSampleUniqueWinTable <- Samples %>%
+  group_by(NumCands) %>%
+  count(unique_winners_max) %>%
+  pivot_wider(names_from = unique_winners_max, values_from = n)
+
+colnames(MoreDetailSampleUniqueWinTable) <- (c("Number_of_Candidate","1 winner", "2 winners","3 winners", "4 winners"))
+
+kable(MoreDetailSampleUniqueWinTable)
+
+```
+
+Below is the graph of our data and the sample data.
+
+```{r plot3}
+ggplot(Samples, aes(x = NumCands)) +
+  geom_bar(aes(fill = factor(unique_winners_max))) +
+  geom_text(data = candidatetable, aes(x = NumCands, y = n, label = n), nudge_y = 10) +
+  scale_fill_brewer(palette = "Dark2") +
+  scale_x_discrete(limits = candidatetable$NumCands) +
+  labs(x = "Number of Candidates", y = "Number of Elections", 
+       title = "Ballot Sampling Results", fill = "Number of Unique Winners") +
+  theme_bw()
+
+```
+
+Side-by-side plot:
+
+```{r plot4}
+plot1 <- ggplot(Samples, aes(x = factor(NumCands))) +
+  geom_bar(aes(fill = factor(NumUniqueWin))) +
+  geom_text(data = candidatetable, aes(x = factor(NumCands), y = n, label = n), nudge_y = 10) +
+  scale_x_discrete(limits = candidatetable$NumCands) +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Number of Candidates", y = "Number of Elections", 
+       title = "Number of Different Winners\nas TL Varies") +
+  theme_bw() +
+  theme(legend.position = "none")
+
+plot2 <- ggplot(Samples, aes(x = factor(NumCands))) +
+  geom_bar(aes(fill = factor(unique_winners_max))) +
+  geom_text(data = candidatetable, aes(x = factor(NumCands), y = n, label = n), nudge_y = 10) +
+  scale_x_discrete(limits = candidatetable$NumCands) +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Number of Candidates", y = "Number of Elections", 
+       title = "Ballot Sampling Results\nas TL Varies", fill = "Number of \n Unique \n Winners") +
+  theme_bw() +
+  theme(legend.position = c(.8, .75))
+
+plot_grid(plot1, plot2, ncol = 2)
+```
+
+Without T1
+
+```{r plotNoT1}
+ElectionsWoT1 <- read_csv("AllElectionsCleanWoT1Data.csv") %>%
+  mutate(NumUniqueWin = factor(NumUniqueWin),
+         NumCands = factor(NumCands)) %>%
+  filter(allFiles != "glasgow12/glasgow12-07.blt") %>%
+  filter(allFiles != "scottish by-elections/Edinburgh 2021 by-election Ward 23 Partick East-Kelvindale_preference_profile_report_.csv")
+
+plot1NoT1 <- ggplot(ElectionsWoT1, aes(x = NumCands)) +
+  geom_bar(aes(fill = factor(NumUniqueWin))) +
+  geom_text(data = candidatetable, aes(x = NumCands, y = n, label = n), nudge_y = 10) +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Number of Candidates", y = "Number of Elections", 
+       title = "Number of Different Winners\nDisregarding TL=1", fill = "Number of Winners") +
+  theme_bw() +
+  theme(legend.position = "none")
+
+plot2NoT1 <- ggplot(Samples, aes(x = factor(NumCands))) +
+  geom_bar(aes(fill = factor(unique_winners_noT1_max))) +
+  geom_text(data = candidatetable, aes(x = factor(NumCands), y = n, label = n), nudge_y = 10) +
+  scale_x_discrete(limits = candidatetable$NumCands) +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Number of Candidates", y = "Number of Elections", 
+       title = "Ballot Sampling Results\nas TL Varies w/o TL=1", fill = "Number of \n Unique \n Winners") +
+  theme_bw() +
+  theme(legend.position = c(.8, .75))
+
+plot_grid(plot1NoT1, plot2NoT1, ncol = 2)
+
+```
+
+## Single Seat Elections
+
+We had 132 elections in our data that were single winner elections.  When we restrict our data to just those elections, we get the following plots.
+
+```{r plot5}
+SingleSeats <- read_csv("SingleSeatsAll.csv") %>% mutate(allFiles = files)
+SingleSeatWinners <- semi_join(Samples, SingleSeats)
+
+SingleSeatWinners %>%
+  mutate(SampleNumUniqueWin = unique_winners_max) %>%
+  select(allFiles, NumCands, AllWins, NumUniqueWin, SampleNumUniqueWin) %>%  
+  datatable()
+
+candidatetable1 <- SingleSeatWinners %>% count(NumCands)
+
+plot1s <- ggplot(SingleSeatWinners, aes(x = factor(NumCands))) +
+  geom_bar(aes(fill = factor(NumUniqueWin))) +
+  geom_text(data = candidatetable1, aes(x = factor(NumCands), y = n, label = n), nudge_y = 2) +
+  scale_x_discrete(limits = candidatetable$NumCands) +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Number of Candidates", y = "Number of Elections", 
+       title = "Single Winner Elections\nand Varying Truncation Level") +
+  theme_bw() +
+  theme(legend.position = "none")
+
+plot2s <- ggplot(SingleSeatWinners, aes(x = factor(NumCands))) +
+  geom_bar(aes(fill = factor(unique_winners_max))) +
+  geom_text(data = candidatetable1, aes(x = factor(NumCands), y = n, label = n), nudge_y = 2) +
+  scale_x_discrete(limits = candidatetable$NumCands) +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Number of Candidates", y = "Number of Elections", 
+       title = "Single Winner Elections\nBallot Sampling Results", fill = "Number of \n Unique \n Winners") +
+  theme_bw() +
+  theme(legend.position = c(.8, .7))
+
+plot_grid(plot1s, plot2s, ncol = 2)
+
+```
