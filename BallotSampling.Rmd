@@ -469,7 +469,7 @@ ElectionsWSamples
 Here are the results from all of the elections.
 
 ```{r}
-Samples <- read_csv("AllSampleDataNew.csv") %>%
+Samples <- read_csv("Results/AllSampleDataNew.csv") %>%
   mutate(NumCands = factor(NumCands),
          unique_winners_max = factor(unique_winners_max)) %>%
   arrange(NumCands)
@@ -534,7 +534,7 @@ plot_grid(plot1, plot2, ncol = 2)
 Without T1
 
 ```{r plotNoT1}
-ElectionsWoT1 <- read_csv("AllElectionsCleanWoT1Data.csv") %>%
+ElectionsWoT1 <- read_csv("Results/AllElectionsCleanWoT1Data.csv") %>%
   mutate(NumUniqueWin = factor(NumUniqueWin),
          NumCands = factor(NumCands)) %>%
   filter(allFiles != "glasgow12/glasgow12-07.blt") %>%
@@ -568,7 +568,7 @@ plot_grid(plot1NoT1, plot2NoT1, ncol = 2)
 We had 132 elections in our data that were single winner elections.  When we restrict our data to just those elections, we get the following plots.
 
 ```{r plot5}
-SingleSeats <- read_csv("SingleSeatsAll.csv") %>% mutate(allFiles = files)
+SingleSeats <- read_csv("Results/SingleSeatsAll.csv") %>% mutate(allFiles = files)
 SingleSeatWinners <- semi_join(Samples, SingleSeats)
 
 SingleSeatWinners %>%

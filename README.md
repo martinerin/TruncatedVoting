@@ -1,5 +1,6 @@
 # Truncated Voting
-The code used for getting truncated voting results for our paper An Empirical Analysis of the Effect of Ballot Truncation on Ranked-Choice Electoral Outcomes by Mallory Dickerson, Erin Martin, and David McCune
+
+This repository contains the code used for getting truncated voting results for our paper An Empirical Analysis of the Effect of Ballot Truncation on Ranked-Choice Electoral Outcomes by Mallory Dickerson, Erin Martin, and David McCune.
 
 ## Data
 
@@ -15,11 +16,10 @@ We answered the following questions using the election data:
 2. For $1 \leq k \leq n-1$, what percentage of elections have $k$ different winners as we increase $TL$ from $1$ to $n-1$?
 3. As we increase the truncation level, does the likelihood of electing the Condorcet winner increase?
 
-### Folders in this Repository
+### Files and Folders in this Repository
 
 The following folders are in this repository:
 * ElectionFiles:  This contains 5 of the 1183 election data files
-* Answer1:  This contains the code used to answer the first question
-* Answer2:  This contains the code used to answer the second question
-* BallotSampling:  This contains the code for the ballot sampling we did
+* BallotSampling.Rmd, .html, .md is the file that gives the code and results for the ballot sampling we did in the paper.
+* Results:  This folder contains csv files of our election and sampling results.
 
