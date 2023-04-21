@@ -1,6 +1,6 @@
 # Truncated Voting
 
-This repository contains the code used for getting truncated voting results for our paper An Empirical Analysis of the Effect of Ballot Truncation on Ranked-Choice Electoral Outcomes by Mallory Dickerson, Erin Martin, and David McCune.
+This repository contains the code used for getting truncated voting results for our paper *An Empirical Analysis of the Effect of Ballot Truncation on Ranked-Choice Electoral Outcomes* by Mallory Dickerson, Erin Martin, and David McCune.
 
 ## Data
 
@@ -19,7 +19,7 @@ We answered the following questions using the election data:
 ### Files and Folders in this Repository
 
 The following folders are in this repository:
-* ElectionFiles:  This contains 5 of the 1183 election data files
-* BallotSampling.Rmd, .html, .md is the file that gives the code and results for the ballot sampling we did in the paper.
-* Results:  This folder contains csv files of our election and sampling results.
+* ElectionFiles:  This folder contains 5 of the 1183 election data files
+* Results:  This folder contains csv files of our election and sampling results.* BallotSampling.Rmd, .html, .md is the file that gives the code and results for the ballot sampling we did in the paper.
+
 
