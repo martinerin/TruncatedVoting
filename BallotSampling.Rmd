@@ -45,7 +45,7 @@ All of the American election files have the following format:
 * The number of candidates in the election is given in the first row of the Num Cands column.
 * The candidates are listed in the first row of the Cand List column.  All of these files have candidates listed simply as A, B, C, D, etc.
 
-```{r}
+```{r AmericanElectionSample}
 files[[1]]
 American1 <- read_csv(files[[1]])
 head(American1)
@@ -58,7 +58,7 @@ All of the Scottish election files have the following format:
 * The next lines until the last few lines give the Count and the voter preferences in order where 1 is the first candidate, 2 is the second candidate, etc.  Thus the line 9 5 4 3 0 means 9 voters ranked candidate 5 first, candidate 4 second, and candidate 3 third.  Each of the lines end in a 0.
 * The last few lines list the names of the candidates and the election.
 
-```{r}
+```{r ScottishElectionSample}
 files[[2]]
 Scottish1 <- read_csv(files[[2]], col_names = FALSE)
 head(Scottish1)
@@ -69,19 +69,13 @@ tail(Scottish1, n=12)
 
 * Fix_Scottish_data_function: 
   + Input:  file name
-  + Output:  Scottish data in the same format as the American data, Candidates
+  + Output:  Scottish data in the same format as the American election data, Candidates
 
 * Fix_American_data_function:
   + Input:  file name
-  + Output:  American data, Candidates
+  + Output:  American election data, Candidates
   
-```{r}
-#########################
-# Fix_Scottish_data_function
-### input:  file name
-### output: clean data frame to match American data, candidates
-#########################
-
+```{r Functions_fix}
 Fix_Scottish_data_function <- function(file) {
   my_data <- read_lines(file) %>%
     str_subset(".+") # get rid of any empty lines
@@ -148,11 +142,6 @@ Fix_Scottish_data_function <- function(file) {
   return(list(my_df, Num_Cands))
 }
 
-#########################
-# Fix_American_data_function
-### input:  file name
-### output: clean data frame to match American data, candidates
-#########################
 
 Fix_American_data_function <- function(file) {
   my_data <- read_csv(file, col_select = c(ballot, Count, 'Num Cands'))
@@ -161,22 +150,6 @@ Fix_American_data_function <- function(file) {
     select(ballot, Count)
   return(list(my_df, Num_Cands))
 }
-```
-
-#### Example:
-
-Here is the same Scottish election as before but in our fixed format.
-
-```{r} 
-files[[2]]
-output <- Fix_Scottish_data_function(files[[2]])
-head(output[[1]])
-tail(output[[1]])
-```
-
-And the number of candidates for this election is:
-```{r}
-output[[2]]
 ```
 
 
@@ -188,23 +161,14 @@ output[[2]]
   + Input:  fileNumber
   + Output:  Number of candidates
 
-```{r}
-#########################
-# Scottish_Candidate_function
-### input:  fileNumber
-### output: Number of Candidates
-#########################
+  The previous two functions allow us to get all of the candidates for all of the election files and have them in a data frame.
 
+```{r}
 Scottish_Candidate_function <- function(fileNumber) {
   num_cands <- as.integer(Fix_Scottish_data_function(ScottishFiles[[fileNumber]])[[2]])
   return(num_cands)
 }
 
-#########################
-# American_Candidate_function
-### input:  fileNumber
-### output: Number of Candidates
-#########################
 
 American_Candidate_function <- function(fileNum) {
   data <- AmericanFiles[[fileNum]]
@@ -214,44 +178,12 @@ American_Candidate_function <- function(fileNum) {
 }
 ```
 
-This function allows us to get all of the candidates for all of the election files.
-
-#### Example:
-
-We will divide our election files into Scottish files and American files.
-
-```{r}
-AmericanFiles <- files[c(1,5)]
-ScottishFiles <- files[2:4]
-```
-
-Then we can create a tibble of the file names and the number of candidates.
-
-```{r}
-NumCands <- map_int(1:3, Scottish_Candidate_function)
-ScottishElections <- tibble(ScottishFiles, NumCands) %>%
-  transmute(File = ScottishFiles, NumCands = NumCands)
-
-NumCandsAmerican <- map_int(1:2, American_Candidate_function)
-AmericanElections <- tibble(AmericanFiles, NumCandsAmerican) %>%
-  transmute(File = AmericanFiles, NumCands = NumCandsAmerican)
-Elections <- bind_rows(ScottishElections, AmericanElections)
-Elections
-
-```
-
 
 * IRV_function2
   + Input:  election data frame with two columns (ballot, Count), NumCands
   + Output:  election winner
   
 ```{r}
-#########################
-# IRV_function2
-### input:  election data (ballot, Count), NumCands
-### output: winner
-#########################
-
 IRV_function2 <- function(my_df, num_cands) {
   Num_Voters <- sum(my_df$Count)
   ###############
@@ -303,14 +235,6 @@ IRV_function2 <- function(my_df, num_cands) {
 }
 ```
 
-#### Example:
-
-We can use our IRV function to get the winner of the Scottish file we fixed.
-
-```{r}
-files[[2]]
-IRV_function2(output[[1]], output[[2]])
-```
 
 * IRV_Trunc_function2
   + Input:  election data frame (ballot, Count), Truncation level TL, number of candidates
@@ -333,15 +257,6 @@ IRV_Trunc_function2 <- function(TL, data, num_cands) {
 }
 ```
 
-#### Example:
-
-We can find the winner of our Scottish election with different truncation levels.
-
-Here is TL = 3
-```{r}
-files[[2]]
-IRV_Trunc_function2(3, output[[1]], output[[2]])
-```
 
 * sample_function
   + Input:  election data, sample size, number of candidates, truncation levels
@@ -449,8 +364,21 @@ American_full_sample_function <- function(num_file)
 
 #### Example:
 
-We will not run the code to create the ballot sampling since that takes a significant amount of time, but the code chunk has the code we would run.
+We will not run the code to create the ballot sampling since that takes a significant amount of time, but the following code chunks have the code we would run.
 
+```{r}
+AmericanFiles <- files[c(1,5)]
+ScottishFiles <- files[2:4]
+NumCands <- map_int(1:3, Scottish_Candidate_function)
+ScottishElections <- tibble(ScottishFiles, NumCands) %>%
+  transmute(File = ScottishFiles, NumCands = NumCands)
+
+NumCandsAmerican <- map_int(1:2, American_Candidate_function)
+AmericanElections <- tibble(AmericanFiles, NumCandsAmerican) %>%
+  transmute(File = AmericanFiles, NumCands = NumCandsAmerican)
+Elections <- bind_rows(ScottishElections, AmericanElections)
+
+```
 
 ```{r eval = FALSE}
 #######
