@@ -1,0 +1,436 @@
+---
+title: "Truncated Voting"
+date: '2023-04-13'
+output: 
+  html_document:
+    code_folding: "hide"
+    keep_md: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
+```
+
+```{r libraries, include = FALSE}
+library(tidyverse)
+library(DT)
+library(knitr)
+library(gridExtra)
+library(cowplot)
+```
+
+## Truncated Voting Project
+
+In this project we posed and answered the following questions using our election data:
+
+
+1. For a fixed truncation level $TL$, what percentage of elections satisfying $TL < n-1$ have the property that the RCV winner when using $TL$ is different from the RCV winner when preferences are not truncated?
+2. For $1 \leq k \leq n-1$, what percentage of elections have $k$ different winners as we increase $TL$ from $1$ to $n-1$?
+3. As we increase the truncation level, does the likelihood of electing the Condorcet winner increase?
+
+### Preliminaries
+
+We analyzed 1183 elections.
+
+* 105 were American elections
+* 1078 were Scottish government elections.
+
+```{r}
+files <- list.files("ElectionFiles/", pattern = ".(txt|csv|blt)", recursive = TRUE)
+election <- "ElectionFiles/"
+files <- str_c(election, files)
+AmericanFiles <- files[c(1,5)]
+ScottishFiles <- files[2:4]
+```
+
+All of the American election files have the following format:
+
+* The ballot column is the voter's ballot which gives their preferences. 
+* The Count column is the number of voters who voted with the given preferences.
+* The number of candidates in the election is given in the first row of the Num Cands column.
+* The candidates are listed in the first row of the Cand List column.  All of these files have candidates listed simply as A, B, C, D, etc.
+
+```{r AmericanElectionSample}
+files[[1]]
+American1 <- read_csv(files[[1]])
+head(American1)
+tail(American1)
+```
+
+All of the Scottish election files have the following format:
+
+* The first line gives the number of candidates and the number of seats being filled in the election
+* The next lines until the last few lines give the Count and the voter preferences in order where 1 is the first candidate, 2 is the second candidate, etc.  Thus the line 9 5 4 3 0 means 9 voters ranked candidate 5 first, candidate 4 second, and candidate 3 third.  Each of the lines end in a 0.
+* The last few lines list the names of the candidates and the election.
+
+```{r ScottishElectionSample}
+files[[2]]
+Scottish1 <- read_csv(files[[2]], col_names = FALSE)
+head(Scottish1)
+tail(Scottish1, n=12)
+```
+
+We used the `Fix_data_function()` to get the Scottish election files in a format we could use.
+
+```{r}
+Fix_data_function <- function(file) {
+  my_data <- read_lines(file) %>%
+    str_subset(".+") # get rid of any empty lines
+  #head(my_data)
+  #Some of the data files have a line at the end with " ", so if it is there, we need to remove it.
+  if (my_data[[length(my_data)]] == " ") { 
+    my_data <- my_data[- length(my_data)]
+  }
+    
+  ## remove first and last lines
+  first_line <- my_data[[1]] %>%
+    str_subset(".+") %>%
+    str_split("\\s")
+  #first_line
+  
+  ## Read in the file and get the number of lines for the data and number of seats
+  Remove_Lines <- strtoi(first_line[[1]][[1]]) + 2
+  ###Num_seats <- strtoi(first_line[[1]][[2]])
+  Num_Cands <- Remove_Lines - 2
+  
+  ## remove first and last few lines in the file.
+  my_x <- my_data[-1]
+  
+  for (i in 1:Remove_Lines) {
+    my_x <- my_x[-length(my_x)]
+  }
+  
+  #head(my_x)
+  
+  ## Remove "" 
+  my_x_noBlank <- str_subset(my_x, ".+") %>%
+    str_trim()
+  
+  
+  ## Make it into a tibble and separate into vote (int) and ballot columns
+  my_df <- as_tibble_col(my_x_noBlank) %>%
+    mutate(votes = strtoi(str_trim(str_extract(value, "\\d+\\s"))), # get vote column (integer)
+           ballot = str_remove(value, "\\d+\\s"), # get ballot column
+           ballot = str_sub(ballot, end = -3), # remove 0 and space at the end of ballot
+           newballot = str_replace_all(ballot, "26", LETTERS[26]),
+           newballot = str_replace_all(newballot, "25", LETTERS[25]),
+           newballot = str_replace_all(newballot, "24", LETTERS[24]),
+           newballot = str_replace_all(newballot, "23", LETTERS[23]),
+           newballot = str_replace_all(newballot, "22", LETTERS[22]),
+           newballot = str_replace_all(newballot, "21", LETTERS[21]),
+           newballot = str_replace_all(newballot, "20", LETTERS[20]),
+           newballot = str_replace_all(newballot, "19", LETTERS[19]),
+           newballot = str_replace_all(newballot, "18", LETTERS[18]),
+           newballot = str_replace_all(newballot, "17", LETTERS[17]),
+           newballot = str_replace_all(newballot, "16", LETTERS[16]),
+           newballot = str_replace_all(newballot, "15", LETTERS[15]),
+           newballot = str_replace_all(newballot, "14", LETTERS[14]),
+           newballot = str_replace_all(newballot, "13", LETTERS[13]),
+           newballot = str_replace_all(newballot, "12", LETTERS[12]),
+           newballot = str_replace_all(newballot, "11", LETTERS[11]),
+           newballot = str_replace_all(newballot, "10", LETTERS[10]),
+           newballot = str_replace_all(newballot, "9", LETTERS[9]),
+           newballot = str_replace_all(newballot, "8", LETTERS[8]),
+           newballot = str_replace_all(newballot, "7", LETTERS[7]),
+           newballot = str_replace_all(newballot, "6", LETTERS[6]),
+           newballot = str_replace_all(newballot, "5", LETTERS[5]),
+           newballot = str_replace_all(newballot, "4", LETTERS[4]),
+           newballot = str_replace_all(newballot, "3", LETTERS[3]),
+           newballot = str_replace_all(newballot, "2", LETTERS[2]),
+           newballot = str_replace_all(newballot, "1", LETTERS[1]),
+           newballot = str_remove_all(newballot, " ")) %>%
+    select(votes, newballot) %>%
+    transmute(ballot = newballot, Count = votes)
+  return(list(my_df, Num_Cands))
+}
+
+```
+
+Then we started building the table of results so we could eventually answer the questions.
+
+```{r}
+candidate_count <- function(file_number) {
+  file_tidy <- Fix_data_function(ScottishFiles[[file_number]])
+  return(as.integer(file_tidy[[2]]))
+}
+
+cand_count <-  map_int(1:3, candidate_count)
+scottish_results <- tibble(ScottishFiles, cand_count)
+scottish_results
+```
+
+We created the `IRV()` function and the `final_function()` which gives us the winner of the election. 
+
+```{r}
+IRV <- function(ranking, eliminate) { 
+  ranking <- ranking %>%
+    mutate(ballot = str_remove(ballot, eliminate)) %>%
+    mutate(first_ranked = substr(ballot, 1,1))
+  IRV <- ranking %>%
+    group_by(first_ranked) %>%
+    filter(first_ranked != "") %>%
+    summarize(first_rank_count = sum(Count)) %>%
+    mutate(total_count = sum(first_rank_count)) %>%
+    mutate(majority_percent = first_rank_count / total_count * 100) %>%
+    arrange(first_rank_count)
+  w <- max(IRV$majority_percent)
+  winner <- tail(IRV, n = 1)[[1]][[1]]
+  eliminate <- IRV[[1]][[1]]
+  return(list(w, winner, eliminate, ranking))
+}
+```
+
+```{r}
+final_function <- function(file_number) {
+  clean <-  Fix_data_function(ScottishFiles[[file_number]]) #Fix_data_function(files[[file_number]])
+  file_tidy <- clean[[1]]    #read_csv(csv_files[[file_number]], col_select = c(ballot, Count))
+  ranking <- file_tidy %>%
+  mutate(first_ranked = substr(ballot, 1,1))
+  IRV <- ranking %>%
+    group_by(first_ranked) %>%
+    summarize(first_rank_count = sum(Count)) %>%
+    filter(first_ranked != "") %>%
+    mutate(total_count = sum(first_rank_count)) %>%
+    mutate(majority_percent = first_rank_count / total_count * 100) %>%
+    arrange(first_rank_count)
+  w <- max(IRV$majority_percent)
+  winner <- tail(IRV, n = 1)[[1]][[1]]
+  not_first_ranked <- setdiff(LETTERS, IRV$first_ranked)
+  for (i in not_first_ranked) {
+     ranking <- ranking %>%
+      mutate(ballot = str_remove(ballot, i))
+  }
+  ranking <- ranking %>%
+    mutate(first_ranked = substr(ballot, 1,1))
+  eliminate <- IRV[[1]][[1]]
+
+if (w <= 50) {
+  output <- IRV(ranking, eliminate)
+  w <- output[[1]]
+  winner <- output[[2]]
+  eliminate <- output[[3]]
+  ranking <- output[[4]]
+
+  while (w <= 50) { 
+    output <- IRV(ranking, eliminate)
+    w <- output[[1]]
+    winner <- output[[2]]
+    eliminate <- output[[3]]
+    ranking <- output[[4]]
+    }}
+  return(winner) 
+  }
+
+```
+
+At this point we could add the winner for each election to our data table.
+
+```{r}
+winner <- map_chr(1:3, final_function)
+voting_dt <- tibble(ScottishFiles, winner) %>%
+  left_join(scottish_results) %>%
+  select(ScottishFiles, cand_count, winner)
+kable(voting_dt)
+```
+
+Next we modified that function to get the `trc_function()` so we could get the winner of the truncated ballot.  We would alter the function for each truncation level, so if we wanted TL=3, we would modify the line `mutate(ballot = str_sub(ballot, end = 4))` and have replace the 4 with 3.  We also had to determine the usable elections for the truncation levels, so we would need to specify the Tlist for each TL.  An election is usable at $TL=n$ if the election has at least $n+2$ candidates.
+
+
+
+```{r}
+head(voting_dt)
+Tlist <- voting_dt %>%
+  filter(cand_count >= 6) %>%
+  select(ScottishFiles)
+Tlist <- Tlist[[1]]
+
+trc_function <- function(file_number) {
+  clean <- Fix_data_function(Tlist[[file_number]]) #T9list[[file#]]
+  file_tidy <- clean[[1]] #read_csv(file, col_select = c(ballot, Count))
+  ranking <- file_tidy %>%
+    mutate(ballot = str_sub(ballot, end = 4)) %>%
+    mutate(first_ranked = substr(ballot, 1,1))
+  IRV <- ranking %>%
+    group_by(first_ranked) %>%
+    summarize(first_rank_count = sum(Count)) %>%
+    filter(first_ranked != "") %>%
+    mutate(total_count = sum(first_rank_count)) %>%
+    mutate(majority_percent = first_rank_count / total_count * 100) %>%
+    arrange(first_rank_count)
+  w <- max(IRV$majority_percent)
+  winner <- tail(IRV, n = 1)[[1]][[1]]
+  not_first_ranked <- setdiff(LETTERS, IRV$first_ranked)
+  for (i in not_first_ranked) {
+     ranking <- ranking %>%
+      mutate(ballot = str_remove(ballot, i))
+  }
+  ranking <- ranking %>%
+    mutate(first_ranked = substr(ballot, 1,1))
+  eliminate <- IRV[[1]][[1]]
+
+if (w <= 50) {
+  output <- IRV(ranking, eliminate)
+  w <- output[[1]]
+  winner <- output[[2]]
+  eliminate <- output[[3]]
+  ranking <- output[[4]]
+
+  while (w <= 50) {
+    output <- IRV(ranking, eliminate)
+    w <- output[[1]]
+    winner <- output[[2]]
+    eliminate <- output[[3]]
+    ranking <- output[[4]]
+    }}
+    return(winner) 
+}
+```
+
+```{r}
+T4_winners <- map_chr(1:2, trc_function)
+T4table1 <- tibble(Tlist, T4_winners) %>%
+  mutate(ScottishFiles = Tlist) %>%
+  select(-Tlist)
+voting_dt_4a <- left_join(voting_dt, T4table1)
+kable(voting_dt_4a)
+```
+
+We did this for all of the Scottish and American election files and all the truncation levels.
+
+### Results
+
+Here are all of the election files with the winners at each of the truncation levels.
+
+```{r}
+AmericanFiles <- read_csv("Results/FinalAmericanFiles.csv")
+FinalScottishVoting <- read_csv("Results/FinalScottishFiles.csv")
+
+ALLVotingFiles <- bind_rows(AmericanFiles, FinalScottishVoting)
+datatable(ALLVotingFiles)
+
+```
+
+#### Question 1:
+
+For a fixed truncation level $TL$, what percentage of elections satisfying $TL < n-1$ have the property that the RCV winner when using $TL$ is different from the RCV winner when preferences are not truncated?
+
+```{r}
+Trc_check <- ALLVotingFiles %>%
+  mutate(T1_flag = case_when(
+    winner == T1_winners ~ 0,
+    winner != T1_winners ~ 1
+  ),T2_flag = case_when(
+    winner == T2_winners ~ 0,
+    winner != T2_winners ~ 1
+  ),T3_flag = case_when(
+    winner == T3_winners ~ 0,
+    winner != T3_winners ~ 1
+  ),T4_flag = case_when(
+    winner == T4_winners ~ 0,
+    winner != T4_winners ~ 1
+  ),T5_flag = case_when(
+    winner == T5_winners ~ 0,
+    winner != T5_winners ~ 1
+  ),T6_flag = case_when(
+    winner == T6_winners ~ 0,
+    winner != T6_winners ~ 1
+  ),T7_flag = case_when(
+    winner == T7_winners ~ 0,
+    winner != T7_winners ~ 1
+  ),T8_flag = case_when(
+    winner == T8_winners ~ 0,
+    winner != T8_winners ~ 1
+  ),T9_flag = case_when(
+    winner == T9_winners ~ 0,
+    winner != T9_winners ~ 1
+  ),T10_flag = case_when(
+    winner == T10_winners ~ 0,
+    winner != T10_winners ~ 1  
+  ),T11_flag = case_when(
+    winner == T11_winners ~ 0,
+    winner != T11_winners ~ 1
+  ),T12_flag = case_when(
+    winner == T12_winners ~ 0,
+    winner != T12_winners ~ 1  
+    
+))
+
+
+T1p <- (sum(Trc_check$T1_flag)/sum(!is.na(Trc_check$T1_flag)))*100
+
+T2p <- (sum(Trc_check$T2_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T2_flag)))*100
+
+T3p <- (sum(Trc_check$T3_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T3_flag)))*100
+
+T4p <- (sum(Trc_check$T4_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T4_flag)))*100
+
+T5p <- (sum(Trc_check$T5_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T5_flag)))*100
+
+T6p <- (sum(Trc_check$T6_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T6_flag)))*100
+
+T7p <- (sum(Trc_check$T7_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T7_flag)))*100
+
+T8p <- (sum(Trc_check$T8_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T8_flag)))*100
+
+T9p <- (sum(Trc_check$T9_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T9_flag)))*100
+
+T10p <- (sum(Trc_check$T10_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T10_flag)))*100
+
+T11p <- (sum(Trc_check$T11_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T11_flag)))*100
+
+T12p <- (sum(Trc_check$T12_flag, na.rm = TRUE)/sum(!is.na(Trc_check$T12_flag)))*100
+
+percent_list <- c(T1p,T2p,T3p,T4p,T5p,T6p,T7p,T8p,T9p,T10p,T11p,T12p)
+levels <- c("T1","T2","T3","T4","T5", "T6", 'T7',"T8", 'T9',"T10","T11","T12")
+
+Q1Answer <- tibble(TL = levels, percent_different = percent_list)
+kable(Q1Answer)
+```
+
+#### Question 2:
+
+For $1 \leq k \leq n-1$, what percentage of elections have $k$ different winners as we increase $TL$ from $1$ to $n-1$?
+
+```{r}
+Elections <- read_csv("Results/AllElectionsCleanData.csv") %>%
+  mutate(NumUniqueWin = factor(NumUniqueWin),
+         NumCands = factor(NumCands))
+
+MoreDetailUniqueWinTable <- Elections %>%
+  group_by(NumCands) %>%
+  count(NumUniqueWin) %>%
+  pivot_wider(names_from = NumUniqueWin, values_from = n)
+
+colnames(MoreDetailUniqueWinTable) <- (c("Number_of_Candidate","1 winner", "2 winners","3 winners"))
+
+kable(MoreDetailUniqueWinTable)
+
+candidatetable <- Elections %>% count(NumCands)
+
+ggplot(Elections, aes(x = NumCands)) +
+  geom_bar(aes(fill = NumUniqueWin)) +
+  geom_text(data = candidatetable, aes(x = NumCands, y = n, label = n), nudge_y = 10) +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Number of Candidates", y = "Number of Elections", 
+       title = "Number of Different Winners as TL Varies", fill = "Number of Winners") +
+  theme_bw()
+
+```
+
+If there is a change in the winner as the truncation level changes, that change most often occurs at the TL=1 level, so if we remove the TL=1 level we get the following graph.
+
+```{r plot2}
+ElectionsWoT1 <- read_csv("Results/AllElectionsCleanWoT1Data.csv") %>%
+  mutate(NumUniqueWin = factor(NumUniqueWin),
+         NumCands = factor(NumCands)) %>%
+  filter(allFiles != "glasgow12/glasgow12-07.blt") %>%
+  filter(allFiles != "scottish by-elections/Edinburgh 2021 by-election Ward 23 Partick East-Kelvindale_preference_profile_report_.csv")
+
+ggplot(ElectionsWoT1, aes(x = NumCands)) +
+  geom_bar(aes(fill = NumUniqueWin)) +
+  geom_text(data = candidatetable, aes(x = NumCands, y = n, label = n), nudge_y = 10) +
+  scale_fill_brewer(palette = "Dark2") +
+  labs(x = "Number of Candidates", y = "Number of Elections", 
+       title = "Number of Different Winners Disregarding TL=1", fill = "Number of Winners") +
+  theme_bw()
+```

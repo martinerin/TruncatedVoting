@@ -1,0 +1,106 @@
+csv_files,cand_count,winner,T1_winners,T2_winners,T3_winners,T4_winners,T5_winners,T6_winners,T7_winners,T8_winners
+2006Burlingtonmayor.csv,5,A,A,A,A,NA,NA,NA,NA,NA
+2008_Pierce_City_Council_D2.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+2008_Pierce_County_Executive.csv,4,C,A,C,NA,NA,NA,NA,NA,NA
+2009-Minneapolis-Council-Ward-4.csv,4,D,D,D,NA,NA,NA,NA,NA,NA
+2009 Aspen CO city council.csv,9,H,H,H,H,H,H,H,H,NA
+2009 Aspen Mayor.csv,4,B,B,B,NA,NA,NA,NA,NA,NA
+2009 Burlington mayor.csv,5,D,A,D,D,NA,NA,NA,NA,NA
+2009_Pierce_County_Auditor.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+2010 Berkeley City Council D7.csv,4,C,C,C,NA,NA,NA,NA,NA,NA
+2010 SF BoS D8.csv,4,C,C,C,NA,NA,NA,NA,NA,NA
+2011_SF_Sheriff.csv,4,D,D,D,NA,NA,NA,NA,NA,NA
+2012 Oakland City Council D5.csv,4,A,A,A,NA,NA,NA,NA,NA,NA
+2012 Oakland School Director D3.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+2012 San Leandro City Council D2.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+2012 San Leandro City Council D4.csv,4,C,C,C,NA,NA,NA,NA,NA,NA
+2013-Minneapolis-Council-Ward-5.csv,4,C,C,C,NA,NA,NA,NA,NA,NA
+2014 Berkeley City Council D8.csv,4,D,D,D,NA,NA,NA,NA,NA,NA
+2014 San Leandro City Council D1.csv,4,A,A,A,NA,NA,NA,NA,NA,NA
+2014 San Leandro Mayor.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+2015 Telluride CO Mayor.csv,3,B,C,NA,NA,NA,NA,NA,NA,NA
+2016 Berkeley City Council D2.csv,3,A,C,NA,NA,NA,NA,NA,NA,NA
+2016 Oakland School Director D5.csv,4,A,C,A,NA,NA,NA,NA,NA,NA
+2017-Minneapolis-Council-Ward-5.csv,4,A,A,A,NA,NA,NA,NA,NA,NA
+2017-Minneapolis-Park-Board-District-1.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+2017-Minneapolis-Park-District-3.csv,3,A,A,NA,NA,NA,NA,NA,NA,NA
+2017-Minneapolis-Park-District-6.csv,4,D,D,D,NA,NA,NA,NA,NA,NA
+2017-Minneapolis-Ward-1.csv,3,A,A,NA,NA,NA,NA,NA,NA,NA
+2017-Minneapolis-Ward-11.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+2017-Minneapolis-Ward-3.csv,4,D,A,D,NA,NA,NA,NA,NA,NA
+2017-Minneapolis-Ward-4.csv,4,A,D,A,NA,NA,NA,NA,NA,NA
+2017-Minneapolis-Ward-9.csv,4,C,C,C,NA,NA,NA,NA,NA,NA
+2018 Santa Fe Councilor D4.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+2018 Santa Fe Mayor.csv,5,B,B,B,B,NA,NA,NA,NA,NA
+2018 SF BoS D2.csv,4,C,C,C,NA,NA,NA,NA,NA,NA
+2018_Maine_Dem_CD2_primary.csv,4,C,C,C,NA,NA,NA,NA,NA,NA
+2018_Maine_Dem_gov_primary.csv,7,C,C,C,C,C,C,NA,NA,NA
+2018_Maine_House_rep_CD2.csv,4,C,B,C,NA,NA,NA,NA,NA,NA
+2019 Payson Utah City Council seat 1.csv,5,C,C,C,C,NA,NA,NA,NA,NA
+2019 SF D5.csv,4,B,B,B,NA,NA,NA,NA,NA,NA
+2019 SF DA.csv,4,D,D,D,NA,NA,NA,NA,NA,NA
+"2019 St Louis Park, City Council at-large A.csv",3,B,B,NA,NA,NA,NA,NA,NA,NA
+2019 Vineyard Utah City Council seat 1.csv,7,E,E,E,E,E,E,NA,NA,NA
+2020 SF BoS D1.csv,7,G,G,G,G,G,G,NA,NA,NA
+2020 SF BoS D11.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+2020 SF BoS D7.csv,7,C,E,C,C,C,C,NA,NA,NA
+2020_Maine_D11_Dem_Primary.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+2020_Maine_D41_Dem_Primary.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+2020_Maine_D47_Dem_Primary.csv,3,A,A,NA,NA,NA,NA,NA,NA,NA
+2020_Maine_D49_Dem_Primary.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+2020_Maine_D90_Dem_Primary.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+2020_ME_CongressRep_D2_R.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+2021-Minneapolis-Park-2.csv,3,A,A,NA,NA,NA,NA,NA,NA,NA
+2021-Minneapolis-Park-6.csv,4,A,D,A,NA,NA,NA,NA,NA,NA
+2021-Minneapolis-Ward-1.csv,4,D,D,D,NA,NA,NA,NA,NA,NA
+2021-Minneapolis-Ward-3.csv,4,B,B,B,NA,NA,NA,NA,NA,NA
+2021 St. Louis Park Ward 3.csv,3,A,A,NA,NA,NA,NA,NA,NA,NA
+APA 1998.csv,5,B,B,B,B,NA,NA,NA,NA,NA
+APA 1999.csv,5,A,A,A,A,NA,NA,NA,NA,NA
+APA 2000.csv,5,C,C,C,C,NA,NA,NA,NA,NA
+APA 2001.csv,5,C,C,C,C,NA,NA,NA,NA,NA
+APA 2002.csv,5,C,C,C,C,NA,NA,NA,NA,NA
+APA 2003.csv,5,A,A,A,A,NA,NA,NA,NA,NA
+APA 2004.csv,5,A,A,A,A,NA,NA,NA,NA,NA
+APA 2005.csv,5,E,D,E,E,NA,NA,NA,NA,NA
+APA 2006.csv,5,B,B,B,B,NA,NA,NA,NA,NA
+APA 2007.csv,5,E,E,E,E,NA,NA,NA,NA,NA
+APA 2008.csv,5,E,E,E,E,NA,NA,NA,NA,NA
+APA 2009.csv,5,C,C,C,C,NA,NA,NA,NA,NA
+APA 2017 BOD race1.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+APA 2017 BOD race2.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+APA 2017 President.csv,5,E,E,E,E,NA,NA,NA,NA,NA
+APA 2018 BOD race2.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+APA 2018 President.csv,5,D,D,D,D,NA,NA,NA,NA,NA
+APA 2019 BOD race2.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+APA 2019 President.csv,5,E,E,E,E,NA,NA,NA,NA,NA
+APA 2020 BOD race2.csv,3,B,A,NA,NA,NA,NA,NA,NA,NA
+APA 2020 President.csv,5,E,E,E,E,NA,NA,NA,NA,NA
+APA 2021 BOD race1.csv,3,C,C,NA,NA,NA,NA,NA,NA,NA
+APA 2021 President.csv,5,B,B,B,B,NA,NA,NA,NA,NA
+Dem Borough President Bronx.csv,5,A,A,A,A,NA,NA,NA,NA,NA
+Dem Borough President Queens.csv,3,B,B,NA,NA,NA,NA,NA,NA,NA
+Dem Borough President Richmond.csv,5,A,A,A,A,NA,NA,NA,NA,NA
+Dem city council D12.csv,3,A,A,NA,NA,NA,NA,NA,NA,NA
+Dem city council D14.csv,6,D,D,D,D,D,NA,NA,NA,NA
+Dem city council D19.csv,6,A,A,A,A,A,NA,NA,NA,NA
+Dem city council D22.csv,6,C,C,C,C,C,NA,NA,NA,NA
+Dem city council D3.csv,6,F,F,F,F,F,NA,NA,NA,NA
+Dem city council D32.csv,6,E,E,E,E,E,NA,NA,NA,NA
+Dem city council D36.csv,5,D,D,D,D,NA,NA,NA,NA,NA
+Dem city council D37.csv,6,C,C,C,C,C,NA,NA,NA,NA
+Dem city council D38.csv,6,C,C,C,C,C,NA,NA,NA,NA
+Dem city council D42.csv,4,A,A,A,NA,NA,NA,NA,NA,NA
+Dem city council D47.csv,4,A,A,A,NA,NA,NA,NA,NA,NA
+Dem city council D48.csv,5,E,E,E,E,NA,NA,NA,NA,NA
+Rep Borough President Richmond.csv,4,C,C,C,NA,NA,NA,NA,NA,NA
+Rep city council D50.csv,5,C,A,A,C,NA,NA,NA,NA,NA
+2022 SF DAstreamlined.csv,4,B,B,B,NA,NA,NA,NA,NA,NA
+Berkeley_11032020_MemberCityCouncilDist2BerkeleyRCVstreamlined.csv,4,B,B,B,NA,NA,NA,NA,NA,NA
+LasCruces_11052019_MAYORCITYOFLASCRUCESstreamlined.csv,10,H,H,H,H,H,H,H,H,H
+Oakland_11032020_MemberCityCouncilDist3OaklandRCVstreamlined.csv,6,F,F,F,F,F,NA,NA,NA,NA
+Oakland_11032020_MemberCityCouncilDist7OaklandRCVstreamlined.csv,5,D,D,D,D,NA,NA,NA,NA,NA
+Oakland_11032020_SchoolDirectorDist3OaklandRCVstreamlined.csv,5,B,B,B,B,NA,NA,NA,NA,NA
+Oakland_11032020_SchoolDirectorDist5OaklandRCVstreamlined.csv,4,D,D,D,NA,NA,NA,NA,NA,NA
+Oakland_11032020_SchoolDirectorDist7OaklandRCVstreamlined.csv,5,D,D,D,D,NA,NA,NA,NA,NA
+Portland_06142022_Schoolboarddistrict5streamlined.csv,5,E,E,E,E,NA,NA,NA,NA,NA
