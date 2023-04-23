@@ -21,6 +21,7 @@ We answered the following questions using the election data:
 The following folders are in this repository:
 * ElectionFiles:  This folder contains 5 of the 1183 election data files
 * Results:  This folder contains csv files of our election and sampling results.
+* AnswersToQuestions.Rmd, .html, md:  gives teh code and results for the first two questions.
 * BallotSampling.Rmd, .html, .md: gives the code and results for the ballot sampling we did in the paper.
 
 
