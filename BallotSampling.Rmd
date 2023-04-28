@@ -397,9 +397,14 @@ ElectionsWSamples
 Here are the results from all of the elections.
 
 ```{r}
+'%!in%' <- Negate('%in%')
+
+ElectionsWithMajorityCandidates <- c("eilean-siar22/ward_04_preferenceprofile.txt", "sc-borders22/Ward_10___Preference.csv", "orkney12-ballots/orkney12-03.blt", "eilean-siar12-ballots/eilean-siar12-03.blt", "shetland17/shetland17-06.blt", "sc-borders12-ballots/sc-borders12-10.blt", "sc-borders17/sc-borders17-10.blt", "shetland12-ballots/shetland12-06.blt", "e-duns12-ballots/e-duns12-04.blt", "aberdeenshire17-ballots/aberdeenshire17-16.blt", "dumgal12-ballots/dumgal12-01.blt", "w-lothian12-ballots/w-lothian12-09.blt")
+
 Samples <- read_csv("Results/AllSampleDataNew.csv") %>%
   mutate(NumCands = factor(NumCands),
          unique_winners_max = factor(unique_winners_max)) %>%
+  filter(allFiles %!in% ElectionsWithMajorityCandidates) %>%
   arrange(NumCands)
 datatable(Samples)
 
@@ -466,7 +471,9 @@ ElectionsWoT1 <- read_csv("Results/AllElectionsCleanWoT1Data.csv") %>%
   mutate(NumUniqueWin = factor(NumUniqueWin),
          NumCands = factor(NumCands)) %>%
   filter(allFiles != "glasgow12/glasgow12-07.blt") %>%
-  filter(allFiles != "scottish by-elections/Edinburgh 2021 by-election Ward 23 Partick East-Kelvindale_preference_profile_report_.csv")
+  filter(allFiles != "scottish by-elections/Edinburgh 2021 by-election Ward 23 Partick East-Kelvindale_preference_profile_report_.csv") %>%
+  filter(allFiles %!in% ElectionsWithMajorityCandidates)
+
 
 plot1NoT1 <- ggplot(ElectionsWoT1, aes(x = NumCands)) +
   geom_bar(aes(fill = factor(NumUniqueWin))) +

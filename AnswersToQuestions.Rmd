@@ -33,7 +33,8 @@ In this project we posed and answered the following questions using our election
 We analyzed 1183 elections.
 
 * 105 were American elections
-* 1078 were Scottish government elections.
+* 1078 were Scottish government elections
+  + we removed 12 that had majority candidates
 
 ```{r}
 files <- list.files("ElectionFiles/", pattern = ".(txt|csv|blt)", recursive = TRUE)
@@ -303,7 +304,14 @@ Here are all of the election files with the winners at each of the truncation le
 
 ```{r}
 AmericanFiles <- read_csv("Results/FinalAmericanFiles.csv")
-FinalScottishVoting <- read_csv("Results/FinalScottishFiles.csv")
+
+'%!in%' <- Negate('%in%')
+
+ElectionsWithMajorityCandidates <- c("eilean-siar22/ward_04_preferenceprofile.txt", "sc-borders22/Ward_10___Preference.csv", "orkney12-ballots/orkney12-03.blt", "eilean-siar12-ballots/eilean-siar12-03.blt", "shetland17/shetland17-06.blt", "sc-borders12-ballots/sc-borders12-10.blt", "sc-borders17/sc-borders17-10.blt", "shetland12-ballots/shetland12-06.blt", "e-duns12-ballots/e-duns12-04.blt", "aberdeenshire17-ballots/aberdeenshire17-16.blt", "dumgal12-ballots/dumgal12-01.blt", "w-lothian12-ballots/w-lothian12-09.blt")
+
+FinalScottishVoting <- read_csv("Results/FinalScottishFiles.csv") %>%
+  filter(files %!in% ElectionsWithMajorityCandidates) %>%
+  filter(files != "scottish by-elections/Edinburgh 2021 by-election Ward 23 Partick East-Kelvindale_preference_profile_report_.csv")
 
 ALLVotingFiles <- bind_rows(AmericanFiles, FinalScottishVoting)
 datatable(ALLVotingFiles)
@@ -394,7 +402,8 @@ For $1 \leq k \leq n-1$, what percentage of elections have $k$ different winners
 ```{r}
 Elections <- read_csv("Results/AllElectionsCleanData.csv") %>%
   mutate(NumUniqueWin = factor(NumUniqueWin),
-         NumCands = factor(NumCands))
+         NumCands = factor(NumCands)) %>%
+  filter(allFiles %!in% ElectionsWithMajorityCandidates)
 
 MoreDetailUniqueWinTable <- Elections %>%
   group_by(NumCands) %>%
@@ -424,7 +433,8 @@ ElectionsWoT1 <- read_csv("Results/AllElectionsCleanWoT1Data.csv") %>%
   mutate(NumUniqueWin = factor(NumUniqueWin),
          NumCands = factor(NumCands)) %>%
   filter(allFiles != "glasgow12/glasgow12-07.blt") %>%
-  filter(allFiles != "scottish by-elections/Edinburgh 2021 by-election Ward 23 Partick East-Kelvindale_preference_profile_report_.csv")
+  filter(allFiles != "scottish by-elections/Edinburgh 2021 by-election Ward 23 Partick East-Kelvindale_preference_profile_report_.csv") %>%
+  filter(allFiles %!in% ElectionsWithMajorityCandidates)
 
 ggplot(ElectionsWoT1, aes(x = NumCands)) +
   geom_bar(aes(fill = NumUniqueWin)) +

@@ -8,6 +8,7 @@ Dr. McCune managed to collect 1183 ranked-choice voting (RCV) elections that we 
 * 23 elections were from the American Psychological Association (APA) which were all single-winner elections
 * 82 American political elections of which 80 were single-winner elections
 * 1078 Scottish local government elections of which 29 were single-winner elections and 1049 were multi-winner elections
+  + We removed the 12 elections that had majority candidates
 
 ## Questions
 
